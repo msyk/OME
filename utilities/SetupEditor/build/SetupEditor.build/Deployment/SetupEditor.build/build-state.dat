@@ -1,0 +1,252 @@
+TSetupEditor
+v7
+r0
+t318677110.082170
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Info.plist Info-SetupEditor_____________.plist
+cOSACompile build/Deployment/SetupEditor.app/Contents/Resources/Scripts/Application.scpt Application.applescript
+cOSACompile build/Deployment/SetupEditor.app/Contents/Resources/Scripts/CheckBoxManagement.scpt CheckBoxManagement.applescript
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/MainMenu.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/English.lproj/MainMenu.nib
+cCompileC build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor normal ppc
+cCompileC build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/MacOS/SetupEditor normal "ppc i386"
+cTouch /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app
+
+N/System/Library/Frameworks/AppleScriptKit.framework/AppleScriptKit
+c000000004A1F2E5D00000000001BBC30
+t1243557469
+s1817648
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Application.applescript
+c0000000047F97D0A0000000000000CA6
+t1207532810
+s3238
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/CheckBoxManagement.applescript
+c0000000047F97D0A00000000000001AE
+t1207532810
+s430
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/English.lproj/MainMenu.nib
+c000000004B13D4410000000000000132
+t1259590721
+s306
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/InfoPlist.strings
+c0000000047F97D0A000000000000027E
+t1207532810
+s638
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/MainMenu.nib
+c000000004B13D4410000000000000132
+t1259590721
+s306
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app
+t1296984310
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Info.plist
+t1296984310
+s1129
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/MacOS/SetupEditor
+t1272604007
+s33560
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/PkgInfo
+t1296984310
+s8
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/English.lproj/MainMenu.nib
+t1283796587
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+t1272604004
+s638
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj/MainMenu.nib
+t1283796587
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Scripts/Application.scpt
+t1272604004
+s6548
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Scripts/CheckBoxManagement.scpt
+t1272604004
+s822
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor
+t1272604007
+s13080
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor.LinkFileList
+c000000004BDA6564000000000000008C
+t1272604004
+s140
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/main.o
+t1272604006
+s4824
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor
+t1272604007
+s12916
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor.LinkFileList
+c000000004BDA6564000000000000008B
+t1272604004
+s139
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/main.o
+t1272604006
+s4852
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m
+c0000000047F97D0A000000000000006E
+t1207532810
+s110
+i<Cocoa/Cocoa.h>
+
+NInfo-SetupEditor_____________.plist
+c0000000047F97D0A00000000000004A2
+t1207532810
+s1186
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677109#318677110#0(0"0(0#1#0"6144960782880687104#0"0#
+
+CCompileC build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294296805.555171
+e294296806.948760
+r1
+xCompileC
+xbuild/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m294296805#294296806#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m2447773728#1085"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/SetupEditor.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/main.o0#
+
+CCompileC build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s294296805.552961
+e294296806.978321
+r1
+xCompileC
+xbuild/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m294296805#294296806#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m2447773728#1092"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -mtune=G4 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/SetupEditor.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+s294296804.657834
+e294296804.798343
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+xJapanese.lproj/InfoPlist.strings
+oJapanese.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@37"Copy Japanese.lproj/InfoPlist.strings294296804#294296804#0(134"Japanese.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#92"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/InfoPlist.strings2447773728#418"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Japanese.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/MacOS/SetupEditor normal "ppc i386"
+s294296807.548667
+e294296807.557055
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/MacOS/SetupEditor
+xnormal
+xppc i386
+lSLF07#2@99"CreateUniversalBinary build/Deployment/SetupEditor.app/Contents/MacOS/SetupEditor normal "ppc i386"294296807#294296807#0(0"0(0#0#68"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/ppc i3862447773728#510"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor -output /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/MacOS/SetupEditor0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor normal i386
+s294296806.949112
+e294296807.548362
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor
+xnormal
+xi386
+lSLF07#2@149"Link /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor294296806#294296807#0(0"0(0#0#0"2447773728#635"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor.LinkFileList -framework Cocoa -framework AppleScriptKit -prebind -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/i386/SetupEditor0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor normal ppc
+s294296806.978504
+e294296807.518777
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor
+xnormal
+xppc
+lSLF07#2@148"Link /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor294296806#294296807#0(0"0(0#0#0"2447773728#632"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /Developer/usr/bin/gcc-4.2 -arch ppc -L/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor.LinkFileList -framework Cocoa -framework AppleScriptKit -prebind -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/SetupEditor.build/Deployment/SetupEditor.build/Objects-normal/ppc/SetupEditor0#
+
+COSACompile build/Deployment/SetupEditor.app/Contents/Resources/Scripts/Application.scpt Application.applescript
+s294296804.096384
+e294296804.657685
+r1
+xOSACompile
+xbuild/Deployment/SetupEditor.app/Contents/Resources/Scripts/Application.scpt
+xApplication.applescript
+lSLF07#2@31"Compile Application.applescript294296804#294296804#0(0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Application.applescript4657240#418"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U Application.applescript -x -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Scripts/Application.scpt /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Application.applescript0#
+
+COSACompile build/Deployment/SetupEditor.app/Contents/Resources/Scripts/CheckBoxManagement.scpt CheckBoxManagement.applescript
+s294296804.098194
+e294296804.606670
+r1
+xOSACompile
+xbuild/Deployment/SetupEditor.app/Contents/Resources/Scripts/CheckBoxManagement.scpt
+xCheckBoxManagement.applescript
+lSLF07#2@38"Compile CheckBoxManagement.applescript294296804#294296804#0(0"0(0#0#90"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/CheckBoxManagement.applescript4657240#439"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U CheckBoxManagement.applescript -x -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Scripts/CheckBoxManagement.scpt /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/CheckBoxManagement.applescript0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Info.plist Info-SetupEditor_____________.plist
+s318677110.072820
+e318677110.077889
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Info.plist
+xInfo-SetupEditor_____________.plist
+lSLF07#2@43"Process Info-SetupEditor_____________.plist318677110#318677110#0(0"0(0#0#95"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Info-SetupEditor_____________.plist31244010180771952#408"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    builtin-infoPlistUtility Info-SetupEditor_____________.plist -genpkginfo /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Info.plist0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/English.lproj/MainMenu.nib
+s294296804.798602
+e294296805.552581
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib294296804#294296805#0(0"0(0#0#86"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/English.lproj/MainMenu.nib2447773728#367"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/MainMenu.nib
+s294296804.660182
+e294296805.552777
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/MainMenu.nib
+lSLF07#2@36"StripNIB Japanese.lproj/MainMenu.nib294296804#294296805#0(0"0(0#0#87"/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/MainMenu.nib2447773728#369"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app/Contents/Resources/Japanese.lproj/MainMenu.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/Japanese.lproj/MainMenu.nib0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app
+s318677110.078386
+e318677110.082019
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app
+lSLF07#2@98"Touch /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app318677110#318677110#0(0"0(0#0#0"32932993185022064#182"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/utilities/SetupEditor/build/Deployment/SetupEditor.app0#
+

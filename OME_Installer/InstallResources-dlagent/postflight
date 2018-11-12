@@ -1,0 +1,34 @@
+#!/bin/sh
+
+echo "postflight :Download Agent for Current User of OME"
+#------------------------------------------------------------------
+if [ ! -d ${HOME}/Library/LaunchAgents ]
+then
+    mkdir -p ${HOME}/Library/LaunchAgents
+fi
+
+mv -f /tmp/jp.mac-ome.downloadmails ${HOME}/Library/LaunchAgents/
+mv -f /tmp/jp.mac-ome.countunread ${HOME}/Library/LaunchAgents/
+mv -f /tmp/jp.mac-ome.inboxnotify ${HOME}/Library/LaunchAgents/
+mv -f /tmp/jp.mac-ome.salvage ${HOME}/Library/LaunchAgents/
+
+chown ${USER} ${HOME}/Library/LaunchAgents/jp.mac-ome.downloadmails
+chgrp admin ${HOME}/Library/LaunchAgents/jp.mac-ome.downloadmails
+chmod 644 ${HOME}/Library/LaunchAgents/jp.mac-ome.downloadmails
+
+chown ${USER} ${HOME}/Library/LaunchAgents/jp.mac-ome.countunread
+chgrp admin ${HOME}/Library/LaunchAgents/jp.mac-ome.countunread
+chmod 644 ${HOME}/Library/LaunchAgents/jp.mac-ome.countunread
+
+chown ${USER} ${HOME}/Library/LaunchAgents/jp.mac-ome.inboxnotify
+chgrp admin ${HOME}/Library/LaunchAgents/jp.mac-ome.inboxnotify
+chmod 644 ${HOME}/Library/LaunchAgents/jp.mac-ome.inboxnotify
+
+chown ${USER} ${HOME}/Library/LaunchAgents/jp.mac-ome.salvage
+chgrp admin ${HOME}/Library/LaunchAgents/jp.mac-ome.salvage
+chmod 644 ${HOME}/Library/LaunchAgents/jp.mac-ome.salvage
+
+chgrp admin ${HOME}/Library/LaunchAgents
+#chmod g+w ${HOME}/Library/LaunchAgents
+
+exit 0

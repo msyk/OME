@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 2C073DA80BE80ED300AFEA22 /* OpenAllUnreadMessage */;
+		activeTarget = 2B6DAC3D0B48930F00ADBA24 /* OpenAllUnreadMessage */;
+		breakpoints = (
+			2C3AA6420BE82BFA002D17F1 /* OpenAllUnreadMessage.applescript:110 */,
+		);
+		breakpointsGroup = 2C073DC70BE8105000AFEA22 /* XCBreakpointsBucket */;
+		codeSenseManager = 2C073DB70BE80ED600AFEA22 /* Code sense */;
+		executables = (
+			2C073DA80BE80ED300AFEA22 /* OpenAllUnreadMessage */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					400,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					667,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					487,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 200279614;
+			PBXWorkspaceStateSaveDate = 200279614;
+		};
+		perUserProjectItems = {
+			2C9FFC480BF021AB00A36FB5 /* PBXTextBookmark */ = 2C9FFC480BF021AB00A36FB5 /* PBXTextBookmark */;
+			2CF471D90BEF128000B68FD1 /* PBXTextBookmark */ = 2CF471D90BEF128000B68FD1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2C073DB60BE80ED600AFEA22 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2B6DAC3D0B48930F00ADBA24 /* OpenAllUnreadMessage */ = {
+		activeExec = 0;
+		executables = (
+			2C073DA80BE80ED300AFEA22 /* OpenAllUnreadMessage */,
+		);
+	};
+	2C073DA80BE80ED300AFEA22 /* OpenAllUnreadMessage */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = ASKDebuggerLaunchConfig;
+				displayName = "AppleScript デバッガ";
+				identifier = com.apple.AppleScriptStudio.ASKDebugLaunchConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OpenAllUnreadMessage;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+	};
+	2C073DB60BE80ED600AFEA22 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	2C073DB70BE80ED600AFEA22 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2C073DC70BE8105000AFEA22 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "プロジェクトブレークポイント";
+		objects = (
+			2C3AA6420BE82BFA002D17F1 /* OpenAllUnreadMessage.applescript:110 */,
+		);
+	};
+	2C3AA6420BE82BFA002D17F1 /* OpenAllUnreadMessage.applescript:110 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = DA206CF3015C4E8B03C91932 /* OpenAllUnreadMessage.applescript */;
+		functionName = "on launched";
+		hitCount = 1;
+		lineNumber = 110;
+		modificationTime = 199765134.611449;
+		state = 1;
+	};
+	2C9FFC480BF021AB00A36FB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* OpenAllUnreadMessage.applescript */;
+		name = "OpenAllUnreadMessage.applescript: 154";
+		rLen = 0;
+		rLoc = 5371;
+		rType = 0;
+		vrLen = 956;
+		vrLoc = 3734;
+	};
+	2CF471D90BEF128000B68FD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* OpenAllUnreadMessage.applescript */;
+		name = "OpenAllUnreadMessage.applescript: 153";
+		rLen = 0;
+		rLoc = 5371;
+		rType = 0;
+		vrLen = 940;
+		vrLoc = 3734;
+	};
+	DA206CF3015C4E8B03C91932 /* OpenAllUnreadMessage.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 2618}}";
+			sepNavSelRange = "{5371, 0}";
+			sepNavVisRect = "{{0, 1606}, {865, 511}}";
+		};
+	};
+}

@@ -1,0 +1,122 @@
+Tresolvalias
+v7
+r0
+t294296845.059637
+cCheck dependencies
+cCompileC build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/AliasResolver.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/AliasResolver.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias normal ppc
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/resolvalias normal "i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BB3282C00000000000000EE
+t1270032428
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B448EEF00000000000005FF
+t1262784239
+s1535
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004A7680C1000000000000A5F0
+t1249280193
+s42480
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c
+c0000000047F97D040000000000000AFF
+t1207532804
+s2815
+i<Carbon/Carbon.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/resolvalias
+t1272604045
+s25680
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/AliasResolver.o
+t1272604044
+s13124
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias
+t1272604045
+s9580
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias.LinkFileList
+c000000004BDA658B0000000000000087
+t1272604043
+s135
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/AliasResolver.o
+t1272604044
+s13116
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias
+t1272604044
+s9296
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias.LinkFileList
+c000000004BDA658B0000000000000086
+t1272604043
+s134
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294296843#294296843#0(0"0(0#1#0"4657240#0"0#
+
+CCompileC build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/AliasResolver.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c normal i386 c com.apple.compilers.gcc.4_2
+s294296843.580398
+e294296844.916658
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/AliasResolver.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c294296843#294296844#0(0"0(0#0#63"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c4657240#1076"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/resolvalias.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/AliasResolver.o0#
+
+CCompileC build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/AliasResolver.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c normal ppc c com.apple.compilers.gcc.4_2
+s294296843.591285
+e294296844.887560
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/AliasResolver.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c294296843#294296844#0(0"0(0#0#63"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c4657240#1083"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/resolvalias.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/AliasResolver.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/AliasResolver.o0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/resolvalias normal "i386 ppc"
+s294296845.017139
+e294296845.059479
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/resolvalias
+xnormal
+xi386 ppc
+lSLF07#2@68"CreateUniversalBinary build/Deployment/resolvalias normal "i386 ppc"294296845#294296845#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/i386 ppc2447773728#427"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias -output /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/resolvalias0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias normal i386
+s294296844.916854
+e294296845.016999
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias
+xnormal
+xi386
+lSLF07#2@135"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias294296844#294296845#0(0"0(0#0#0"2447773728#654"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/i386/resolvalias0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias normal ppc
+s294296844.890238
+e294296844.986485
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias
+xnormal
+xppc
+lSLF07#2@134"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias294296844#294296844#0(0"0(0#0#0"4657240#651"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/resolvalias.build/Objects-normal/ppc/resolvalias0#
+

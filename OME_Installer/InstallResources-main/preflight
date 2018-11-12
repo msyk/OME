@@ -1,0 +1,14 @@
+#!/bin/sh
+#
+# Originally, this script was in CocoaOMEnu installer package created by Gururi.
+
+echo "preflight"
+
+#------------------------------------------------------------------
+
+launchctl unload ${HOME}/Library.LaunchAgents/jp.mac-ome.inboxnotify
+launchctl unload ${HOME}/Library.LaunchAgents/jp.mac-ome.countunread
+launchctl unload ${HOME}/Library.LaunchAgents/jp.mac-ome.salvage
+launchctl unload ${HOME}/Library.LaunchAgents/jp.mac-ome.downloadmails
+
+exit 0

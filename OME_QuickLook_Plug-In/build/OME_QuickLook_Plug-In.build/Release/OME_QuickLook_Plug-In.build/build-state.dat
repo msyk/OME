@@ -1,0 +1,348 @@
+TOME_QuickLook_Plug-In
+v7
+r0
+t318677176.110242
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GeneratePreviewForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GenerateThumbnailForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GeneratePreviewForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GenerateThumbnailForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In normal ppc
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In normal "ppc i386"
+cGenerateDSYMFile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator.dSYM /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In
+cTouch /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OME.framework/Headers/OME.h
+c000000004BDA67DF0000000000000305
+t1272604639
+s773
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h
+c00000000486499680000000000000EA8
+t1214552424
+s3752
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c00000000486499690000000000000942
+t1214552425
+s2370
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c0000000047BAD4120000000000000400
+t1203426322
+s1024
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/QuickLook.framework/Headers/QuickLook.h
+c000000004864BE010000000000000166
+t1214561793
+s358
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004864C63A0000000000000957
+t1214563898
+s2391
+
+N/Library/Frameworks/OME.framework/OME
+c000000004BDA67E0000000000004A370
+t1272604640
+s303984
+
+N/Library/Frameworks/OgreKit.framework/OgreKit
+c0000000047F97D120000000000184FA8
+t1207532818
+s1593256
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004C971DAF0000000000781330
+t1284971951
+s7869232
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004C23F49F0000000000021710
+t1277424799
+s136976
+
+N/System/Library/Frameworks/QuickLook.framework/QuickLook
+c000000004C917E25000000000012F0D0
+t1284603429
+s1241296
+
+N/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004CB79D6A00000000005BFC60
+t1287101802
+s6028384
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/English.lproj/InfoPlist.strings
+c0000000047F97D0B00000000000001AC
+t1207532811
+s428
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m
+c000000004AC878320000000000000579
+t1254651954
+s1401
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+i<Cocoa/Cocoa.h>
+i<WebKit/WebKit.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m
+c0000000047F97D0B00000000000012B8
+t1207532811
+s4792
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GeneratePreviewForURL.o
+t1296984375
+s14016
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GenerateThumbnailForURL.o
+t1296984375
+s22328
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In
+t1296984376
+s22348
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In.LinkFileList
+c000000004D4E693600000000000001FB
+t1296984374
+s507
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/main.o
+t1296984375
+s10192
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GeneratePreviewForURL.o
+t1296984375
+s14288
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GenerateThumbnailForURL.o
+t1296984375
+s23100
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In
+t1296984375
+s20952
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In.LinkFileList
+c000000004D4E693600000000000001F8
+t1296984374
+s504
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/main.o
+t1296984374
+s10424
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator
+t1296984376
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator.dSYM
+t1296984376
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Info.plist
+t1296984374
+s1779
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In
+t1296984376
+s51020
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+t1296984374
+s428
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c
+c0000000047F97D0B000000000000249C
+t1207532811
+s9372
+i<CoreFoundation/CoreFoundation.h>
+i<CoreFoundation/CFPlugInCOM.h>
+i<CoreServices/CoreServices.h>
+i<QuickLook/QuickLook.h>
+
+NInfo.plist
+c0000000047F97D0B0000000000000972
+t1207532811
+s2418
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677174#318677174#0(0"0(0#1#0"6875711779925353472#0"0#
+
+CCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GeneratePreviewForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677174.970425
+e318677175.928379
+r1
+xCompileC
+xbuild/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GeneratePreviewForURL.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m318677174#318677175#0(0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m4385942992#1220"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/OME_QuickLook_Plug-In.hmap -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GeneratePreviewForURL.o0#
+
+CCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GenerateThumbnailForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677175.008332
+e318677175.992117
+r1
+xCompileC
+xbuild/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GenerateThumbnailForURL.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m318677175#318677175#0(0"0(0#0#85"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m4351985472#1224"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/OME_QuickLook_Plug-In.hmap -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/GenerateThumbnailForURL.o0#
+
+CCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c normal i386 c com.apple.compilers.gcc.4_2
+s318677174.400473
+e318677175.008086
+r1
+xCompileC
+xbuild/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c318677174#318677175#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c4385869856#1176"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/OME_QuickLook_Plug-In.hmap -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GeneratePreviewForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318677174.399003
+e318677175.625445
+r1
+xCompileC
+xbuild/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GeneratePreviewForURL.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m318677174#318677175#0(0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m4385879728#1227"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/OME_QuickLook_Plug-In.hmap -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GeneratePreviewForURL.m -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GeneratePreviewForURL.o0#
+
+CCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GenerateThumbnailForURL.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318677174.399602
+e318677175.552559
+r1
+xCompileC
+xbuild/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GenerateThumbnailForURL.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m318677174#318677175#0(0"0(0#0#85"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m4385960992#1231"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/OME_QuickLook_Plug-In.hmap -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/GenerateThumbnailForURL.m -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/GenerateThumbnailForURL.o0#
+
+CCompileC build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c normal ppc c com.apple.compilers.gcc.4_2
+s318677174.398241
+e318677174.970016
+r1
+xCompileC
+xbuild/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/main.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c318677174#318677174#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c4385910912#1183"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/OME_QuickLook_Plug-In.hmap -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/main.c -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318677174.375803
+e318677174.398083
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318677174#318677174#0(0"0(0#0#91"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/English.lproj/InfoPlist.strings27866512328294512#432"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In normal "ppc i386"
+s318677176.039809
+e318677176.052472
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In
+xnormal
+xppc i386
+lSLF07#2@124"CreateUniversalBinary build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In normal "ppc i386"318677176#318677176#0(0"0(0#0#68"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/ppc i3864351983504#589"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In -output /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In0#
+
+CGenerateDSYMFile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator.dSYM /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In
+s318677176.052608
+e318677176.107543
+r1
+xGenerateDSYMFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator.dSYM
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In
+lSLF07#2@154"GenerateDSYMFile build/Release/OME_QuickLook_Plug-In.qlgenerator.dSYM build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In318677176#318677176#0(0"0(0#0#144"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In4383515904#360"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    /Developer/usr/bin/dsymutil /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/MacOS/OME_QuickLook_Plug-In -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator.dSYM0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In normal i386
+s318677175.992217
+e318677176.039555
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In
+xnormal
+xi386
+lSLF07#2@176"Link /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In318677175#318677176#0(0"0(0#0#0"4383258976#918"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In.LinkFileList -mmacosx-version-min=10.5 -framework CoreFoundation -framework CoreServices -framework ApplicationServices -framework QuickLook -framework OgreKit -framework OME -framework Cocoa -framework WebKit -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/i386/OME_QuickLook_Plug-In0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In normal ppc
+s318677175.625589
+e318677175.708623
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In
+xnormal
+xppc
+lSLF07#2@175"Link /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In318677175#318677175#0(0"0(0#0#0"4352090016#915"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -F/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In.LinkFileList -mmacosx-version-min=10.5 -framework CoreFoundation -framework CoreServices -framework ApplicationServices -framework QuickLook -framework OgreKit -framework OME -framework Cocoa -framework WebKit -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/OME_QuickLook_Plug-In.build/Release/OME_QuickLook_Plug-In.build/Objects-normal/ppc/OME_QuickLook_Plug-In0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Info.plist Info.plist
+s318677174.371286
+e318677174.375607
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist318677174#318677174#0(0"0(0#0#70"/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/Info.plist30962560973733992#276"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator/Contents/Info.plist0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator
+s318677176.107708
+e318677176.110166
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator
+lSLF07#2@113"Touch /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator318677176#318677176#0(0"0(0#0#0"4352201856#197"    cd /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/OME_QuickLook_Plug-In/build/Release/OME_QuickLook_Plug-In.qlgenerator0#
+

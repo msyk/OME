@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11++787",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11++787" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11++787" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "53FBEFDC-0D34-4D9A-B7C4-3BEAC78619BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11++787" : "OMEMailViewer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OMEMailViewer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OMEMailViewer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/msyk.net\/svn\/ome",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11++787"
+    }
+  ]
+}

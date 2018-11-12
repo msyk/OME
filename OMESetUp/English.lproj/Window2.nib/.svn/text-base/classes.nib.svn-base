@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {copyToSMTP = id; showWindow1 = id; showWindow3 = id; }; 
+            CLASS = Window2Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                isAPOP = NSButton; 
+                isSMTPAuth = NSButton; 
+                popAccount = NSTextField; 
+                popPassword = NSSecureTextField; 
+                popServer = NSTextField; 
+                senderAddress = NSTextField; 
+                senderName = NSTextField; 
+                smtpAccount = NSTextField; 
+                smtpPassword = NSSecureTextField; 
+                smtpServer = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/textformatter
+END
+TextFormatable.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/textformatter/TextFormatable.java
+END
+LineDevider.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/textformatter/LineDevider.java
+END
+HTMLExpander.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/textformatter/HTMLExpander.java
+END

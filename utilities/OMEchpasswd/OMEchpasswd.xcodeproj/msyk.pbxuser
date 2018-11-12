@@ -1,0 +1,172 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = 2B3B26F70B490BC20016A4BD /* OMEchpasswd */;
+		activeTarget = 2B3B26E40B490BC20016A4BD /* OMEchpasswd */;
+		breakpointsGroup = 2B3B26FE0B490BEC0016A4BD /* XCBreakpointsBucket */;
+		codeSenseManager = 2B3B26E20B490BA30016A4BD /* Code sense */;
+		executables = (
+			2B3B26F70B490BC20016A4BD /* OMEchpasswd */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					599,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					63,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 189400954;
+			PBXWorkspaceStateSaveDate = 189400954;
+		};
+		perUserProjectItems = {
+			2B15F9380B4A07A600345ED8 /* PBXTextBookmark */ = 2B15F9380B4A07A600345ED8 /* PBXTextBookmark */;
+			2B3B27140B490C900016A4BD /* PBXTextBookmark */ = 2B3B27140B490C900016A4BD /* PBXTextBookmark */;
+			2B3B27160B490C900016A4BD /* PBXTextBookmark */ = 2B3B27160B490C900016A4BD /* PBXTextBookmark */;
+			2B3B27280B4915A50016A4BD /* PBXTextBookmark */ = 2B3B27280B4915A50016A4BD /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2B3B26E10B490BA30016A4BD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {611, 431}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRect = "{{0, 0}, {611, 431}}";
+		};
+	};
+	2B15F9380B4A07A600345ED8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* OMEchpasswd.applescript */;
+		name = "OMEchpasswd.applescript: 73";
+		rLen = 0;
+		rLoc = 2280;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 596;
+	};
+	2B3B26E10B490BA30016A4BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	2B3B26E20B490BA30016A4BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2B3B26E40B490BC20016A4BD /* OMEchpasswd */ = {
+		activeExec = 0;
+		executables = (
+			2B3B26F70B490BC20016A4BD /* OMEchpasswd */,
+		);
+	};
+	2B3B26F70B490BC20016A4BD /* OMEchpasswd */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OMEchpasswd;
+		sourceDirectories = (
+		);
+	};
+	2B3B26FE0B490BEC0016A4BD /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "プロジェクトブレークポイント";
+		objects = (
+		);
+	};
+	2B3B27140B490C900016A4BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 10";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	2B3B27160B490C900016A4BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 10";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	2B3B27280B4915A50016A4BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* OMEchpasswd.applescript */;
+		name = "OMEchpasswd.applescript: 73";
+		rLen = 0;
+		rLoc = 2280;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 596;
+	};
+	DA206CF3015C4E8B03C91932 /* OMEchpasswd.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {797, 1236}}";
+			sepNavSelRange = "{2280, 0}";
+			sepNavVisRect = "{{0, 357}, {797, 409}}";
+		};
+	};
+}

@@ -1,0 +1,376 @@
+TOpenAllUnreadMessage2
+v7
+r0
+t318677108.665324
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+cCompileXIB /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/MainMenu.xib
+cCompileXIB /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/MainMenu.xib
+cCpResource build/Release/OpenAllUnreadMessage.app/Contents/Resources/appicon.icns appicon.icns
+cProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch.gch OpenAllUnreadMessage2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch.gch OpenAllUnreadMessage2_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/AppDelegate.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/AppDelegate.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage normal ppc
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage normal "i386 ppc"
+cGenerateDSYMFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app.dSYM /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage
+cTouch /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004C238B9B00000000000000EE
+t1277397915
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OME.framework/Headers/OME.h
+c000000004BDA67DF0000000000000305
+t1272604639
+s773
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004864BE3E00000000000005D7
+t1214561854
+s1495
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Library/Frameworks/OME.framework/OME
+c000000004BDA67E0000000000004A370
+t1272604640
+s303984
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.h
+c0000000048F4C04A0000000000000153
+t1223999562
+s339
+i<Cocoa/Cocoa.h>
+i<Carbon/Carbon.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m
+c00000000490131F90000000000000D6D
+t1224815097
+s3437
+i"AppDelegate.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/InfoPlist.strings
+c0000000048FAA7B8000000000000026A
+t1224386488
+s618
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/MainMenu.xib
+c0000000048F4BFE4000000000001FBCA
+t1223999460
+s129994
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/InfoPlist.strings
+c0000000048FAA7B3000000000000020A
+t1224386483
+s522
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/MainMenu.xib
+c0000000048F4BFE4000000000001FBCA
+t1223999460
+s129994
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/OpenAllUnreadMessage2_Prefix.pch
+c0000000048F4ABBB00000000000000AD
+t1223994299
+s173
+i<Cocoa/Cocoa.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/appicon.icns
+c0000000047F97D0B00000000000124CB
+t1207532811
+s74955
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/AppDelegate.o
+t1296984308
+s19364
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage
+t1296984308
+s18588
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage.LinkFileList
+c000000004D4E68EB0000000000000155
+t1296984299
+s341
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/main.o
+t1296984307
+s4904
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/AppDelegate.o
+t1296984308
+s19980
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage
+t1296984308
+s18112
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage.LinkFileList
+c000000004D4E68EB0000000000000153
+t1296984299
+s339
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/main.o
+t1296984307
+s4936
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app
+t1296984308
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app.dSYM
+t1296984308
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Info.plist
+t1296984299
+s976
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage
+t1296984308
+s42688
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/PkgInfo
+t1296984299
+s8
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1296984299
+s618
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj/MainMenu.nib
+t1296984300
+s27778
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+t1296984299
+s522
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj/MainMenu.nib
+t1296984300
+s27778
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/appicon.icns
+t1296984299
+s74955
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m
+c0000000048F4ABBB000000000000010C
+t1223994299
+s268
+i<Cocoa/Cocoa.h>
+
+N/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch.gch
+t1296984307
+s50008304
+
+N/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch.gch
+t1296984307
+s52781488
+
+NInfo.plist
+c0000000048FAA80D00000000000003D0
+t1224386573
+s976
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677099#318677099#0(0"0(0#1#0"5576689326930940928#0"0#
+
+CCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/AppDelegate.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677107.282920
+e318677108.061315
+r1
+xCompileC
+xbuild/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/AppDelegate.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined
+o/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined
+lSLF07#2@91"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m318677107#318677108#0(358"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined2(22@61"Inline function 'Ogre_UTF16strlen' declared but never defined318677107#0#179#0(6@102"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h229225618#242#0#242#0#0"0(22@61"Inline function 'Ogre_UTF16strlen' declared but never defined318677107#179#179#0(6@102"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h229225618#242#0#242#0#0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m4667433872#2110"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677107.282026
+e318677107.493465
+r1
+xCompileC
+xbuild/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m318677107#318677107#0(0"0(0#0#76"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m4667536304#2096"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/AppDelegate.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318677107.284932
+e318677108.059983
+r1
+xCompileC
+xbuild/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/AppDelegate.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined
+o/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined
+lSLF07#2@91"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m318677107#318677108#0(358"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined2(22@61"Inline function 'Ogre_UTF16strlen' declared but never defined318677107#0#179#0(6@102"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h229225618#242#0#242#0#0"0(22@61"Inline function 'Ogre_UTF16strlen' declared but never defined318677107#179#179#0(6@102"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h229225618#242#0#242#0#0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m4381324176#2117"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/AppDelegate.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/AppDelegate.o0#
+
+CCompileC build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318677107.283663
+e318677107.495923
+r1
+xCompileC
+xbuild/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m318677107#318677107#0(0"0(0#0#76"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m4381177808#2103"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/main.o0#
+
+CCompileXIB /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/MainMenu.xib
+s318677099.859857
+e318677100.163028
+r1
+xCompileXIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib318677099#318677100#0(0"0(0#0#96"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/MainMenu.xib4385361872#472"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj/MainMenu.nib /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCompileXIB /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/MainMenu.xib
+s318677099.860475
+e318677100.160161
+r1
+xCompileXIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/MainMenu.xib
+lSLF07#2@38"CompileXIB Japanese.lproj/MainMenu.xib318677099#318677100#0(0"0(0#0#97"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/MainMenu.xib4385371056#474"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj/MainMenu.nib /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.5.sdk0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318677099.857909
+e318677099.904622
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318677099#318677099#0(0"0(0#0#101"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/English.lproj/InfoPlist.strings4385313136#443"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+s318677099.859198
+e318677099.907387
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+xJapanese.lproj/InfoPlist.strings
+lSLF07#2@37"Copy Japanese.lproj/InfoPlist.strings318677099#318677099#0(0"0(0#0#102"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Japanese.lproj/InfoPlist.strings4385318768#445"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 Japanese.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources/Japanese.lproj0#
+
+CCpResource build/Release/OpenAllUnreadMessage.app/Contents/Resources/appicon.icns appicon.icns
+s318677099.904916
+e318677099.914849
+r1
+xCpResource
+xbuild/Release/OpenAllUnreadMessage.app/Contents/Resources/appicon.icns
+xappicon.icns
+lSLF07#2@17"Copy appicon.icns318677099#318677099#0(0"0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/appicon.icns4667397904#471"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/appicon.icns /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage normal "i386 ppc"
+s318677108.579294
+e318677108.591324
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage
+xnormal
+xi386 ppc
+lSLF07#2@114"CreateUniversalBinary build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage normal "i386 ppc"318677108#318677108#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/i386 ppc4383628400#617"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage -output /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage0#
+
+CGenerateDSYMFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app.dSYM /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage
+s318677108.591498
+e318677108.662597
+r1
+xGenerateDSYMFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app.dSYM
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage
+lSLF07#2@135"GenerateDSYMFile build/Release/OpenAllUnreadMessage.app.dSYM build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage318677108#318677108#0(0"0(0#0#144"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage4380350128#371"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    /Developer/usr/bin/dsymutil /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/MacOS/OpenAllUnreadMessage -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app.dSYM0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage normal i386
+s318677108.061459
+e318677108.579178
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage
+xnormal
+xi386
+lSLF07#2@185"Link /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage318677108#318677108#0(0"0(0#0#0"4385350416#819"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework OME -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/i386/OpenAllUnreadMessage0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage normal ppc
+s318677108.060300
+e318677108.568557
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage
+xnormal
+xppc
+lSLF07#2@184"Link /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage318677108#318677108#0(0"0(0#0#0"31525536697090148#816"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework OME -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/Objects-normal/ppc/OpenAllUnreadMessage0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Info.plist Info.plist
+s318677099.850847
+e318677099.857722
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist318677099#318677099#0(0"0(0#0#80"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/Info.plist28429462281257044#425"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    builtin-infoPlistUtility Info.plist -genpkginfo /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch.gch OpenAllUnreadMessage2_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s318677100.164002
+e318677107.263087
+r1
+xProcessPCH
+x/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch.gch
+xOpenAllUnreadMessage2_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile OpenAllUnreadMessage2_Prefix.pch318677100#318677107#0(0"0(0#0#102"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/OpenAllUnreadMessage2_Prefix.pch4667901136#1965"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/OpenAllUnreadMessage2_Prefix.pch -o /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-drvtjmmpyzhigcetbmmiouapsrsu/OpenAllUnreadMessage2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch.gch OpenAllUnreadMessage2_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677100.163196
+e318677107.281915
+r1
+xProcessPCH
+x/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch.gch
+xOpenAllUnreadMessage2_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Precompile OpenAllUnreadMessage2_Prefix.pch318677100#318677107#0(0"0(0#0#102"/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/OpenAllUnreadMessage2_Prefix.pch4667970816#1957"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/OpenAllUnreadMessage-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/OpenAllUnreadMessage2.build/Release/OpenAllUnreadMessage2.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/OpenAllUnreadMessage2_Prefix.pch -o /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OpenAllUnreadMessage2_Prefix-gbhkdnanrxnagagsbilnxtqnonxn/OpenAllUnreadMessage2_Prefix.pch.gch0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app
+s318677108.662774
+e318677108.665230
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app
+lSLF07#2@114"Touch /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app318677108#318677108#0(0"0(0#0#0"4381186944#208"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/utilities/OpenAllUnreadMessage2/build/Release/OpenAllUnreadMessage.app0#
+

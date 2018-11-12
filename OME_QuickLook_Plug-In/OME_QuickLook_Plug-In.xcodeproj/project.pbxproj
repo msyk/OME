@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B43F52C0CAA228D00FFADBA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43F52B0CAA228D00FFADBA /* Cocoa.framework */; };
+		2B43F5C00CAA299300FFADBA /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B43F5BF0CAA299300FFADBA /* WebKit.framework */; };
+		2B85CCA619B7315C0036EC0E /* OMEAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8019B7315C0036EC0E /* OMEAddress.h */; };
+		2B85CCA719B7315C0036EC0E /* OMEAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8119B7315C0036EC0E /* OMEAddress.m */; };
+		2B85CCA819B7315C0036EC0E /* OMEAlias.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8219B7315C0036EC0E /* OMEAlias.h */; };
+		2B85CCA919B7315C0036EC0E /* OMEAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8319B7315C0036EC0E /* OMEAlias.m */; };
+		2B85CCAA19B7315C0036EC0E /* OMEAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8419B7315C0036EC0E /* OMEAttachment.h */; };
+		2B85CCAB19B7315C0036EC0E /* OMEAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8519B7315C0036EC0E /* OMEAttachment.m */; };
+		2B85CCAC19B7315C0036EC0E /* OMEBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8619B7315C0036EC0E /* OMEBehavior.h */; };
+		2B85CCAD19B7315C0036EC0E /* OMEBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8719B7315C0036EC0E /* OMEBehavior.m */; };
+		2B85CCAE19B7315C0036EC0E /* OMECategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8819B7315C0036EC0E /* OMECategory.h */; };
+		2B85CCAF19B7315C0036EC0E /* OMEData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8919B7315C0036EC0E /* OMEData.h */; };
+		2B85CCB019B7315C0036EC0E /* OMEData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8A19B7315C0036EC0E /* OMEData.m */; };
+		2B85CCB119B7315C0036EC0E /* OMEDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8B19B7315C0036EC0E /* OMEDirectory.h */; };
+		2B85CCB219B7315C0036EC0E /* OMEDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8C19B7315C0036EC0E /* OMEDirectory.m */; };
+		2B85CCB319B7315C0036EC0E /* OMEField.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8D19B7315C0036EC0E /* OMEField.h */; };
+		2B85CCB419B7315C0036EC0E /* OMEField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC8E19B7315C0036EC0E /* OMEField.m */; };
+		2B85CCB519B7315C0036EC0E /* OMEJapanese.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC8F19B7315C0036EC0E /* OMEJapanese.h */; };
+		2B85CCB619B7315C0036EC0E /* OMELines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9019B7315C0036EC0E /* OMELines.h */; };
+		2B85CCB719B7315C0036EC0E /* OMELines.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9119B7315C0036EC0E /* OMELines.m */; };
+		2B85CCB819B7315C0036EC0E /* OMELog.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9219B7315C0036EC0E /* OMELog.h */; };
+		2B85CCB919B7315C0036EC0E /* OMELog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9319B7315C0036EC0E /* OMELog.m */; };
+		2B85CCBA19B7315C0036EC0E /* OMEMail.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9419B7315C0036EC0E /* OMEMail.h */; };
+		2B85CCBB19B7315C0036EC0E /* OMEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9519B7315C0036EC0E /* OMEMail.m */; };
+		2B85CCBC19B7315C0036EC0E /* OMEMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9619B7315C0036EC0E /* OMEMessage.h */; };
+		2B85CCBD19B7315C0036EC0E /* OMEMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9719B7315C0036EC0E /* OMEMessage.m */; };
+		2B85CCBE19B7315C0036EC0E /* OMEPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9819B7315C0036EC0E /* OMEPaths.h */; };
+		2B85CCBF19B7315C0036EC0E /* OMEPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9919B7315C0036EC0E /* OMEPaths.m */; };
+		2B85CCC019B7315C0036EC0E /* OMEPOPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9A19B7315C0036EC0E /* OMEPOPServer.h */; };
+		2B85CCC119B7315C0036EC0E /* OMEPOPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9B19B7315C0036EC0E /* OMEPOPServer.m */; };
+		2B85CCC219B7315C0036EC0E /* OMESMTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9C19B7315C0036EC0E /* OMESMTPServer.h */; };
+		2B85CCC319B7315C0036EC0E /* OMESMTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9D19B7315C0036EC0E /* OMESMTPServer.m */; };
+		2B85CCC419B7315C0036EC0E /* OMESMTPServers.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CC9E19B7315C0036EC0E /* OMESMTPServers.h */; };
+		2B85CCC519B7315C0036EC0E /* OMESMTPServers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CC9F19B7315C0036EC0E /* OMESMTPServers.m */; };
+		2B85CCC619B7315C0036EC0E /* OMEWMail.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CCA019B7315C0036EC0E /* OMEWMail.h */; };
+		2B85CCC719B7315C0036EC0E /* OMEWMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CCA119B7315C0036EC0E /* OMEWMail.m */; };
+		2B85CCC819B7315C0036EC0E /* WSHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CCA219B7315C0036EC0E /* WSHeader.h */; };
+		2B85CCC919B7315C0036EC0E /* WSHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CCA319B7315C0036EC0E /* WSHeader.m */; };
+		2B85CCCA19B7315C0036EC0E /* WSMutableHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CCA419B7315C0036EC0E /* WSMutableHeader.h */; };
+		2B85CCCB19B7315C0036EC0E /* WSMutableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CCA519B7315C0036EC0E /* WSMutableHeader.m */; };
+		2B85CCCD19B735F20036EC0E /* OMECategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B85CCCC19B735F20036EC0E /* OMECategory.h */; };
+		2B85CCCF19B7365E0036EC0E /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B85CCCE19B7365E0036EC0E /* HTMLString.m */; };
+		2C05A19C06CAA52B00D84F6F /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */; };
+		61E3BCFB0870B4F2002186A0 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */; };
+		8D576312048677EA00EA77CD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB77B6FE84183AC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
+		8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */; };
+		8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D5B49A704867FD3000E48DA /* InfoPlist.strings */; };
+		C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86B05260671AA6E00DD9006 /* CoreServices.framework */; };
+		F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */; };
+		F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FB77B6FE84183AC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		2B43F52B0CAA228D00FFADBA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2B43F5BF0CAA299300FFADBA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		2B85CC8019B7315C0036EC0E /* OMEAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEAddress.h; path = ../OMEMailViewer/OMEAddress.h; sourceTree = "<group>"; };
+		2B85CC8119B7315C0036EC0E /* OMEAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEAddress.m; path = ../OMEMailViewer/OMEAddress.m; sourceTree = "<group>"; };
+		2B85CC8219B7315C0036EC0E /* OMEAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEAlias.h; path = ../OMEMailViewer/OMEAlias.h; sourceTree = "<group>"; };
+		2B85CC8319B7315C0036EC0E /* OMEAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEAlias.m; path = ../OMEMailViewer/OMEAlias.m; sourceTree = "<group>"; };
+		2B85CC8419B7315C0036EC0E /* OMEAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEAttachment.h; path = ../OMEMailViewer/OMEAttachment.h; sourceTree = "<group>"; };
+		2B85CC8519B7315C0036EC0E /* OMEAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEAttachment.m; path = ../OMEMailViewer/OMEAttachment.m; sourceTree = "<group>"; };
+		2B85CC8619B7315C0036EC0E /* OMEBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEBehavior.h; path = ../OMEMailViewer/OMEBehavior.h; sourceTree = "<group>"; };
+		2B85CC8719B7315C0036EC0E /* OMEBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEBehavior.m; path = ../OMEMailViewer/OMEBehavior.m; sourceTree = "<group>"; };
+		2B85CC8819B7315C0036EC0E /* OMECategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMECategory.h; path = ../OMEMailViewer/OMECategory.h; sourceTree = "<group>"; };
+		2B85CC8919B7315C0036EC0E /* OMEData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEData.h; path = ../OMEMailViewer/OMEData.h; sourceTree = "<group>"; };
+		2B85CC8A19B7315C0036EC0E /* OMEData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEData.m; path = ../OMEMailViewer/OMEData.m; sourceTree = "<group>"; };
+		2B85CC8B19B7315C0036EC0E /* OMEDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEDirectory.h; path = ../OMEMailViewer/OMEDirectory.h; sourceTree = "<group>"; };
+		2B85CC8C19B7315C0036EC0E /* OMEDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEDirectory.m; path = ../OMEMailViewer/OMEDirectory.m; sourceTree = "<group>"; };
+		2B85CC8D19B7315C0036EC0E /* OMEField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEField.h; path = ../OMEMailViewer/OMEField.h; sourceTree = "<group>"; };
+		2B85CC8E19B7315C0036EC0E /* OMEField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEField.m; path = ../OMEMailViewer/OMEField.m; sourceTree = "<group>"; };
+		2B85CC8F19B7315C0036EC0E /* OMEJapanese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEJapanese.h; path = ../OMEMailViewer/OMEJapanese.h; sourceTree = "<group>"; };
+		2B85CC9019B7315C0036EC0E /* OMELines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMELines.h; path = ../OMEMailViewer/OMELines.h; sourceTree = "<group>"; };
+		2B85CC9119B7315C0036EC0E /* OMELines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMELines.m; path = ../OMEMailViewer/OMELines.m; sourceTree = "<group>"; };
+		2B85CC9219B7315C0036EC0E /* OMELog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMELog.h; path = ../OMEMailViewer/OMELog.h; sourceTree = "<group>"; };
+		2B85CC9319B7315C0036EC0E /* OMELog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMELog.m; path = ../OMEMailViewer/OMELog.m; sourceTree = "<group>"; };
+		2B85CC9419B7315C0036EC0E /* OMEMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEMail.h; path = ../OMEMailViewer/OMEMail.h; sourceTree = "<group>"; };
+		2B85CC9519B7315C0036EC0E /* OMEMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEMail.m; path = ../OMEMailViewer/OMEMail.m; sourceTree = "<group>"; };
+		2B85CC9619B7315C0036EC0E /* OMEMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEMessage.h; path = ../OMEMailViewer/OMEMessage.h; sourceTree = "<group>"; };
+		2B85CC9719B7315C0036EC0E /* OMEMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEMessage.m; path = ../OMEMailViewer/OMEMessage.m; sourceTree = "<group>"; };
+		2B85CC9819B7315C0036EC0E /* OMEPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEPaths.h; path = ../OMEMailViewer/OMEPaths.h; sourceTree = "<group>"; };
+		2B85CC9919B7315C0036EC0E /* OMEPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEPaths.m; path = ../OMEMailViewer/OMEPaths.m; sourceTree = "<group>"; };
+		2B85CC9A19B7315C0036EC0E /* OMEPOPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEPOPServer.h; path = ../OMEMailViewer/OMEPOPServer.h; sourceTree = "<group>"; };
+		2B85CC9B19B7315C0036EC0E /* OMEPOPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEPOPServer.m; path = ../OMEMailViewer/OMEPOPServer.m; sourceTree = "<group>"; };
+		2B85CC9C19B7315C0036EC0E /* OMESMTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMESMTPServer.h; path = ../OMEMailViewer/OMESMTPServer.h; sourceTree = "<group>"; };
+		2B85CC9D19B7315C0036EC0E /* OMESMTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMESMTPServer.m; path = ../OMEMailViewer/OMESMTPServer.m; sourceTree = "<group>"; };
+		2B85CC9E19B7315C0036EC0E /* OMESMTPServers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMESMTPServers.h; path = ../OMEMailViewer/OMESMTPServers.h; sourceTree = "<group>"; };
+		2B85CC9F19B7315C0036EC0E /* OMESMTPServers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMESMTPServers.m; path = ../OMEMailViewer/OMESMTPServers.m; sourceTree = "<group>"; };
+		2B85CCA019B7315C0036EC0E /* OMEWMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMEWMail.h; path = ../OMEMailViewer/OMEWMail.h; sourceTree = "<group>"; };
+		2B85CCA119B7315C0036EC0E /* OMEWMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OMEWMail.m; path = ../OMEMailViewer/OMEWMail.m; sourceTree = "<group>"; };
+		2B85CCA219B7315C0036EC0E /* WSHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSHeader.h; path = ../OMEMailViewer/WSHeader.h; sourceTree = "<group>"; };
+		2B85CCA319B7315C0036EC0E /* WSHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSHeader.m; path = ../OMEMailViewer/WSHeader.m; sourceTree = "<group>"; };
+		2B85CCA419B7315C0036EC0E /* WSMutableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WSMutableHeader.h; path = ../OMEMailViewer/WSMutableHeader.h; sourceTree = "<group>"; };
+		2B85CCA519B7315C0036EC0E /* WSMutableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WSMutableHeader.m; path = ../OMEMailViewer/WSMutableHeader.m; sourceTree = "<group>"; };
+		2B85CCCC19B735F20036EC0E /* OMECategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OMECategory.h; path = ../OMEMailViewer/OMECategory.h; sourceTree = "<group>"; };
+		2B85CCCE19B7365E0036EC0E /* HTMLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLString.m; path = ../OMEMailViewer/HTMLString.m; sourceTree = "<group>"; };
+		2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
+		61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		8D576316048677EA00EA77CD /* OME_QuickLook_Plug-In.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OME_QuickLook_Plug-In.qlgenerator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D576317048677EA00EA77CD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C86B05260671AA6E00DD9006 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = /System/Library/Frameworks/QuickLook.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D576313048677EA00EA77CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D576314048677EA00EA77CD /* CoreFoundation.framework in Frameworks */,
+				C86B05270671AA6E00DD9006 /* CoreServices.framework in Frameworks */,
+				F28CFBFD0A3EC0AF000ABFF5 /* ApplicationServices.framework in Frameworks */,
+				F28CFC030A3EC0C6000ABFF5 /* QuickLook.framework in Frameworks */,
+				2B43F52C0CAA228D00FFADBA /* Cocoa.framework in Frameworks */,
+				2B43F5C00CAA299300FFADBA /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* OME_QuickLook_Plug-In */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Source */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB6FE9D52B211CA2CBB /* Products */,
+			);
+			name = "OME_QuickLook_Plug-In";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2B43F5BF0CAA299300FFADBA /* WebKit.framework */,
+				2B43F52B0CAA228D00FFADBA /* Cocoa.framework */,
+				F28CFC020A3EC0C6000ABFF5 /* QuickLook.framework */,
+				F28CFBFC0A3EC0AF000ABFF5 /* ApplicationServices.framework */,
+				C86B05260671AA6E00DD9006 /* CoreServices.framework */,
+				0AA1909FFE8422F4C02AAC07 /* CoreFoundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D576317048677EA00EA77CD /* Info.plist */,
+				8D5B49A704867FD3000E48DA /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2B85CCCC19B735F20036EC0E /* OMECategory.h */,
+				2B85CCCE19B7365E0036EC0E /* HTMLString.m */,
+				2B85CC8019B7315C0036EC0E /* OMEAddress.h */,
+				2B85CC8119B7315C0036EC0E /* OMEAddress.m */,
+				2B85CC8219B7315C0036EC0E /* OMEAlias.h */,
+				2B85CC8319B7315C0036EC0E /* OMEAlias.m */,
+				2B85CC8419B7315C0036EC0E /* OMEAttachment.h */,
+				2B85CC8519B7315C0036EC0E /* OMEAttachment.m */,
+				2B85CC8619B7315C0036EC0E /* OMEBehavior.h */,
+				2B85CC8719B7315C0036EC0E /* OMEBehavior.m */,
+				2B85CC8819B7315C0036EC0E /* OMECategory.h */,
+				2B85CC8919B7315C0036EC0E /* OMEData.h */,
+				2B85CC8A19B7315C0036EC0E /* OMEData.m */,
+				2B85CC8B19B7315C0036EC0E /* OMEDirectory.h */,
+				2B85CC8C19B7315C0036EC0E /* OMEDirectory.m */,
+				2B85CC8D19B7315C0036EC0E /* OMEField.h */,
+				2B85CC8E19B7315C0036EC0E /* OMEField.m */,
+				2B85CC8F19B7315C0036EC0E /* OMEJapanese.h */,
+				2B85CC9019B7315C0036EC0E /* OMELines.h */,
+				2B85CC9119B7315C0036EC0E /* OMELines.m */,
+				2B85CC9219B7315C0036EC0E /* OMELog.h */,
+				2B85CC9319B7315C0036EC0E /* OMELog.m */,
+				2B85CC9419B7315C0036EC0E /* OMEMail.h */,
+				2B85CC9519B7315C0036EC0E /* OMEMail.m */,
+				2B85CC9619B7315C0036EC0E /* OMEMessage.h */,
+				2B85CC9719B7315C0036EC0E /* OMEMessage.m */,
+				2B85CC9819B7315C0036EC0E /* OMEPaths.h */,
+				2B85CC9919B7315C0036EC0E /* OMEPaths.m */,
+				2B85CC9A19B7315C0036EC0E /* OMEPOPServer.h */,
+				2B85CC9B19B7315C0036EC0E /* OMEPOPServer.m */,
+				2B85CC9C19B7315C0036EC0E /* OMESMTPServer.h */,
+				2B85CC9D19B7315C0036EC0E /* OMESMTPServer.m */,
+				2B85CC9E19B7315C0036EC0E /* OMESMTPServers.h */,
+				2B85CC9F19B7315C0036EC0E /* OMESMTPServers.m */,
+				2B85CCA019B7315C0036EC0E /* OMEWMail.h */,
+				2B85CCA119B7315C0036EC0E /* OMEWMail.m */,
+				2B85CCA219B7315C0036EC0E /* WSHeader.h */,
+				2B85CCA319B7315C0036EC0E /* WSHeader.m */,
+				2B85CCA419B7315C0036EC0E /* WSMutableHeader.h */,
+				2B85CCA519B7315C0036EC0E /* WSMutableHeader.m */,
+				61E3BCFA0870B4F2002186A0 /* GenerateThumbnailForURL.m */,
+				2C05A19B06CAA52B00D84F6F /* GeneratePreviewForURL.m */,
+				08FB77B6FE84183AC02AAC07 /* main.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB6FE9D52B211CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D576316048677EA00EA77CD /* OME_QuickLook_Plug-In.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D57630E048677EA00EA77CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B85CCCA19B7315C0036EC0E /* WSMutableHeader.h in Headers */,
+				2B85CCAF19B7315C0036EC0E /* OMEData.h in Headers */,
+				2B85CCCD19B735F20036EC0E /* OMECategory.h in Headers */,
+				2B85CCC219B7315C0036EC0E /* OMESMTPServer.h in Headers */,
+				2B85CCAC19B7315C0036EC0E /* OMEBehavior.h in Headers */,
+				2B85CCB819B7315C0036EC0E /* OMELog.h in Headers */,
+				2B85CCBA19B7315C0036EC0E /* OMEMail.h in Headers */,
+				2B85CCB119B7315C0036EC0E /* OMEDirectory.h in Headers */,
+				2B85CCAA19B7315C0036EC0E /* OMEAttachment.h in Headers */,
+				2B85CCB619B7315C0036EC0E /* OMELines.h in Headers */,
+				2B85CCC019B7315C0036EC0E /* OMEPOPServer.h in Headers */,
+				2B85CCBC19B7315C0036EC0E /* OMEMessage.h in Headers */,
+				2B85CCC419B7315C0036EC0E /* OMESMTPServers.h in Headers */,
+				2B85CCA619B7315C0036EC0E /* OMEAddress.h in Headers */,
+				2B85CCB519B7315C0036EC0E /* OMEJapanese.h in Headers */,
+				2B85CCC619B7315C0036EC0E /* OMEWMail.h in Headers */,
+				2B85CCC819B7315C0036EC0E /* WSHeader.h in Headers */,
+				2B85CCB319B7315C0036EC0E /* OMEField.h in Headers */,
+				2B85CCA819B7315C0036EC0E /* OMEAlias.h in Headers */,
+				2B85CCAE19B7315C0036EC0E /* OMECategory.h in Headers */,
+				2B85CCBE19B7315C0036EC0E /* OMEPaths.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D57630D048677EA00EA77CD /* OME_QuickLook_Plug-In */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "OME_QuickLook_Plug-In" */;
+			buildPhases = (
+				8D57630E048677EA00EA77CD /* Headers */,
+				8D57630F048677EA00EA77CD /* Resources */,
+				8D576311048677EA00EA77CD /* Sources */,
+				8D576313048677EA00EA77CD /* Frameworks */,
+				8D576315048677EA00EA77CD /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OME_QuickLook_Plug-In";
+			productInstallPath = /Library/QuickLook;
+			productName = "OME_QuickLook_Plug-In";
+			productReference = 8D576316048677EA00EA77CD /* OME_QuickLook_Plug-In.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 2CA326220896AD4900168862 /* Build configuration list for PBXProject "OME_QuickLook_Plug-In" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* OME_QuickLook_Plug-In */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D57630D048677EA00EA77CD /* OME_QuickLook_Plug-In */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D57630F048677EA00EA77CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49A804867FD3000E48DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D576315048677EA00EA77CD /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D576311048677EA00EA77CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B85CCC119B7315C0036EC0E /* OMEPOPServer.m in Sources */,
+				2B85CCBB19B7315C0036EC0E /* OMEMail.m in Sources */,
+				2B85CCC519B7315C0036EC0E /* OMESMTPServers.m in Sources */,
+				2B85CCB719B7315C0036EC0E /* OMELines.m in Sources */,
+				2B85CCAB19B7315C0036EC0E /* OMEAttachment.m in Sources */,
+				2B85CCBD19B7315C0036EC0E /* OMEMessage.m in Sources */,
+				2B85CCBF19B7315C0036EC0E /* OMEPaths.m in Sources */,
+				2B85CCB219B7315C0036EC0E /* OMEDirectory.m in Sources */,
+				2B85CCC919B7315C0036EC0E /* WSHeader.m in Sources */,
+				2B85CCAD19B7315C0036EC0E /* OMEBehavior.m in Sources */,
+				2B85CCC319B7315C0036EC0E /* OMESMTPServer.m in Sources */,
+				2B85CCCF19B7365E0036EC0E /* HTMLString.m in Sources */,
+				8D576312048677EA00EA77CD /* main.c in Sources */,
+				2B85CCCB19B7315C0036EC0E /* WSMutableHeader.m in Sources */,
+				2B85CCB419B7315C0036EC0E /* OMEField.m in Sources */,
+				2C05A19C06CAA52B00D84F6F /* GeneratePreviewForURL.m in Sources */,
+				2B85CCA719B7315C0036EC0E /* OMEAddress.m in Sources */,
+				61E3BCFB0870B4F2002186A0 /* GenerateThumbnailForURL.m in Sources */,
+				2B85CCA919B7315C0036EC0E /* OMEAlias.m in Sources */,
+				2B85CCB919B7315C0036EC0E /* OMELog.m in Sources */,
+				2B85CCB019B7315C0036EC0E /* OMEData.m in Sources */,
+				2B85CCC719B7315C0036EC0E /* OMEWMail.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D5B49A704867FD3000E48DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA3261F0896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "OME_QuickLook_Plug-In";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = qlgenerator;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		2CA326200896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = "OME_QuickLook_Plug-In";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+		2CA326230896AD4900168862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		2CA326240896AD4900168862 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA3261E0896AD4900168862 /* Build configuration list for PBXNativeTarget "OME_QuickLook_Plug-In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA3261F0896AD4900168862 /* Debug */,
+				2CA326200896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA326220896AD4900168862 /* Build configuration list for PBXProject "OME_QuickLook_Plug-In" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA326230896AD4900168862 /* Debug */,
+				2CA326240896AD4900168862 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

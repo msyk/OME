@@ -1,0 +1,102 @@
+#!/bin/zsh
+export PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+PREFPATH="${HOME}"/Library/Preferences/OME_Preferences
+JAVA=/usr/bin/java
+TOUCH=/usr/bin/touch
+RM=/bin/rm
+PERL=/usr/bin/perl
+MAILWRITER=OME.mailwriter.OME_MailWriter
+DOWNLOAD=OME.downloadmails.OME_DownloadMails
+SENDMAIL=OME.sendmail.OME_SendMail
+UNREAD=OME.UnreadUtility
+PROCESS=OME.messagemaker.MailProcessor
+
+if [ -d "${PREFPATH}.localized" ]; then
+    OMEPREF="${PREFPATH}.localized"
+elif [ -d "${PREFPATH}" ]; then
+    OMEPREF="${PREFPATH}"
+else
+    exit 1;
+fi
+
+OMEAPPPATH=`${PERL} -ne'if(/OMEApplicationsPath=/){s/OMEApplicationsPath="(.+)"/$1/;print;exit;}' "${OMEPREF}"/Behavior_Info.txt`
+if [ ! -d "${OMEAPPPATH}" ]; then
+    [ -d /Library/Frameworks/OME.framework/Versions/Current/Resources ] || exit 1;
+    OMEAPPPATH="/Library/Frameworks/OME.framework/Versions/Current/Resources"
+fi
+if [ "${OMEAPPPATH}" = "/Library/Frameworks/OME.framework/Versions/Current/Resources" ]; then
+    CLASSPATH="${OMEAPPPATH}"/Java/OME_lib.jar
+    RESOLVALIAS="${OMEAPPPATH}"/resolvalias
+else
+    CLASSPATH="${OMEAPPPATH}"/tools/OME_lib.jar
+    RESOLVALIAS="${OMEAPPPATH}"/tools/resolvalias
+fi
+case `uname -r|perl -ne's/(\d+)\.(\d+)\.(\d+)/\1\2\3/;if($_ ge 900 ){print "Leopard";}elsif($_ ge 800 ){print "Tiger";}elsif($_ ge 700){print "Panther";}else{print "Jaguar";}'` in
+Leopard)LOGFILE=~/Library/Logs/OME/come-console.log;;
+Tiger)LOGFILE=/Library/Logs/Console/${UID}/console.log;;
+Panther)LOGFILE=/Library/Logs/Console/${USER}/console.log;;
+Jaguar)LOGFILE=/var/tmp/console.log;;
+esac
+
+case $1 in
+    dl)
+    if [ ! -f "${OMEPREF}"/NowAutoDL ];then
+        ${TOUCH} "${OMEPREF}"/NowAutoDL
+        ${JAVA} -cp "${CLASSPATH}" ${DOWNLOAD} >> "${LOGFILE}" 2>&1
+        ${RM} -f "${OMEPREF}"/NowAutoDL
+    fi
+    ;;
+    send)
+    ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${SENDMAIL} >> "${LOGFILE}" 2>&1
+    ;;
+    new)
+    ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${MAILWRITER} >> "${LOGFILE}" 2>&1
+    ;;
+    to)
+    ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${MAILWRITER} ADDRESS "$2" >> "${LOGFILE}" 2>&1
+    ;;
+    reply)
+    ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${MAILWRITER} FILE "$2" >> "${LOGFILE}" 2>&1
+    ;;
+    template)
+    ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${MAILWRITER} TEMPLATE "$2" >> "${LOGFILE}" 2>&1
+    ;;
+    pref)
+    open "${OMEPREF}"
+    ;;
+    root)
+    open "${OMEPREF}"/OME_Root
+    ;;
+#    cron)
+#    if [ -f "${OMEPREF}"/NoDL ]
+#    then
+#        ${RM} -f "${OMEPREF}"/NoDL
+#        echo "Download mails by cron turned to ON."
+#    else
+#        ${TOUCH} "${OMEPREF}"/NoDL
+#        echo "Download mails by cron turned to OFF."
+#    fi
+#    ;;
+    clean)
+    if ! [ -f "${OMEPREF}"/NoClean ];then
+        ${TOUCH} "${OMEPREF}"/NoClean
+        ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${UNREAD} >> "${LOGFILE}" 2>&1 ; ${RM} -f "${OMEPREF}"/NoClean
+    fi
+    ;;
+    unread)
+    for i in "${OMEPREF}"/temp/unreadAliases/*
+    do
+        "${RESOLVALIAS}" "$i"|more
+    done
+    ;;
+    mdfind)
+    OMEROOTPATH=`${RESOLVALIAS} "${OMEPREF}"/OME_Root`
+    defaults write jp.mac-ome.gururi.CocoaOMEnu Unread -integer `/usr/bin/mdfind -onlyin "${OMEROOTPATH}" kMDItemContentType='jp.mac-ome.ome.ygm'|/usr/bin/wc -l`
+    ;;
+    process)
+    ${JAVA} -Djava.awt.headless=true -cp "${CLASSPATH}" ${PROCESS} >> "${LOGFILE}" 2>&1
+    ;;
+    *)
+    echo 'usage:come [dl|send|new|to <MAIL ADDRESS>|[reply|template] <FILENAME>|pref|root|clean|unread|process]' 1>&2
+    ;;
+esac

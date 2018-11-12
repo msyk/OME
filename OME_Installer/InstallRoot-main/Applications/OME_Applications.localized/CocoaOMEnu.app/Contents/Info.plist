@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>Japanese</string>
+	<key>CFBundleDisplayName</key>
+	<string>CocoaOMEnu</string>
+	<key>CFBundleExecutable</key>
+	<string>CocoaOMEnu</string>
+	<key>CFBundleGetInfoString</key>
+	<string>CocoaOMEnu v3.0 (C)2002-2006 Gururi</string>
+	<key>CFBundleIconFile</key>
+	<string>OMEnu.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>jp.mac-ome.gururi.CocoaOMEnu</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>CocoaOMEnu</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSUIElement</key>
+	<string>1</string>
+</dict>
+</plist>

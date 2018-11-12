@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ome-character-set>
+	<ome-locale name="en_US">
+		<sending-body-code>ASCII</sending-body-code>
+		<sending-body-encode />
+		<sending-header-code>ASCII</sending-header-code>
+		<sending-header-encode />
+		<uploadfile-code>ASCII</uploadfile-code>
+		<template-file-code>ASCII</template-file-code>
+		<template-insert-code>ASCII</template-insert-code>
+		<preffiles-code>ASCII</preffiles-code>
+		<mail-file-code>UTF-8</mail-file-code>
+		<mail-converter />
+		<mail-source-defalut-code>ASCII</mail-source-defalut-code>
+		<charset-in-type>US-ASCII</charset-in-type>
+	</ome-locale>
+	<ome-locale name="ja_JP">
+		<sending-body-code>ISO-2022-JP</sending-body-code>
+		<sending-body-encode />
+		<sending-header-code>ISO-2022-JP</sending-header-code>
+		<sending-header-encode>B</sending-header-encode>
+		<uploadfile-code>Shift_JIS</uploadfile-code>
+		<template-file-code>Shift_JIS</template-file-code>
+		<template-insert-code>Shift_JIS</template-insert-code>
+		<preffiles-code>Shift_JIS</preffiles-code>
+		<mail-file-code>UTF-8</mail-file-code>
+		<mail-converter>OME.mailformatinfo.TextConverter_ja_JP</mail-converter>
+		<mail-source-defalut-code>JIS</mail-source-defalut-code>
+		<charset-in-type>ISO-2022-JP</charset-in-type>
+	</ome-locale>
+	<ome-locale name="de_DE">
+		<sending-body-code>iso-8859-1</sending-body-code>
+		<sending-body-encode>P</sending-body-encode>
+		<sending-header-code>iso-8859-1</sending-header-code>
+		<sending-header-encode>B</sending-header-encode>
+		<uploadfile-code>MacRoman</uploadfile-code>
+		<template-file-code>MacRoman</template-file-code>
+		<template-insert-code>MacRoman</template-insert-code>
+		<preffiles-code>MacRoman</preffiles-code>
+		<mail-file-code>UTF-8</mail-file-code>
+		<mail-converter />
+		<mail-source-defalut-code>iso-8859-1</mail-source-defalut-code>
+		<charset-in-type>iso-8859-1</charset-in-type>
+	</ome-locale>
+	<ome-locale name="ko_KR">
+		<sending-body-code>EUC_KR</sending-body-code>
+		<sending-body-encode />
+		<sending-header-code>EUC_KR</sending-header-code>
+		<sending-header-encode />
+		<uploadfile-code>EUC_KR</uploadfile-code>
+		<template-file-code>EUC_KR</template-file-code>
+		<template-insert-code>EUC_KR</template-insert-code>
+		<preffiles-code>EUC_KR</preffiles-code>
+		<mail-file-code>UTF-8</mail-file-code>
+		<mail-converter />
+		<mail-source-defalut-code>EUC_KR</mail-source-defalut-code>
+		<charset-in-type>EUC_KR</charset-in-type>
+	</ome-locale>
+	<ome-locale name="zh_CN">
+		<sending-body-code>gb2312</sending-body-code>
+		<sending-body-encode />
+		<sending-header-code>gb2312</sending-header-code>
+		<sending-header-encode />
+		<uploadfile-code>gb2312</uploadfile-code>
+		<template-file-code>gb2312</template-file-code>
+		<template-insert-code>gb2312</template-insert-code>
+		<preffiles-code>gb2312</preffiles-code>
+		<mail-file-code>UTF-8</mail-file-code>
+		<mail-converter />
+		<mail-source-defalut-code>gb2312</mail-source-defalut-code>
+		<charset-in-type>GB2312</charset-in-type>
+	</ome-locale>
+	<ome-locale name="zh_TW">
+		<sending-body-code>Big5</sending-body-code>
+		<sending-body-encode />
+		<sending-header-code>Big5</sending-header-code>
+		<sending-header-encode />
+		<uploadfile-code>Big5</uploadfile-code>
+		<template-file-code>Big5</template-file-code>
+		<template-insert-code>Big5</template-insert-code>
+		<preffiles-code>Big5</preffiles-code>
+		<mail-file-code>UTF-8</mail-file-code>
+		<mail-converter />
+		<mail-source-defalut-code>Big5</mail-source-defalut-code>
+		<charset-in-type>Big5</charset-in-type>
+	</ome-locale>
+</ome-character-set>

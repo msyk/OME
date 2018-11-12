@@ -1,0 +1,7 @@
+Include===CC
+IncludeToCC
+Check===CCwithTo
+Dont===SaveOriginalMessage
+KeepMailInServer
+Dont===WaitMailProcessing
+SMTPDebugMode

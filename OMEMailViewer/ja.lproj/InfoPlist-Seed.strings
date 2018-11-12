@@ -1,0 +1,7 @@
+﻿/* Localized versions of Info.plist keys */
+
+CFBundleName = "OMEメール参照";
+CFBundleShortVersionString = "OMEメール参照 version @@VERSION@@";
+CFBundleGetInfoString = "OMEメール参照 version @@VERSION@@, Copyright 2000-@@THISYEAR@@ @@COMPANY@@.";
+NSHumanReadableCopyright = "Copyright @@THISYEAR@@ @@COMPANY@@.";
+CFBundleDisplayName = "OMEメール参照";

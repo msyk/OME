@@ -1,0 +1,822 @@
+TOMESetUp
+v7
+r0
+t318677165.408799
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Info.plist Info.plist
+cPhaseScriptExecution "Run Script" /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Script-2BF9C1B20CA68BDA00EC65DD.sh
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/MainMenu.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/MainMenu.nib
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+cCpResource build/Release/OMESetUp.app/Contents/Resources/Behavior_Info1.txt Behavior_Info1.txt
+cCpResource build/Release/OMESetUp.app/Contents/Resources/Behavior_Info2.txt Behavior_Info2.txt
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Localizable.strings Japanese.lproj/Localizable.strings
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Warning.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Warning.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Finish.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Finish.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window2.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window2.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window3.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window3.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window4.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window4.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window1.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window1.nib
+cCpResource build/Release/OMESetUp.app/Contents/Resources/configuratoricon.icns configuratoricon.icns
+cCpResource build/Release/OMESetUp.app/Contents/Resources/setup-infoplist.sh setup-infoplist.sh
+cProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch.gch OMESetUp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/AppController.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/WarningController.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/FinishController.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window2Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window3Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window4Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window1Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp_vers.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/MacOS/OMESetUp normal i386
+cTouch /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OME.framework/Headers/OME.h
+c000000004BDA67DF0000000000000305
+t1272604639
+s773
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Library/Frameworks/OME.framework/OME
+c000000004BDA67E0000000000004A370
+t1272604640
+s303984
+
+N/Library/Frameworks/OgreKit.framework/OgreKit
+c0000000047F97D120000000000184FA8
+t1207532818
+s1593256
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.h
+c0000000047F97D06000000000000045C
+t1207532806
+s1116
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m
+c0000000047F97D0600000000000026B8
+t1207532806
+s9912
+i"AppController.h"
+i"Window1Controller.h"
+i"WarningController.h"
+i"Window2Controller.h"
+i"Window3Controller.h"
+i"Window4Controller.h"
+i"FinishController.h"
+i"Definitions.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Behavior_Info1.txt
+c0000000047F97D06000000000000007E
+t1207532806
+s126
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Behavior_Info2.txt
+c0000000047F97D060000000000000081
+t1207532806
+s129
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Definitions.h
+c0000000047F97D060000000000000259
+t1207532806
+s601
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Finish.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/InfoPlist.strings
+c000000004BDA67EA00000000000002F8
+t1272604650
+s760
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Localizable.strings
+c000000004AD46FB60000000000000112
+t1255436214
+s274
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/MainMenu.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Warning.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window1.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window2.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window3.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window4.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.h
+c0000000047F97D06000000000000018A
+t1207532806
+s394
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m
+c0000000047F97D0600000000000004D9
+t1207532806
+s1241
+i"FinishController.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Finish.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/InfoPlist.strings
+c000000004BDA67EA0000000000000310
+t1272604650
+s784
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Localizable.strings
+c0000000047F97D06000000000000011C
+t1207532806
+s284
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/MainMenu.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Warning.nib
+c000000004B13D3CF0000000000000110
+t1259590607
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window1.nib
+c000000004B13D3D00000000000000110
+t1259590608
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window2.nib
+c000000004B13D3D00000000000000110
+t1259590608
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window3.nib
+c000000004B13D3D20000000000000110
+t1259590610
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window4.nib
+c000000004B13D3D30000000000000110
+t1259590611
+s272
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/OMESetUp_Prefix.pch
+c0000000047F97D0600000000000000A8
+t1207532806
+s168
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.h
+c0000000047F97D0600000000000001CB
+t1207532806
+s459
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m
+c0000000047F97D0600000000000003C5
+t1207532806
+s965
+i"WarningController.h"
+i"Definitions.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.h
+c0000000047F97D060000000000000188
+t1207532806
+s392
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m
+c0000000047F97D06000000000000066D
+t1207532806
+s1645
+i"Window1Controller.h"
+i"Definitions.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.h
+c0000000047F97D0600000000000003D0
+t1207532806
+s976
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m
+c0000000047F97D060000000000000CE8
+t1207532806
+s3304
+i"Window2Controller.h"
+i"Definitions.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.h
+c0000000047F97D0600000000000002B4
+t1207532806
+s692
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m
+c0000000047F97D060000000000000C94
+t1207532806
+s3220
+i"Window3Controller.h"
+i"Definitions.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.h
+c0000000047F97D060000000000000242
+t1207532806
+s578
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m
+c0000000047F97D060000000000000C39
+t1207532806
+s3129
+i"Window4Controller.h"
+i"Definitions.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c
+c000000004D4E692900000000000000BE
+t1296984361
+s190
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/AppController.o
+t1296984365
+s12836
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/FinishController.o
+t1296984365
+s3696
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp.LinkFileList
+c000000004D4E692900000000000004BB
+t1296984361
+s1211
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp_vers.o
+t1296984365
+s520
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/WarningController.o
+t1296984365
+s3180
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window1Controller.o
+t1296984365
+s3960
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window2Controller.o
+t1296984365
+s5988
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window3Controller.o
+t1296984365
+s6292
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window4Controller.o
+t1296984365
+s5836
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/main.o
+t1296984364
+s1832
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Script-2BF9C1B20CA68BDA00EC65DD.sh
+c000000004D4E6929000000000000001F
+t1296984361
+s31
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app
+t1296984365
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Info.plist
+t1296984361
+s887
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/MacOS/OMESetUp
+t1296984365
+s28820
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/PkgInfo
+t1296984361
+s8
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Behavior_Info1.txt
+t1296984361
+s126
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Behavior_Info2.txt
+t1296984361
+s129
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Finish.nib
+t1296984361
+s5359
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1296984361
+s760
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Localizable.strings
+t1296984361
+s550
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/MainMenu.nib
+t1296984361
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Warning.nib
+t1296984361
+s4820
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window1.nib
+t1296984362
+s8572
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window2.nib
+t1296984361
+s12567
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window3.nib
+t1296984362
+s9635
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window4.nib
+t1296984362
+s11149
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Finish.nib
+t1296984361
+s5353
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+t1296984361
+s784
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Localizable.strings
+t1296984361
+s522
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/MainMenu.nib
+t1296984361
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Warning.nib
+t1296984361
+s4787
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window1.nib
+t1296984362
+s8587
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window2.nib
+t1296984362
+s12354
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window3.nib
+t1296984362
+s9540
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window4.nib
+t1296984362
+s11164
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/configuratoricon.icns
+t1296984362
+s79089
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/setup-infoplist.sh
+t1296984362
+s457
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/configuratoricon.icns
+c0000000047F97D0600000000000134F1
+t1207532806
+s79089
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m
+c0000000047F97D060000000000000170
+t1207532806
+s368
+i<Cocoa/Cocoa.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/setup-infoplist.sh
+c0000000047F97D0600000000000001C9
+t1207532806
+s457
+
+N/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch.gch
+t1296984364
+s48798128
+
+NInfo.plist
+c0000000047F97D060000000000000380
+t1207532806
+s896
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677161#318677161#0(0"0(0#1#0"5642809484340515840#0"0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/AppController.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677164.762257
+e318677165.207065
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/AppController.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m318677164#318677165#0(0"0(0#0#68"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m4384762384#1426"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/AppController.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/AppController.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/FinishController.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677164.764627
+e318677165.005585
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/FinishController.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m318677164#318677165#0(0"0(0#0#71"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m4384743072#1432"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/FinishController.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/FinishController.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp_vers.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c normal i386 c com.apple.compilers.gcc.4_2
+s318677165.223319
+e318677165.274417
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp_vers.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@135"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c318677165#318677165#0(0"0(0#0#127"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c4384962464#1302"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/OMESetUp_vers.c -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp_vers.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/WarningController.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677164.763319
+e318677165.019494
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/WarningController.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m318677164#318677165#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m4384761184#1434"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/WarningController.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/WarningController.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window1Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677165.207298
+e318677165.361284
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window1Controller.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m318677165#318677165#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m4664339200#1434"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window1Controller.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window1Controller.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window2Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677164.998822
+e318677165.223089
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window2Controller.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m318677164#318677165#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m4309209200#1434"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window2Controller.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window2Controller.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window3Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677165.005798
+e318677165.263643
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window3Controller.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m318677165#318677165#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m4384757984#1434"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window3Controller.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window3Controller.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window4Controller.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677165.019714
+e318677165.254841
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window4Controller.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m318677165#318677165#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m4384758864#1434"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Window4Controller.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/Window4Controller.o0#
+
+CCompileC build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677164.760862
+e318677164.998432
+r1
+xCompileC
+xbuild/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m318677164#318677164#0(0"0(0#0#59"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m4384527072#1408"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/main.m -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/main.o0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318677161.591558
+e318677161.627179
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318677161#318677161#0(0"0(0#0#84"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/InfoPlist.strings4664377616#397"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s318677161.626368
+e318677161.668152
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings318677161#318677161#0(0"0(0#0#86"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Localizable.strings4382621792#398"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/Localizable.strings --outdir /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+s318677161.592189
+e318677161.624507
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+xJapanese.lproj/InfoPlist.strings
+oJapanese.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@37"Copy Japanese.lproj/InfoPlist.strings318677161#318677161#0(134"Japanese.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#85"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/InfoPlist.strings4664363728#398"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Japanese.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Localizable.strings Japanese.lproj/Localizable.strings
+s318677161.650243
+e318677161.700925
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Localizable.strings
+xJapanese.lproj/Localizable.strings
+lSLF07#2@39"Copy Japanese.lproj/Localizable.strings318677161#318677161#0(0"0(0#0#87"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Localizable.strings4384535776#400"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Japanese.lproj/Localizable.strings --outdir /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj0#
+
+CCpResource build/Release/OMESetUp.app/Contents/Resources/Behavior_Info1.txt Behavior_Info1.txt
+s318677161.624796
+e318677161.649965
+r1
+xCpResource
+xbuild/Release/OMESetUp.app/Contents/Resources/Behavior_Info1.txt
+xBehavior_Info1.txt
+lSLF07#2@23"Copy Behavior_Info1.txt318677161#318677161#0(0"0(0#0#71"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Behavior_Info1.txt32933049024053348#414"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Behavior_Info1.txt /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources0#
+
+CCpResource build/Release/OMESetUp.app/Contents/Resources/Behavior_Info2.txt Behavior_Info2.txt
+s318677161.625642
+e318677161.650127
+r1
+xCpResource
+xbuild/Release/OMESetUp.app/Contents/Resources/Behavior_Info2.txt
+xBehavior_Info2.txt
+lSLF07#2@23"Copy Behavior_Info2.txt318677161#318677161#0(0"0(0#0#71"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Behavior_Info2.txt4664564704#414"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Behavior_Info2.txt /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources0#
+
+CCpResource build/Release/OMESetUp.app/Contents/Resources/configuratoricon.icns configuratoricon.icns
+s318677162.187473
+e318677162.231920
+r1
+xCpResource
+xbuild/Release/OMESetUp.app/Contents/Resources/configuratoricon.icns
+xconfiguratoricon.icns
+lSLF07#2@26"Copy configuratoricon.icns318677162#318677162#0(0"0(0#0#74"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/configuratoricon.icns4664459024#417"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/configuratoricon.icns /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources0#
+
+CCpResource build/Release/OMESetUp.app/Contents/Resources/setup-infoplist.sh setup-infoplist.sh
+s318677162.189913
+e318677162.199246
+r1
+xCpResource
+xbuild/Release/OMESetUp.app/Contents/Resources/setup-infoplist.sh
+xsetup-infoplist.sh
+lSLF07#2@23"Copy setup-infoplist.sh318677162#318677162#0(0"0(0#0#71"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/setup-infoplist.sh4664437392#414"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/setup-infoplist.sh /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/MacOS/OMESetUp normal i386
+s318677165.361386
+e318677165.405612
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/MacOS/OMESetUp
+xnormal
+xi386
+lSLF07#2@108"Link /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/MacOS/OMESetUp318677165#318677165#0(0"0(0#0#0"4384894960#710"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -filelist /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OgreKit -framework OME -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/MacOS/OMESetUp0#
+
+CPhaseScriptExecution "Run Script" /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Script-2BF9C1B20CA68BDA00EC65DD.sh
+s318677161.495089
+e318677161.589944
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Script-2BF9C1B20CA68BDA00EC65DD.sh
+lSLF07#2@36"Run custom shell script 'Run Script'318677161#318677161#0(0"0(0#0#0"4382400768#17452"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER msyk    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build    setenv BUILD_ROOT /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build    setenv BUILD_STYLE Release    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release    setenv CACHE_ROOT /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025    setenv CCHROOT /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/CompositeSDKs    setenv CONFIGURATION Release    setenv CONFIGURATION_BUILD_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release    setenv CONFIGURATION_TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release    setenv CONTENTS_FOLDER_PATH OMESetUp.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH OMESetUp.app/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/OMESetUp.dst    setenv DWARF_DSYM_FILE_NAME OMESetUp.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH OMESetUp.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH OMESetUp.app/Contents/MacOS    setenv EXECUTABLE_NAME OMESetUp    setenv EXECUTABLE_PATH OMESetUp.app/Contents/MacOS/OMESetUp    setenv FILE_LIST /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH OMESetUp.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release\"  \"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp\""    setenv FRAMEWORK_SEARCH_PATHS_QUOTED_1 "\"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp\""    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME OMESetUp.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_ENABLE_OBJC_GC unsupported    setenv GCC_GENERATE_DEBUGGING_SYMBOLS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G3    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER OMESetUp_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_MISSING_NEWLINE YES    setenv GCC_WARN_CHECK_SWITCH_STATEMENTS YES    setenv GCC_WARN_INHIBIT_ALL_WARNINGS YES    setenv GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED YES    setenv GCC_WARN_MISSING_PARENTHESES YES    setenv GCC_WARN_SIGN_COMPARE YES    setenv GCC_WARN_TYPECHECK_CALLS_TO_PRINTF YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNKNOWN_PRAGMAS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_LABEL YES    setenv GCC_WARN_UNUSED_PARAMETER NO    setenv GCC_WARN_UNUSED_VALUE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH OMESetUp.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH OMESetUp.app/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/OMESetUp.dst/Users/msyk/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER msyk    setenv INSTALL_PATH /Users/msyk/Applications    setenv INSTALL_ROOT /tmp/OMESetUp.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH OMESetUp.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal/i386/OMESetUp.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH OMESetUp.app/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1066    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0606    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Objects-normal    setenv OBJROOT /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH OMESetUp.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/PkgInfo    setenv PKGINFO_PATH OMESetUp.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 7K571    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH OMESetUp.app/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH OMESetUp.app/Contents/PrivateHeaders    setenv PRODUCT_NAME OMESetUp    setenv PRODUCT_SETTINGS_PATH /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT OMESetUp    setenv PROJECT_DERIVED_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/DerivedSources    setenv PROJECT_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv PROJECT_FILE_PATH /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/OMESetUp.xcodeproj    setenv PROJECT_NAME OMESetUp    setenv PROJECT_TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build    setenv PUBLIC_HEADERS_FOLDER_PATH OMESetUp.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH OMESetUp.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH OMESetUp.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH OMESetUp.app/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv SRCROOT /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/SymbolRepositories    setenv SYMROOT /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME OMESetUp    setenv TARGET_BUILD_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release    setenv TARGET_NAME OMESetUp    setenv TARGET_TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build    setenv TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build    setenv TEMP_FILES_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build    setenv TEMP_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build    setenv TEMP_ROOT /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build    setenv UID 1025    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH OMESetUp.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER msyk    setenv USER_APPS_DIR /Users/msyk/Applications    setenv USER_LIBRARY_DIR /Users/msyk/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONING_SYSTEM apple-generic    setenv VERSIONPLIST_PATH OMESetUp.app/Contents/version.plist    setenv VERSION_INFO_BUILDER msyk    setenv VERSION_INFO_FILE OMESetUp_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:OMESetUp  PROJECT:OMESetUp-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME OMESetUp.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/Script-2BF9C1B20CA68BDA00EC65DD.sh0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Info.plist Info.plist
+s318677161.490073
+e318677161.494851
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist318677161#318677161#0(0"0(0#0#63"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Info.plist31525394967363688#350"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    builtin-infoPlistUtility Info.plist -genpkginfo /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch.gch OMESetUp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677162.335337
+e318677164.760545
+r1
+xProcessPCH
+x/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch.gch
+xOMESetUp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile OMESetUp_Prefix.pch318677162#318677164#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/OMESetUp_Prefix.pch4309217040#1299"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wmissing-braces -Wparentheses -Wswitch -Wunused-function -Wunused-label -Wunused-variable -Wunused-value -Wuninitialized -Wunknown-pragmas -w -Wsign-compare -Wnewline-eof -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/OMESetUp.hmap -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release -F/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/OMESetUp.build/Release/OMESetUp.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/OMESetUp_Prefix.pch -o /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/OMESetUp_Prefix-alvvyzdxpomyzlhgoajyyezxejpw/OMESetUp_Prefix.pch.gch0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Finish.nib
+s318677161.792705
+e318677161.967069
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Finish.nib
+lSLF07#2@33"StripNIB English.lproj/Finish.nib318677161#318677161#0(0"0(0#0#77"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Finish.nib4382481648#336"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Finish.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Finish.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/MainMenu.nib
+s318677161.590242
+e318677161.792382
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib318677161#318677161#0(0"0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/MainMenu.nib4664405664#340"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Warning.nib
+s318677161.668335
+e318677161.820279
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Warning.nib
+lSLF07#2@34"StripNIB English.lproj/Warning.nib318677161#318677161#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Warning.nib4382371904#338"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Warning.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Warning.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window1.nib
+s318677162.128179
+e318677162.309213
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window1.nib
+lSLF07#2@34"StripNIB English.lproj/Window1.nib318677162#318677162#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window1.nib4384758640#338"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window1.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window1.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window2.nib
+s318677161.820490
+e318677161.980830
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window2.nib
+lSLF07#2@34"StripNIB English.lproj/Window2.nib318677161#318677161#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window2.nib4309210224#338"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window2.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window2.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window3.nib
+s318677161.947371
+e318677162.128008
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window3.nib
+lSLF07#2@34"StripNIB English.lproj/Window3.nib318677161#318677162#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window3.nib4309211744#338"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window3.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window3.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window4.nib
+s318677161.981005
+e318677162.187266
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window4.nib
+lSLF07#2@34"StripNIB English.lproj/Window4.nib318677161#318677162#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window4.nib4664143408#338"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/English.lproj/Window4.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/English.lproj/Window4.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Finish.nib
+s318677161.793471
+e318677161.947217
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Finish.nib
+lSLF07#2@34"StripNIB Japanese.lproj/Finish.nib318677161#318677161#0(0"0(0#0#78"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Finish.nib4382210128#338"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Finish.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Finish.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/MainMenu.nib
+s318677161.590963
+e318677161.792549
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/MainMenu.nib
+lSLF07#2@36"StripNIB Japanese.lproj/MainMenu.nib318677161#318677161#0(0"0(0#0#80"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/MainMenu.nib4664365040#342"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/MainMenu.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/MainMenu.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Warning.nib
+s318677161.701103
+e318677161.854105
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Warning.nib
+lSLF07#2@35"StripNIB Japanese.lproj/Warning.nib318677161#318677161#0(0"0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Warning.nib4664446768#340"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Warning.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Warning.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window1.nib
+s318677162.184498
+e318677162.335153
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window1.nib
+lSLF07#2@35"StripNIB Japanese.lproj/Window1.nib318677162#318677162#0(0"0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window1.nib4309212784#340"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window1.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window1.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window2.nib
+s318677161.854275
+e318677162.038347
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window2.nib
+lSLF07#2@35"StripNIB Japanese.lproj/Window2.nib318677161#318677162#0(0"0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window2.nib4382040768#340"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window2.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window2.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window3.nib
+s318677161.967224
+e318677162.184320
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window3.nib
+lSLF07#2@35"StripNIB Japanese.lproj/Window3.nib318677161#318677162#0(0"0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window3.nib4309212976#340"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window3.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window3.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window4.nib
+s318677162.038527
+e318677162.254138
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window4.nib
+lSLF07#2@35"StripNIB Japanese.lproj/Window4.nib318677162#318677162#0(0"0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window4.nib4664377312#340"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app/Contents/Resources/Japanese.lproj/Window4.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/Japanese.lproj/Window4.nib0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app
+s318677165.405790
+e318677165.408661
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app
+lSLF07#2@85"Touch /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app318677165#318677165#0(0"0(0#0#0"4664728752#162"    cd /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/Cocoa/OMESetUp/build/Release/OMESetUp.app0#
+

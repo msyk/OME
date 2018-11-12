@@ -1,0 +1,253 @@
+TInBoxNotify
+v7
+r0
+t318677134.860097
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Info.plist Info.plist
+cCpResource "build/Release/InBoxNotify.bundle/Contents/Resources/Growl Registration Ticket.growlRegDict" "Growl Registration Ticket.growlRegDict"
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch.gch InBoxNotify_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/AppDelegate.o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify normal i386
+cGenerateDSYMFile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle.dSYM /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify
+cTouch /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/Growl.framework/Headers/Growl.h
+c000000004858D2110000000000000082
+t1213780497
+s130
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OME.framework/Headers/OME.h
+c000000004BDA67DF0000000000000305
+t1272604639
+s773
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Library/Frameworks/Growl.framework/Growl
+c000000004858D21100000000000220D4
+t1213780497
+s139476
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/../../OME_Framework/build/Debug/OME.framework/OME
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.h
+c0000000048FAE87000000000000002F0
+t1224403056
+s752
+i<Cocoa/Cocoa.h>
+i<OME/OME.h>
+i<Growl/Growl.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m
+c000000004AD45DFC0000000000001508
+t1255431676
+s5384
+i"AppDelegate.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/InfoPlist.strings
+c0000000048F86BC8000000000000005C
+t1224240072
+s92
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/MainMenu.xib
+c0000000048F87155000000000001FBBE
+t1224241493
+s129982
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/Growl Registration Ticket.growlRegDict
+c0000000048F89E0E000000000000034D
+t1224252942
+s845
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/InBoxNotify_Prefix.pch
+c0000000048F86BC80000000000000099
+t1224240072
+s153
+i<Cocoa/Cocoa.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/AppDelegate.o
+t1296984334
+s30804
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/InBoxNotify.LinkFileList
+c000000004D4E690B0000000000000119
+t1296984331
+s281
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/main.o
+t1296984334
+s4884
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle
+t1296984334
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle.dSYM
+t1296984334
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Info.plist
+t1296984331
+s857
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify
+t1296984334
+s19276
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/PkgInfo
+t1296984331
+s8
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+t1296984331
+s92
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj/MainMenu.nib
+t1296984331
+s27777
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/Growl Registration Ticket.growlRegDict
+t1296984331
+s845
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m
+c0000000048F86BC80000000000000102
+t1224240072
+s258
+i<Cocoa/Cocoa.h>
+
+N/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch.gch
+t1296984334
+s55543600
+
+NInfo.plist
+c0000000048FB103D0000000000000394
+t1224413245
+s916
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677131#318677131#0(0"0(0#1#0"5063528261440001024#0"0#
+
+CCompileC build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/AppDelegate.o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677134.364810
+e318677134.781934
+r1
+xCompileC
+xbuild/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/AppDelegate.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined
+o/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined
+lSLF07#2@81"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m318677134#318677134#0(358"/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h:242: warning: inline function 'Ogre_UTF16strlen' declared but never defined2(22@61"Inline function 'Ogre_UTF16strlen' declared but never defined318677134#0#179#0(6@102"/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h229225618#242#0#242#0#0"0(22@61"Inline function 'Ogre_UTF16strlen' declared but never defined318677134#179#179#0(6@102"/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OGRegularExpressionMatch.h229225618#242#0#242#0#0"0(0#0#73"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m4661877744#1804"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/AppDelegate.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677134.363426
+e318677134.544225
+r1
+xCompileC
+xbuild/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m318677134#318677134#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m4661876784#1790"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/DerivedSources -include /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch -c /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/MainMenu.xib
+s318677131.618841
+e318677131.811057
+r1
+xCompileXIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib318677131#318677131#0(0"0(0#0#86"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/MainMenu.xib4661682992#436"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj/MainMenu.nib /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318677131.618313
+e318677131.661058
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318677131#318677131#0(0"0(0#0#91"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/English.lproj/InfoPlist.strings4661929344#417"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources/English.lproj0#
+
+CCpResource "build/Release/InBoxNotify.bundle/Contents/Resources/Growl Registration Ticket.growlRegDict" "Growl Registration Ticket.growlRegDict"
+s318677131.617618
+e318677131.647105
+r1
+xCpResource
+xbuild/Release/InBoxNotify.bundle/Contents/Resources/Growl Registration Ticket.growlRegDict
+xGrowl Registration Ticket.growlRegDict
+lSLF07#2@43"Copy Growl Registration Ticket.growlRegDict318677131#318677131#0(0"0(0#0#98"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/Growl Registration Ticket.growlRegDict4661517968#463"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/Growl Registration Ticket.growlRegDict" /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Resources0#
+
+CGenerateDSYMFile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle.dSYM /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify
+s318677134.828105
+e318677134.857669
+r1
+xGenerateDSYMFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle.dSYM
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify
+lSLF07#2@114"GenerateDSYMFile build/Release/InBoxNotify.bundle.dSYM build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify318677134#318677134#0(0"0(0#0#119"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify4661933168#320"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    /Developer/usr/bin/dsymutil /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify -o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle.dSYM0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify normal i386
+s318677134.782227
+e318677134.827956
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify
+xnormal
+xi386
+lSLF07#2@124"Link /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify318677134#318677134#0(0"0(0#0#0"32651569752113220#706"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release -F/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/Objects-normal/i386/InBoxNotify.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework OME -framework Growl -o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/MacOS/InBoxNotify0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Info.plist Info.plist
+s318677131.611226
+e318677131.617422
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist318677131#318677131#0(0"0(0#0#70"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/Info.plist31244010180771940#383"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    builtin-infoPlistUtility Info.plist -genpkginfo /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle/Contents/Info.plist0#
+
+CProcessPCH /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch.gch InBoxNotify_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677131.811248
+e318677134.363099
+r1
+xProcessPCH
+x/var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch.gch
+xInBoxNotify_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile InBoxNotify_Prefix.pch318677131#318677134#0(0"0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/InBoxNotify_Prefix.pch4392096576#1671"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-generated-files.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-own-target-headers.hmap -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-all-target-headers.hmap -iquote /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/InBoxNotify-project-headers.hmap -F/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/InBoxNotify.build/Release/InBoxNotify.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/InBoxNotify_Prefix.pch -o /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders/InBoxNotify_Prefix-fbgfkqjwjdijhmbtqcioqdvrnvjo/InBoxNotify_Prefix.pch.gch0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle
+s318677134.857792
+e318677134.860017
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle
+lSLF07#2@98"Touch /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle318677134#318677134#0(0"0(0#0#0"4661925376#182"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/utilities/InBoxNotify/build/Release/InBoxNotify.bundle0#
+

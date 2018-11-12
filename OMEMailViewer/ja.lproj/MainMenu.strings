@@ -1,0 +1,246 @@
+
+/* Class = "NSMenuItem"; title = "すべて手前に"; ObjectID = "5"; */
+"5.title" = "すべて手前に";
+
+/* Class = "NSMenuItem"; title = "ウィンドウ"; ObjectID = "19"; */
+"19.title" = "ウィンドウ";
+
+/* Class = "NSMenuItem"; title = "Dockにしまう"; ObjectID = "23"; */
+"23.title" = "Dockにしまう";
+
+/* Class = "NSMenu"; title = "ウィンドウ"; ObjectID = "24"; */
+"24.title" = "ウィンドウ";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "NewApplication"; ObjectID = "56"; */
+"56.title" = "NewApplication";
+
+/* Class = "NSMenu"; title = "NewApplication"; ObjectID = "57"; */
+"57.title" = "NewApplication";
+
+/* Class = "NSMenuItem"; title = "“OMEメール参照”について"; ObjectID = "58"; */
+"58.title" = "“OMEメール参照”について";
+
+/* Class = "NSMenuItem"; title = "開く…"; ObjectID = "72"; */
+"72.title" = "開く…";
+
+/* Class = "NSMenuItem"; title = "閉じる"; ObjectID = "73"; */
+"73.title" = "閉じる";
+
+/* Class = "NSMenuItem"; title = "保存"; ObjectID = "75"; */
+"75.title" = "保存";
+
+/* Class = "NSMenuItem"; title = "ページ設定"; ObjectID = "77"; */
+"77.title" = "ページ設定";
+
+/* Class = "NSMenuItem"; title = "印刷…"; ObjectID = "78"; */
+"78.title" = "印刷…";
+
+/* Class = "NSMenuItem"; title = "名前をつけて保存"; ObjectID = "80"; */
+"80.title" = "名前をつけて保存";
+
+/* Class = "NSMenu"; title = "ファイル"; ObjectID = "81"; */
+"81.title" = "ファイル";
+
+/* Class = "NSMenuItem"; title = "新規"; ObjectID = "82"; */
+"82.title" = "新規";
+
+/* Class = "NSMenuItem"; title = "ファイル"; ObjectID = "83"; */
+"83.title" = "ファイル";
+
+/* Class = "NSMenuItem"; title = "ヘルプ"; ObjectID = "103"; */
+"103.title" = "ヘルプ";
+
+/* Class = "NSMenu"; title = "ヘルプ"; ObjectID = "106"; */
+"106.title" = "ヘルプ";
+
+/* Class = "NSMenuItem"; title = "OMEメール参照ヘルプ"; ObjectID = "111"; */
+"111.title" = "OMEメール参照ヘルプ";
+
+/* Class = "NSMenuItem"; title = "元に戻す"; ObjectID = "112"; */
+"112.title" = "元に戻す";
+
+/* Class = "NSMenuItem"; title = "最近開いた書類"; ObjectID = "124"; */
+"124.title" = "最近開いた書類";
+
+/* Class = "NSMenu"; title = "最近開いた書類"; ObjectID = "125"; */
+"125.title" = "最近開いた書類";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "126"; */
+"126.title" = "Clear Menu";
+
+/* Class = "NSMenuItem"; title = "環境設定…"; ObjectID = "129"; */
+"129.title" = "環境設定…";
+
+/* Class = "NSMenu"; title = "サービス"; ObjectID = "130"; */
+"130.title" = "サービス";
+
+/* Class = "NSMenuItem"; title = "サービス"; ObjectID = "131"; */
+"131.title" = "サービス";
+
+/* Class = "NSMenuItem"; title = "OMEメール参照を隠す"; ObjectID = "134"; */
+"134.title" = "OMEメール参照を隠す";
+
+/* Class = "NSMenuItem"; title = "OMEメール参照を終了"; ObjectID = "136"; */
+"136.title" = "OMEメール参照を終了";
+
+/* Class = "NSMenuItem"; title = "他を隠す"; ObjectID = "145"; */
+"145.title" = "他を隠す";
+
+/* Class = "NSMenuItem"; title = "すべて表示"; ObjectID = "150"; */
+"150.title" = "すべて表示";
+
+/* Class = "NSMenuItem"; title = "Find…"; ObjectID = "154"; */
+"154.title" = "Find…";
+
+/* Class = "NSMenuItem"; title = "Jump to Selection"; ObjectID = "155"; */
+"155.title" = "Jump to Selection";
+
+/* Class = "NSMenuItem"; title = "コピー"; ObjectID = "157"; */
+"157.title" = "コピー";
+
+/* Class = "NSMenuItem"; title = "取り消し"; ObjectID = "158"; */
+"158.title" = "取り消し";
+
+/* Class = "NSMenu"; title = "Find"; ObjectID = "159"; */
+"159.title" = "Find";
+
+/* Class = "NSMenuItem"; title = "カット"; ObjectID = "160"; */
+"160.title" = "カット";
+
+/* Class = "NSMenuItem"; title = "Use Selection for Find"; ObjectID = "161"; */
+"161.title" = "Use Selection for Find";
+
+/* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "162"; */
+"162.title" = "Find Previous";
+
+/* Class = "NSMenuItem"; title = "編集"; ObjectID = "163"; */
+"163.title" = "編集";
+
+/* Class = "NSMenuItem"; title = "削除"; ObjectID = "164"; */
+"164.title" = "削除";
+
+/* Class = "NSMenuItem"; title = "Find Next"; ObjectID = "167"; */
+"167.title" = "Find Next";
+
+/* Class = "NSMenuItem"; title = "Find"; ObjectID = "168"; */
+"168.title" = "Find";
+
+/* Class = "NSMenu"; title = "編集"; ObjectID = "169"; */
+"169.title" = "編集";
+
+/* Class = "NSMenuItem"; title = "ペースト"; ObjectID = "171"; */
+"171.title" = "ペースト";
+
+/* Class = "NSMenuItem"; title = "すべて選択"; ObjectID = "172"; */
+"172.title" = "すべて選択";
+
+/* Class = "NSMenuItem"; title = "やり直し"; ObjectID = "173"; */
+"173.title" = "やり直し";
+
+/* Class = "NSMenuItem"; title = "Spelling"; ObjectID = "184"; */
+"184.title" = "Spelling";
+
+/* Class = "NSMenu"; title = "Spelling"; ObjectID = "185"; */
+"185.title" = "Spelling";
+
+/* Class = "NSMenuItem"; title = "Spelling…"; ObjectID = "187"; */
+"187.title" = "Spelling…";
+
+/* Class = "NSMenuItem"; title = "Check Spelling"; ObjectID = "189"; */
+"189.title" = "Check Spelling";
+
+/* Class = "NSMenuItem"; title = "Check Spelling as You Type"; ObjectID = "191"; */
+"191.title" = "Check Spelling as You Type";
+
+/* Class = "NSMenuItem"; title = "ズーム"; ObjectID = "203"; */
+"203.title" = "ズーム";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "227"; */
+"227.title" = "Use None";
+
+/* Class = "NSMenuItem"; title = "Raise"; ObjectID = "228"; */
+"228.title" = "Raise";
+
+/* Class = "NSMenu"; title = "Font"; ObjectID = "229"; */
+"229.title" = "Font";
+
+/* Class = "NSMenuItem"; title = "Bold"; ObjectID = "230"; */
+"230.title" = "Bold";
+
+/* Class = "NSMenuItem"; title = "Superscript"; ObjectID = "231"; */
+"231.title" = "Superscript";
+
+/* Class = "NSMenuItem"; title = "Tighten"; ObjectID = "232"; */
+"232.title" = "Tighten";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "233"; */
+"233.title" = "Bigger";
+
+/* Class = "NSMenuItem"; title = "Kern"; ObjectID = "234"; */
+"234.title" = "Kern";
+
+/* Class = "NSMenu"; title = "Baseline"; ObjectID = "235"; */
+"235.title" = "Baseline";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "236"; */
+"236.title" = "Smaller";
+
+/* Class = "NSMenu"; title = "Ligature"; ObjectID = "237"; */
+"237.title" = "Ligature";
+
+/* Class = "NSMenuItem"; title = "Show Colors"; ObjectID = "238"; */
+"238.title" = "Show Colors";
+
+/* Class = "NSMenuItem"; title = "Paste Style"; ObjectID = "239"; */
+"239.title" = "Paste Style";
+
+/* Class = "NSMenuItem"; title = "Baseline"; ObjectID = "240"; */
+"240.title" = "Baseline";
+
+/* Class = "NSMenuItem"; title = "Lower"; ObjectID = "241"; */
+"241.title" = "Lower";
+
+/* Class = "NSMenuItem"; title = "Italic"; ObjectID = "242"; */
+"242.title" = "Italic";
+
+/* Class = "NSMenuItem"; title = "Subscript"; ObjectID = "244"; */
+"244.title" = "Subscript";
+
+/* Class = "NSMenuItem"; title = "Loosen"; ObjectID = "245"; */
+"245.title" = "Loosen";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "246"; */
+"246.title" = "Use Default";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "247"; */
+"247.title" = "Show Fonts";
+
+/* Class = "NSMenu"; title = "Kern"; ObjectID = "248"; */
+"248.title" = "Kern";
+
+/* Class = "NSMenuItem"; title = "Use None"; ObjectID = "249"; */
+"249.title" = "Use None";
+
+/* Class = "NSMenuItem"; title = "Use All"; ObjectID = "250"; */
+"250.title" = "Use All";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "251"; */
+"251.title" = "Use Default";
+
+/* Class = "NSMenuItem"; title = "Ligature"; ObjectID = "252"; */
+"252.title" = "Ligature";
+
+/* Class = "NSMenuItem"; title = "Use Default"; ObjectID = "254"; */
+"254.title" = "Use Default";
+
+/* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "256"; */
+"256.title" = "Copy Style";
+
+/* Class = "NSMenuItem"; title = "Underline"; ObjectID = "257"; */
+"257.title" = "Underline";
+
+/* Class = "NSMenuItem"; title = "Font"; ObjectID = "259"; */
+"259.title" = "Font";

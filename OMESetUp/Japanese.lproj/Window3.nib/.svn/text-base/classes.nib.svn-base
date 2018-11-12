@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {showWindow2 = id; showWindow4 = id; }; 
+            CLASS = Window3Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {isSaveOnServer = NSButton; sign = NSTextView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp
+END
+version.plist
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/version.plist
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/main.m
+END
+AppController.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/AppController.m
+END
+FinishController.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/FinishController.m
+END
+Window1Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window1Controller.h
+END
+Window2Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window2Controller.h
+END
+Window3Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window3Controller.h
+END
+Window4Controller.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window4Controller.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Info.plist
+END
+Window1Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window1Controller.m
+END
+OMESetUp_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/OMESetUp_Prefix.pch
+END
+Window2Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window2Controller.m
+END
+Window3Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window3Controller.m
+END
+Window4Controller.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Window4Controller.m
+END
+WarningController.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/WarningController.h
+END
+Definitions.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Definitions.h
+END
+WarningController.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/WarningController.m
+END
+configuratoricon.icns
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/configuratoricon.icns
+END
+Behavior_Info1.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Behavior_Info1.txt
+END
+FinishController.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/FinishController.h
+END
+Behavior_Info2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Behavior_Info2.txt
+END
+AppController.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/AppController.h
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/ReadMe.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/Makefile
+END
+setup-infoplist.sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/ome/!svn/ver/1/Cocoa/OMESetUp/setup-infoplist.sh
+END

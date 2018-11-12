@@ -1,0 +1,81 @@
+<HTML>
+<html lang="en">
+<HEAD>
+<TITLE> OME_BroweserXCoS Help </TITLE>
+<!-- META NAME="AppleFont" CONTENT="Osaka" -->
+</HEAD>
+<BODY>
+<!-- FONT FACE="Osaka" -->
+<H1> OME_BroweserXCoS (v. 2.3) Help </H1>
+<H2> 1 Menus </H2>
+<H3> 1.1 File </H3>
+<LI> <B> Page Setup... </B>
+<LI> <B> Print... </B>
+<LI> <B> Print Selection... </B> --- Print selected part of mail contents.
+<H3> 1.2 Mail </H3>
+<LI> <B> Read Next Mail </B> --- Show the contents of the next mail in the list.
+<LI> <B> Download </B> --- Download new mails from the mail server by OME_DownloadMails.  The title of the list window is "Downloading..." while downloading and processing mails.  List is updated after download.
+<LI> <B> Reply </B> --- Launch OME_MailWriter to reply current mail.
+<LI> <B> New </B> --- Launch OME_MailWriter to write a new mail.
+<LI> <B> Open by Mail_Reader </B> --- Open the mail by the application aliased as Mail_Reader in OME_Preferences folder.
+<LI> <B> Open by Web Browser </B> --- Open the HTML mail by its default application (usually web browser).
+<LI> <B> Show in Finder </B> --- Reveal the mail by Finder.
+<LI> <B> Make Read </B> --- Make all the selected mails read.
+<LI> <B> Show Related Mails </B> --- Show the mails in the reply chain of the current mail.
+<LI> <B> All Unread Mails </B> --- Show all the unread mails.
+<LI> <B> Delete... </B> --- Delete the current mail.  
+<H3> 1.3 Move </H3>
+This menu lists the folders registered by user.  Current mail moves to the folder selected.
+<LI> <B> Add Folder &amp; Move... </B> --- Choose folder by save dialog, add it to the menu, and move selected mails into the choosed folder.
+<LI> <B> Add Current Folder </B> --- Add the current folder (listing mails at the moment) to the Move menu.
+<LI> <B> Remove Destinate... </B> --- Remove a folder from the menu. Select removing folder from the dialog.
+<LI> <B> Launch OME_Move </B> --- Launch OME_Move, which move mails by predefined rules.  This menu works only when OME_Move is just in /Applications/OME_Applications.
+<H3> 1.4 Other </H3>
+<LI> <B> Refresh List </B> --- Update the list of mails.
+<LI> <B> Browse InBox </B> --- Lists mails in InBox.
+<LI> <B> Sort Folder by </B> --- Choose sort order of folders from "Name" or "Modified date".
+<LI> <B> Address Book </B> --- Launch Address Book.
+<LI> <B> Search </B> --- Launch OME_search.
+<H2> 2 Preferences </H2>
+Selecting Preferences... of OME_BrowserXCoS menu shows preference dialog.  Setting is saved in the file "jp.mac-ome.browserxcos.plist" of the folder "Preference" in "Library" in the users home folder.
+<H3> 2.1 Dowload </H3>
+<LI> <B> Download Mails at Startup </B> --- Launch OME_DownloadMails to download mails at OME_BrowserXCoS's launch.
+<LI> <B> Download Mails every ... minutes </B> --- launch OME_DownloadMails repeatedly at prescribed time interval to download mails.
+<H3> 2.2 Key Binds </H3>
+While Contents window is front most, key binds allocated here is used.  Key combinations can be binded to the functions "Next Page", "Previous Page", "Next Line", "Previous Line", "Next Mail", "Previous Mail".  Initial binds are SPACE, b, n, p, Option+n, Option+p.  Standard key binding of Cocoa applications, Downarrow -- "Next Line", Control+Downarrow -- "Next Page", Command+Downarrow -- "End of Document", can also be used.
+<LI> <B> Add... </B> --- Add a key binding.  Command key can not be combined.
+<LI> <B> Remove Selection </B> --- Remove the selected key binding.
+<LI> <B> Remove All </B> --- Remove all the key bindings.  Cocoa standard key bindings are not removed.
+<H3> Font </H3>
+Assign font of mail contents window for each language.  Clicking a row of language opens the font panel to choose font of that language.  Close the font panel after selecting font.<P>
+Language and file character code is decided by "charset" of "Content-Type" header.  Association between character codes and charsets is prescribed in "FileEncodeList.txt" in OME_BrowserXCoS.  You can find "FileEncodeList.txt" by Control-clicking OME_BrowserXCoS and choose "Show Package Contents" from pop-up menu, then follow folder path of Contents>Resources.  The format of "FileEncodeList.txt" is as follows:.  Each word is seaprated by a tab character
+<BLOCKQUOTE>
+default	"Character code that is used without information like Content-Type header"
+multipart	"Character code for mails with attached files"
+send "Character code for out-going mails"
+encode "Charactercode for the following charsets in Content-Type header"	"charset"	"charset" ...
+</BLOCKQUOTE>
+<H2> 3 Moving in Folder Window </H2>
+Double-click to move down, command+click the selected folder to move up.  Or, scroll bar below can be used.
+<H2> 4 Mail List </H2>
+Clicking each title ("State", "From", "Date", "Subject") of the mail list sorts the mail by it.  Clicking the title of current sort order reverses the order.<P>
+States implies U: unread, A: attached, R: replied, H: HTML mail, S: Outbound mail. Outbound mails displays To field in From column.
+<H2> 5 Download and contact </H2>
+OME_BrowserXCoS is distributed with OME. OME is available at: 
+<BLOCKQUOTE>
+http://mac-ome.jp/
+</BLOCKQUOTE>
+However, the newest version is released at
+<BLOCKQUOTE>
+http://www.vector.co.jp/authors/VA019709/OME_BrowserXCoS.html
+</BLOCKQUOTE>
+at first.
+<P>
+Please mail to
+<BLOCKQUOTE>
+takahasi@lisboa.ics.nara-wu.ac.jp
+</BLOCKQUOTE>
+for your impression or bug reports of OME_BrowserXCoS.
+</FONT>
+</BODY>
+</HTML>

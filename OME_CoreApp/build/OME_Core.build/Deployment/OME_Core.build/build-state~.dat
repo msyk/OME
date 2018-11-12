@@ -1,0 +1,443 @@
+TOME_Core
+v7
+r0
+t294296730.561842
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Info.plist Info-OME_Core_____________.plist
+cPhaseScriptExecution "Run Script" /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Script-2BD139710B475C40004D87C4.sh
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/German.lproj/InfoPlist.strings German.lproj/InfoPlist.strings
+cCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-hasred.icns icon-hasred.icns
+cCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-replied.icns icon-replied.icns
+cCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-unread.icns icon-unread.icns
+cCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-ome.icns icon-ome.icns
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/main.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/main.nib
+cCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/AliasList.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/Utils.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core normal i386
+cCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/AliasList.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/Utils.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core normal ppc
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/MacOS/OME_Core normal "i386 ppc"
+cTouch /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BB3282C00000000000000EE
+t1270032428
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B448EEF00000000000005FF
+t1262784239
+s1535
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004A7680C1000000000000A5F0
+t1249280193
+s42480
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004A11F09A0000000000021710
+t1242689690
+s136976
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c
+c000000004A4B7AB50000000000001C66
+t1246460597
+s7270
+i"main.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/InfoPlist.strings
+c000000004BDA651200000000000002B4
+t1272603922
+s692
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/main.nib
+c000000004B13D40400000000000000CC
+t1259590660
+s204
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/German.lproj/InfoPlist.strings
+c000000004BDA651200000000000002B4
+t1272603922
+s692
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/InfoPlist.strings
+c000000004BDA65120000000000000438
+t1272603922
+s1080
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/main.nib
+c000000004B13D40400000000000000CC
+t1259590660
+s204
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c
+c0000000047F97D080000000000001F8F
+t1207532808
+s8079
+i"main.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app
+t1272603930
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Info.plist
+t1272603922
+s4874
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/MacOS/OME_Core
+t1272603930
+s55480
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/PkgInfo
+t1272603922
+s8
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1272603922
+s692
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj/main.nib
+t1272603924
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/German.lproj/InfoPlist.strings
+t1272603922
+s692
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+t1272603922
+s1080
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj/main.nib
+t1272603924
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/icon-hasred.icns
+t1272603922
+s66245
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/icon-ome.icns
+t1272603922
+s37932
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/icon-replied.icns
+t1272603922
+s68240
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/icon-unread.icns
+t1272603922
+s70249
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/AliasList.o
+t1272603927
+s10940
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core
+t1272603928
+s24928
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core.LinkFileList
+c000000004BDA6512000000000000017A
+t1272603922
+s378
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/Utils.o
+t1272603928
+s21212
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/main.o
+t1272603927
+s27196
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/AliasList.o
+t1272603930
+s11308
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core
+t1272603930
+s22712
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core.LinkFileList
+c000000004BDA65120000000000000177
+t1272603922
+s375
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/Utils.o
+t1272603930
+s21408
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/main.o
+t1272603929
+s28136
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Script-2BD139710B475C40004D87C4.sh
+c000000004BDA6512000000000000000B
+t1272603922
+s11
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-hasred.icns
+c0000000047F97D0800000000000102C5
+t1207532808
+s66245
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-ome.icns
+c0000000047F97D08000000000000942C
+t1207532808
+s37932
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-replied.icns
+c0000000047F97D080000000000010A90
+t1207532808
+s68240
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-unread.icns
+c0000000047F97D080000000000011269
+t1207532808
+s70249
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c
+c0000000047F97D08000000000000413B
+t1207532808
+s16699
+i"main.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.h
+c0000000047F97D0800000000000006A9
+t1207532808
+s1705
+i<Carbon/Carbon.h>
+
+NInfo-OME_Core_____________.plist
+c0000000047F97D08000000000000133F
+t1207532808
+s4927
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294296722#294296722#0(0"0(0#1#0"4657240#0"0#
+
+CCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/AliasList.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c normal i386 c com.apple.compilers.gcc.4_2
+s294296724.405551
+e294296727.374230
+r1
+xCompileC
+xbuild/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/AliasList.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c294296724#294296727#0(0"0(0#0#61"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c2447773728#1045"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/AliasList.o0#
+
+CCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/Utils.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c normal i386 c com.apple.compilers.gcc.4_2
+s294296727.375114
+e294296728.795340
+r1
+xCompileC
+xbuild/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/Utils.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c294296727#294296728#0(0"0(0#0#57"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c2447773728#1037"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/Utils.o0#
+
+CCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c normal i386 c com.apple.compilers.gcc.4_2
+s294296724.403489
+e294296727.561743
+r1
+xCompileC
+xbuild/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c294296724#294296727#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c2447773728#1035"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/AliasList.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c normal ppc c com.apple.compilers.gcc.4_2
+s294296728.944514
+e294296730.128771
+r1
+xCompileC
+xbuild/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/AliasList.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c294296728#294296730#0(0"0(0#0#61"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c2447773728#1052"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/AliasList.c -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/AliasList.o0#
+
+CCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/Utils.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c normal ppc c com.apple.compilers.gcc.4_2
+s294296729.402428
+e294296730.445985
+r1
+xCompileC
+xbuild/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/Utils.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c294296729#294296730#0(0"0(0#0#57"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c2447773728#1044"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Utils.c -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/Utils.o0#
+
+CCompileC build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c normal ppc c com.apple.compilers.gcc.4_2
+s294296727.561957
+e294296729.402102
+r1
+xCompileC
+xbuild/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/main.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c294296727#294296729#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c2447773728#1042"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/main.c -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s294296722.639107
+e294296722.720061
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings294296722#294296722#0(0"0(0#0#81"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/InfoPlist.strings2447773728#394"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/German.lproj/InfoPlist.strings German.lproj/InfoPlist.strings
+s294296722.720289
+e294296722.790399
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/German.lproj/InfoPlist.strings
+xGerman.lproj/InfoPlist.strings
+oGerman.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@35"Copy German.lproj/InfoPlist.strings294296722#294296722#0(132"German.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#80"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/German.lproj/InfoPlist.strings2447773728#391"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 German.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/German.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+s294296722.663769
+e294296722.759280
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+xJapanese.lproj/InfoPlist.strings
+lSLF07#2@37"Copy Japanese.lproj/InfoPlist.strings294296722#294296722#0(0"0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/InfoPlist.strings2447773728#396"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 Japanese.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj0#
+
+CCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-hasred.icns icon-hasred.icns
+s294296722.759457
+e294296722.879769
+r1
+xCpResource
+xbuild/Deployment/OME_Core.app/Contents/Resources/icon-hasred.icns
+xicon-hasred.icns
+lSLF07#2@21"Copy icon-hasred.icns294296722#294296722#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-hasred.icns2447773728#392"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-hasred.icns /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources0#
+
+CCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-ome.icns icon-ome.icns
+s294296722.780036
+e294296722.891466
+r1
+xCpResource
+xbuild/Deployment/OME_Core.app/Contents/Resources/icon-ome.icns
+xicon-ome.icns
+lSLF07#2@18"Copy icon-ome.icns294296722#294296722#0(0"0(0#0#63"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-ome.icns2447773728#389"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-ome.icns /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources0#
+
+CCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-replied.icns icon-replied.icns
+s294296722.761943
+e294296722.879943
+r1
+xCpResource
+xbuild/Deployment/OME_Core.app/Contents/Resources/icon-replied.icns
+xicon-replied.icns
+lSLF07#2@22"Copy icon-replied.icns294296722#294296722#0(0"0(0#0#67"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-replied.icns2447773728#393"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-replied.icns /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources0#
+
+CCpResource build/Deployment/OME_Core.app/Contents/Resources/icon-unread.icns icon-unread.icns
+s294296722.770568
+e294296722.912162
+r1
+xCpResource
+xbuild/Deployment/OME_Core.app/Contents/Resources/icon-unread.icns
+xicon-unread.icns
+lSLF07#2@21"Copy icon-unread.icns294296722#294296722#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-unread.icns2447773728#392"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/icon-unread.icns /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/MacOS/OME_Core normal "i386 ppc"
+s294296730.551480
+e294296730.556382
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/MacOS/OME_Core
+xnormal
+xi386 ppc
+lSLF07#2@93"CreateUniversalBinary build/Deployment/OME_Core.app/Contents/MacOS/OME_Core normal "i386 ppc"294296730#294296730#0(0"0(0#0#58"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/i386 ppc2447773728#446"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core -output /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/MacOS/OME_Core0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core normal i386
+s294296728.795543
+e294296728.944212
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core
+xnormal
+xi386
+lSLF07#2@130"Link /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core294296728#294296728#0(0"0(0#0#0"2447773728#705"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -framework CoreServices -framework ApplicationServices -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core normal ppc
+s294296730.446175
+e294296730.551010
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core
+xnormal
+xppc
+lSLF07#2@129"Link /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core294296730#294296730#0(0"0(0#0#0"2447773728#702"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -framework CoreServices -framework ApplicationServices -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core0#
+
+CPhaseScriptExecution "Run Script" /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Script-2BD139710B475C40004D87C4.sh
+s294296722.613627
+e294296722.638622
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Script-2BD139710B475C40004D87C4.sh
+lSLF07#2@36"Run custom shell script 'Run Script'294296722#294296722#0(0"0(0#0#0"2447773728#16571"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER msyk    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build    setenv BUILD_ROOT /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build    setenv BUILD_STYLE Deployment    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment    setenv CACHE_ROOT /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025    setenv CCHROOT /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/CompositeSDKs    setenv CONFIGURATION Deployment    setenv CONFIGURATION_BUILD_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment    setenv CONFIGURATION_TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment    setenv CONTENTS_FOLDER_PATH OME_Core.app/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP YES    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/OME_Core.dst    setenv DWARF_DSYM_FILE_NAME OME_Core.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH OME_Core.app/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH OME_Core.app/Contents/MacOS    setenv EXECUTABLE_NAME OME_Core    setenv EXECUTABLE_PATH OME_Core.app/Contents/MacOS/OME_Core    setenv FILE_LIST /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH OME_Core.app/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME OME_Core.app    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC YES    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_SYMBOLS_PRIVATE_EXTERN NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info-OME_Core_____________.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH OME_Core.app/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/OME_Core.dst/Users/msyk/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER msyk    setenv INSTALL_PATH /Users/msyk/Applications    setenv INSTALL_ROOT /tmp/OME_Core.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVAC_SOURCE_FILE_ENCODING UTF-8    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_COMPILER_SOURCE_VERSION 1.5    setenv JAVA_COMPILER_TARGET_VM_VERSION 1.5    setenv JAVA_FOLDER_PATH OME_Core.app/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/OME_Core-LinkMap-normal-ppc.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/i386/OME_Core.LinkFileList    setenv LINK_FILE_LIST_normal_ppc /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal/ppc/OME_Core.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1063    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0603    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL i386    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Objects-normal    setenv OBJROOT /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH OME_Core.app/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS c    setenv PKGINFO_FILE_PATH /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/PkgInfo    setenv PKGINFO_PATH OME_Core.app/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH OME_Core.app/Contents/PlugIns    setenv PREBINDING YES    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH OME_Core.app/Contents/PrivateHeaders    setenv PRODUCT_NAME OME_Core    setenv PRODUCT_SETTINGS_PATH /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Info-OME_Core_____________.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT OME_Core    setenv PROJECT_DERIVED_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/DerivedSources    setenv PROJECT_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv PROJECT_FILE_PATH /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/OME_Core.xcodeproj    setenv PROJECT_NAME OME_Core    setenv PROJECT_TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build    setenv PUBLIC_HEADERS_FOLDER_PATH OME_Core.app/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH OME_Core.app/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_DIR /Developer/SDKs/MacOSX10.6.sdk    setenv SDK_NAME macosx10.6    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH OME_Core.app/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/TG/TG8pE6hGHluuThNAi16wFk++-+2/-Caches-/com.apple.Xcode.1025/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH OME_Core.app/Contents/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv SRCROOT /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/SymbolRepositories    setenv SYMROOT /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME OME_Core    setenv TARGET_BUILD_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment    setenv TARGET_NAME OME_Core    setenv TARGET_TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build    setenv TEMP_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build    setenv TEMP_FILES_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build    setenv TEMP_FILE_DIR /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build    setenv TEMP_ROOT /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build    setenv UID 1025    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH OME_Core.app/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER msyk    setenv USER_APPS_DIR /Users/msyk/Applications    setenv USER_LIBRARY_DIR /Users/msyk/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH OME_Core.app/Contents/version.plist    setenv VERSION_INFO_BUILDER msyk    setenv VERSION_INFO_FILE OME_Core_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:OME_Core  PROJECT:OME_Core-\""    setenv WARNING_CFLAGS "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas"    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME OME_Core.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/OME_Core.build/Deployment/OME_Core.build/Script-2BD139710B475C40004D87C4.sh0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Info.plist Info-OME_Core_____________.plist
+s294296722.584894
+e294296722.613285
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Info.plist
+xInfo-OME_Core_____________.plist
+lSLF07#2@40"Process Info-OME_Core_____________.plist294296722#294296722#0(0"0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Info-OME_Core_____________.plist4657240#369"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    builtin-infoPlistUtility Info-OME_Core_____________.plist -genpkginfo /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Info.plist0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/main.nib
+s294296722.784198
+e294296724.403364
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/main.nib
+lSLF07#2@31"StripNIB English.lproj/main.nib294296722#294296724#0(0"0(0#0#72"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/main.nib2447773728#326"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/English.lproj/main.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/English.lproj/main.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/main.nib
+s294296722.912285
+e294296724.397148
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/main.nib
+lSLF07#2@32"StripNIB Japanese.lproj/main.nib294296722#294296724#0(0"0(0#0#73"/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/main.nib2447773728#328"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app/Contents/Resources/Japanese.lproj/main.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/Japanese.lproj/main.nib0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app
+s294296730.556568
+e294296730.561649
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app
+lSLF07#2@85"Touch /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app294296730#294296730#0(0"0(0#0#0"2447773728#159"    cd /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/OME_CoreApp/build/Deployment/OME_Core.app0#
+

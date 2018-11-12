@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker
+END
+CommentChainByAliases.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/CommentChainByAliases.java
+END
+MessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/MessageException.java
+END
+MessageMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/MessageMaker.java
+END
+PartProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/PartProcessor.java
+END
+SucceedProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/SucceedProcess.java
+END
+VirusCheckNAV.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/VirusCheckNAV.java
+END
+StandardSave.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/StandardSave.java
+END
+UnreadAliases.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/UnreadAliases.java
+END
+MailProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/MailProcessor.java
+END
+GrowlNotify.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/GrowlNotify.java
+END
+VirusCheckVirex.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/VirusCheckVirex.java
+END
+MailSourceBackup.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/MailSourceBackup.java
+END
+DirectSave.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/DirectSave.java
+END
+GrowlNotify_ja.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/GrowlNotify_ja.java
+END
+GetBackupPathFromProcmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ome/!svn/ver/13/OME_JavaCore2/src/OME/messagemaker/GetBackupPathFromProcmail.java
+END

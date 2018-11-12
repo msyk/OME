@@ -1,0 +1,41 @@
+# Encoding names are derived from constat names NS[name]StringEncoding, 
+# kCFStringEncoding[name], or from Unicode(Language) and UTF8(Language)
+# 
+# Available encoding names are: 
+# ASCII, ISO2022JP, ISOLatin1, ISOLatin2, JapaneseEUC, EUC_JP, 
+# MacOSRoman, ShiftJIS,
+# UTF8, Unicode, MacKorean, MacChineseTrad, MacChineseSimp,
+# EUC_KR, Big5, GB_2312, ISOLatin3, ISOLatin4, ISOLatinCyrillic,
+# ISOLatinArabic, ISOLatinGreek, ISOLatinHebrew, ISOLatin5,
+# ISOLatin6, ISOLatinThai, ISOLatin7, ISOLatin8, ISOLatin9,
+# UnicodeEnglish, UnicodeJapanese, UnicodeKorean, UnicodeChineseTrad, 
+# UnicodeChineseSimp, UnicodeWestern, UnicodeCentralEuropean, 
+# UnicodeSouthEuropean, UnicodeBaltic, UnicodeCyrillic, 
+# UnicodeArabic, UnicodeGreek, UnicodeHebrew, UnicodeTurkish, 
+# UnicodeNordic, UnicodeThai, UnicodeCeltic, UTF8English, UTF8Japanese, 
+# UTF8Korean, UTF8ChineseTrad, 
+# UTF8ChineseSimp, UTF8Western, UTF8CentralEuropean, 
+# UTF8SouthEuropean, UTF8Baltic, UTF8Cyrillic, 
+# UTF8Arabic, UTF8Greek, UTF8Hebrew, UTF8Turkish, 
+# UTF8Nordic, UTF8Thai, UTF8Celtic
+#
+# charset names (in mail header) are written UPPERCASE here !!!!!!
+# 
+default	ShiftJIS
+multipart	ShiftJIS
+send	ShiftJIS
+encode	ShiftJIS	ISO-2022-JP
+encode	MacOSRoman	ISO-8859-1
+encode	UnicodeWestern	ISO-8859-15
+encode	ASCII		US-ASCII
+encode	UTF8	UTF-8
+encode	GB_2312	GB2312
+encode	Big5	BIG5
+omeCharCode	ShiftJIS	SJIS
+omeCharCode	ISO2022JP	ISO-2022-JP
+omeCharCode	JapaneseEUC	EUCJIS
+omeCharCode	EUC_KR	EUC_KR
+omeCharCode	Big5	BIG5
+omeCharCode	GB_2312	GB2312
+omeCharCode	MacOSRoman	MACROMAN
+omeCharCode	UTF8	UTF-8

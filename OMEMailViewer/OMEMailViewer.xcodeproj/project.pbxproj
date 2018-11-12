@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B12C2030B7F2694004C5CBD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B12C1D30B7F2694004C5CBD /* WebKit.framework */; };
+		2B2F56B70DAC6BD5001EBCBF /* OMEMailFileDocument2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F56B50DAC6BD5001EBCBF /* OMEMailFileDocument2.xib */; };
+		2B4A0ECE07214D4F0065D244 /* appicons.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B4A0ECD07214D4F0065D244 /* appicons.icns */; };
+		2B6A38561BCCDEB4002A5E4A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A38521BCCDEB4002A5E4A /* Credits.rtf */; };
+		2B6A38601BCCE02B002A5E4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A385E1BCCE02B002A5E4A /* InfoPlist.strings */; };
+		2B6A38651BCCE4A7002A5E4A /* icon-hasred.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A38621BCCE4A7002A5E4A /* icon-hasred.icns */; };
+		2B6A38661BCCE4A7002A5E4A /* icon-replied.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A38631BCCE4A7002A5E4A /* icon-replied.icns */; };
+		2B6A38671BCCE4A7002A5E4A /* icon-unread.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2B6A38641BCCE4A7002A5E4A /* icon-unread.icns */; };
+		2B7F5BC51BCCDCEC00EA1BED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F5BC31BCCDCEC00EA1BED /* MainMenu.xib */; };
+		2B90FEAF14D946750000FABC /* AliasResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE8814D946750000FABC /* AliasResolver.m */; };
+		2B90FEB114D946750000FABC /* OMEAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE8D14D946750000FABC /* OMEAddress.m */; };
+		2B90FEB214D946750000FABC /* OMEAlias.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE8F14D946750000FABC /* OMEAlias.m */; };
+		2B90FEB314D946750000FABC /* OMEAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9114D946750000FABC /* OMEAttachment.m */; };
+		2B90FEB414D946750000FABC /* OMEBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9314D946750000FABC /* OMEBehavior.m */; };
+		2B90FEB514D946750000FABC /* OMEDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9514D946750000FABC /* OMEDirectory.m */; };
+		2B90FEB614D946750000FABC /* OMEField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9714D946750000FABC /* OMEField.m */; };
+		2B90FEB714D946750000FABC /* OMELines.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9A14D946750000FABC /* OMELines.m */; };
+		2B90FEB814D946750000FABC /* OMELog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9C14D946750000FABC /* OMELog.m */; };
+		2B90FEB914D946750000FABC /* OMEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FE9E14D946750000FABC /* OMEMail.m */; };
+		2B90FEBB14D946750000FABC /* OMEPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEA214D946750000FABC /* OMEPaths.m */; };
+		2B90FEBC14D946750000FABC /* OMEPOPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEA414D946750000FABC /* OMEPOPServer.m */; };
+		2B90FEBD14D946750000FABC /* OMESMTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEA614D946750000FABC /* OMESMTPServer.m */; };
+		2B90FEBE14D946750000FABC /* OMESMTPServers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEA814D946750000FABC /* OMESMTPServers.m */; };
+		2B90FEBF14D946750000FABC /* OMEWMail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEAA14D946750000FABC /* OMEWMail.m */; };
+		2B90FEC014D946750000FABC /* WSHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEAC14D946750000FABC /* WSHeader.m */; };
+		2B90FEC114D946750000FABC /* WSMutableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FEAE14D946750000FABC /* WSMutableHeader.m */; };
+		2B90FECF14D948CB0000FABC /* OMEData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FECC14D948CB0000FABC /* OMEData.m */; };
+		2B90FED014D948CB0000FABC /* OMEMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FECE14D948CB0000FABC /* OMEMessage.m */; };
+		2B90FED214D94B000000FABC /* OMEMailViewer.css in Resources */ = {isa = PBXBuildFile; fileRef = 2B90FED114D94B000000FABC /* OMEMailViewer.css */; };
+		2B90FED414D94B310000FABC /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B90FED314D94B310000FABC /* HTMLString.m */; };
+		2BB65C7D0DE85FD200C2F1D2 /* desktop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C790DE85FD200C2F1D2 /* desktop.png */; };
+		2BB65C7E0DE85FD200C2F1D2 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C7A0DE85FD200C2F1D2 /* mail.png */; };
+		2BB65C7F0DE85FD200C2F1D2 /* idisk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C7B0DE85FD200C2F1D2 /* idisk.png */; };
+		2BB65C800DE85FD200C2F1D2 /* keychain.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BB65C7C0DE85FD200C2F1D2 /* keychain.png */; };
+		2BFE312D0BDA18A900E3FCF4 /* OMEMailFileDocument2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */; };
+		2BFE78C80BC915620054F1D3 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFE78C60BC915620054F1D3 /* AppController.m */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2B1161AB14D9593800CE3EA2 /* OMECategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMECategory.h; sourceTree = "<group>"; };
+		2B12C1000B7F1E06004C5CBD /* OMEMailFileDocument2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEMailFileDocument2.h; sourceTree = "<group>"; };
+		2B12C1D30B7F2694004C5CBD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		2B4A0ECD07214D4F0065D244 /* appicons.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appicons.icns; sourceTree = "<group>"; };
+		2B4A0F33072172430065D244 /* setup-infoplist.sh */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = text.script.sh; path = "setup-infoplist.sh"; sourceTree = "<group>"; };
+		2B6A384C1BCCDD80002A5E4A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/OMEMailFileDocument2.strings; sourceTree = "<group>"; };
+		2B6A384E1BCCDDEC002A5E4A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		2B6A384F1BCCDDEE002A5E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2B6A38501BCCDE03002A5E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		2B6A38511BCCDE0E002A5E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/OMEMailFileDocument2.strings; sourceTree = "<group>"; };
+		2B6A38531BCCDEB4002A5E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2B6A38551BCCDEB4002A5E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/InfoPlist-Seed.strings"; sourceTree = "<group>"; };
+		2B6A38581BCCDEBC002A5E4A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2B6A38591BCCDEC3002A5E4A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = "ja.lproj/InfoPlist-Seed.strings"; sourceTree = "<group>"; };
+		2B6A385F1BCCE02B002A5E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B6A38611BCCE031002A5E4A /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B6A38621BCCE4A7002A5E4A /* icon-hasred.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-hasred.icns"; sourceTree = "<group>"; };
+		2B6A38631BCCE4A7002A5E4A /* icon-replied.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-replied.icns"; sourceTree = "<group>"; };
+		2B6A38641BCCE4A7002A5E4A /* icon-unread.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-unread.icns"; sourceTree = "<group>"; };
+		2B7F5BBF1BCCDCA300EA1BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		2B90FE8814D946750000FABC /* AliasResolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AliasResolver.m; sourceTree = "<group>"; };
+		2B90FE8914D946750000FABC /* AliasResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AliasResolver.h; sourceTree = "<group>"; };
+		2B90FE8B14D946750000FABC /* MakeNewAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeNewAlias.h; sourceTree = "<group>"; };
+		2B90FE8C14D946750000FABC /* OMEAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEAddress.h; sourceTree = "<group>"; };
+		2B90FE8D14D946750000FABC /* OMEAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEAddress.m; sourceTree = "<group>"; };
+		2B90FE8E14D946750000FABC /* OMEAlias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEAlias.h; sourceTree = "<group>"; };
+		2B90FE8F14D946750000FABC /* OMEAlias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEAlias.m; sourceTree = "<group>"; };
+		2B90FE9014D946750000FABC /* OMEAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEAttachment.h; sourceTree = "<group>"; };
+		2B90FE9114D946750000FABC /* OMEAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEAttachment.m; sourceTree = "<group>"; };
+		2B90FE9214D946750000FABC /* OMEBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEBehavior.h; sourceTree = "<group>"; };
+		2B90FE9314D946750000FABC /* OMEBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEBehavior.m; sourceTree = "<group>"; };
+		2B90FE9414D946750000FABC /* OMEDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEDirectory.h; sourceTree = "<group>"; };
+		2B90FE9514D946750000FABC /* OMEDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEDirectory.m; sourceTree = "<group>"; };
+		2B90FE9614D946750000FABC /* OMEField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEField.h; sourceTree = "<group>"; };
+		2B90FE9714D946750000FABC /* OMEField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEField.m; sourceTree = "<group>"; };
+		2B90FE9814D946750000FABC /* OMEJapanese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEJapanese.h; sourceTree = "<group>"; };
+		2B90FE9914D946750000FABC /* OMELines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMELines.h; sourceTree = "<group>"; };
+		2B90FE9A14D946750000FABC /* OMELines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMELines.m; sourceTree = "<group>"; };
+		2B90FE9B14D946750000FABC /* OMELog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMELog.h; sourceTree = "<group>"; };
+		2B90FE9C14D946750000FABC /* OMELog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMELog.m; sourceTree = "<group>"; };
+		2B90FE9D14D946750000FABC /* OMEMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEMail.h; sourceTree = "<group>"; };
+		2B90FE9E14D946750000FABC /* OMEMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEMail.m; sourceTree = "<group>"; };
+		2B90FEA114D946750000FABC /* OMEPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEPaths.h; sourceTree = "<group>"; };
+		2B90FEA214D946750000FABC /* OMEPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEPaths.m; sourceTree = "<group>"; };
+		2B90FEA314D946750000FABC /* OMEPOPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEPOPServer.h; sourceTree = "<group>"; };
+		2B90FEA414D946750000FABC /* OMEPOPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEPOPServer.m; sourceTree = "<group>"; };
+		2B90FEA514D946750000FABC /* OMESMTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMESMTPServer.h; sourceTree = "<group>"; };
+		2B90FEA614D946750000FABC /* OMESMTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMESMTPServer.m; sourceTree = "<group>"; };
+		2B90FEA714D946750000FABC /* OMESMTPServers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMESMTPServers.h; sourceTree = "<group>"; };
+		2B90FEA814D946750000FABC /* OMESMTPServers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMESMTPServers.m; sourceTree = "<group>"; };
+		2B90FEA914D946750000FABC /* OMEWMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEWMail.h; sourceTree = "<group>"; };
+		2B90FEAA14D946750000FABC /* OMEWMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEWMail.m; sourceTree = "<group>"; };
+		2B90FEAB14D946750000FABC /* WSHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSHeader.h; sourceTree = "<group>"; };
+		2B90FEAC14D946750000FABC /* WSHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSHeader.m; sourceTree = "<group>"; };
+		2B90FEAD14D946750000FABC /* WSMutableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMutableHeader.h; sourceTree = "<group>"; };
+		2B90FEAE14D946750000FABC /* WSMutableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMutableHeader.m; sourceTree = "<group>"; };
+		2B90FECB14D948CB0000FABC /* OMEData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEData.h; sourceTree = "<group>"; };
+		2B90FECC14D948CB0000FABC /* OMEData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEData.m; sourceTree = "<group>"; };
+		2B90FECD14D948CB0000FABC /* OMEMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEMessage.h; sourceTree = "<group>"; };
+		2B90FECE14D948CB0000FABC /* OMEMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEMessage.m; sourceTree = "<group>"; };
+		2B90FED114D94B000000FABC /* OMEMailViewer.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = OMEMailViewer.css; sourceTree = "<group>"; };
+		2B90FED314D94B310000FABC /* HTMLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLString.m; sourceTree = "<group>"; };
+		2BA8315818179BE40072B27B /* OME.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OME.framework; path = ../../../../../Library/Frameworks/OME.framework; sourceTree = "<group>"; };
+		2BB65C790DE85FD200C2F1D2 /* desktop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desktop.png; sourceTree = "<group>"; };
+		2BB65C7A0DE85FD200C2F1D2 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		2BB65C7B0DE85FD200C2F1D2 /* idisk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idisk.png; sourceTree = "<group>"; };
+		2BB65C7C0DE85FD200C2F1D2 /* keychain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keychain.png; sourceTree = "<group>"; };
+		2BE0B1B01BCCDBB7007419D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OMEMailFileDocument2.xib; sourceTree = "<group>"; };
+		2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMEMailFileDocument2.m; sourceTree = "<group>"; };
+		2BFE78C50BC915620054F1D3 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		2BFE78C60BC915620054F1D3 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		32DBCF750370BD2300C91783 /* OMEMailViewer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMEMailViewer_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* OMEMailViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMEMailViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				2B12C2030B7F2694004C5CBD /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				2B12C1D30B7F2694004C5CBD /* WebKit.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* OMEMailViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* OMEMailViewer */ = {
+			isa = PBXGroup;
+			children = (
+				2B90FE8714D946590000FABC /* OME_Framework */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = OMEMailViewer;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2B12C1000B7F1E06004C5CBD /* OMEMailFileDocument2.h */,
+				2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */,
+				2BFE78C50BC915620054F1D3 /* AppController.h */,
+				2BFE78C60BC915620054F1D3 /* AppController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A0F33072172430065D244 /* setup-infoplist.sh */,
+				32DBCF750370BD2300C91783 /* OMEMailViewer_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BB65C790DE85FD200C2F1D2 /* desktop.png */,
+				2BB65C7A0DE85FD200C2F1D2 /* mail.png */,
+				2BB65C7B0DE85FD200C2F1D2 /* idisk.png */,
+				2BB65C7C0DE85FD200C2F1D2 /* keychain.png */,
+				2B4A0ECD07214D4F0065D244 /* appicons.icns */,
+				2B7F5BC01BCCDCA300EA1BED /* Info.plist */,
+				2B90FED114D94B000000FABC /* OMEMailViewer.css */,
+				2B6A38521BCCDEB4002A5E4A /* Credits.rtf */,
+				2B6A385E1BCCE02B002A5E4A /* InfoPlist.strings */,
+				2B6A38541BCCDEB4002A5E4A /* InfoPlist-Seed.strings */,
+				2B2F56B50DAC6BD5001EBCBF /* OMEMailFileDocument2.xib */,
+				2B7F5BC31BCCDCEC00EA1BED /* MainMenu.xib */,
+				2B6A38621BCCE4A7002A5E4A /* icon-hasred.icns */,
+				2B6A38631BCCE4A7002A5E4A /* icon-replied.icns */,
+				2B6A38641BCCE4A7002A5E4A /* icon-unread.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8315818179BE40072B27B /* OME.framework */,
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B90FE8714D946590000FABC /* OME_Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2B90FE8914D946750000FABC /* AliasResolver.h */,
+				2B90FE8814D946750000FABC /* AliasResolver.m */,
+				2B90FE8B14D946750000FABC /* MakeNewAlias.h */,
+				2B90FE8C14D946750000FABC /* OMEAddress.h */,
+				2B90FE8D14D946750000FABC /* OMEAddress.m */,
+				2B90FE8E14D946750000FABC /* OMEAlias.h */,
+				2B90FE8F14D946750000FABC /* OMEAlias.m */,
+				2B90FE9014D946750000FABC /* OMEAttachment.h */,
+				2B90FE9114D946750000FABC /* OMEAttachment.m */,
+				2B90FE9214D946750000FABC /* OMEBehavior.h */,
+				2B90FE9314D946750000FABC /* OMEBehavior.m */,
+				2B90FECB14D948CB0000FABC /* OMEData.h */,
+				2B90FECC14D948CB0000FABC /* OMEData.m */,
+				2B90FE9414D946750000FABC /* OMEDirectory.h */,
+				2B90FE9514D946750000FABC /* OMEDirectory.m */,
+				2B90FE9614D946750000FABC /* OMEField.h */,
+				2B90FE9714D946750000FABC /* OMEField.m */,
+				2B90FE9814D946750000FABC /* OMEJapanese.h */,
+				2B90FE9914D946750000FABC /* OMELines.h */,
+				2B90FE9A14D946750000FABC /* OMELines.m */,
+				2B90FE9B14D946750000FABC /* OMELog.h */,
+				2B90FE9C14D946750000FABC /* OMELog.m */,
+				2B90FE9D14D946750000FABC /* OMEMail.h */,
+				2B90FE9E14D946750000FABC /* OMEMail.m */,
+				2B90FECD14D948CB0000FABC /* OMEMessage.h */,
+				2B90FECE14D948CB0000FABC /* OMEMessage.m */,
+				2B90FEA114D946750000FABC /* OMEPaths.h */,
+				2B90FEA214D946750000FABC /* OMEPaths.m */,
+				2B90FEA314D946750000FABC /* OMEPOPServer.h */,
+				2B90FEA414D946750000FABC /* OMEPOPServer.m */,
+				2B90FEA514D946750000FABC /* OMESMTPServer.h */,
+				2B90FEA614D946750000FABC /* OMESMTPServer.m */,
+				2B90FEA714D946750000FABC /* OMESMTPServers.h */,
+				2B90FEA814D946750000FABC /* OMESMTPServers.m */,
+				2B90FEA914D946750000FABC /* OMEWMail.h */,
+				2B90FEAA14D946750000FABC /* OMEWMail.m */,
+				2B90FEAB14D946750000FABC /* WSHeader.h */,
+				2B90FEAC14D946750000FABC /* WSHeader.m */,
+				2B90FEAD14D946750000FABC /* WSMutableHeader.h */,
+				2B90FEAE14D946750000FABC /* WSMutableHeader.m */,
+				2B1161AB14D9593800CE3EA2 /* OMECategory.h */,
+				2B90FED314D94B310000FABC /* HTMLString.m */,
+			);
+			name = OME_Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* OMEMailViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB9E8A110942E8AA0010D9B4 /* Build configuration list for PBXNativeTarget "OMEMailViewer" */;
+			buildPhases = (
+				2B4A0F2207216ED20065D244 /* ShellScript */,
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMEMailViewer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = OMEMailViewer;
+			productReference = 8D15AC370486D014006FF6A4 /* OMEMailViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					8D15AC270486D014006FF6A4 = {
+						DevelopmentTeam = W3WVRUYJRT;
+					};
+				};
+			};
+			buildConfigurationList = CB9E8A150942E8AA0010D9B4 /* Build configuration list for PBXProject "OMEMailViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				Japanese,
+				Base,
+				en,
+				ja,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* OMEMailViewer */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* OMEMailViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4A0ECE07214D4F0065D244 /* appicons.icns in Resources */,
+				2B6A38671BCCE4A7002A5E4A /* icon-unread.icns in Resources */,
+				2B6A38561BCCDEB4002A5E4A /* Credits.rtf in Resources */,
+				2B2F56B70DAC6BD5001EBCBF /* OMEMailFileDocument2.xib in Resources */,
+				2BB65C7D0DE85FD200C2F1D2 /* desktop.png in Resources */,
+				2B6A38651BCCE4A7002A5E4A /* icon-hasred.icns in Resources */,
+				2B90FED214D94B000000FABC /* OMEMailViewer.css in Resources */,
+				2BB65C7E0DE85FD200C2F1D2 /* mail.png in Resources */,
+				2B6A38661BCCE4A7002A5E4A /* icon-replied.icns in Resources */,
+				2BB65C7F0DE85FD200C2F1D2 /* idisk.png in Resources */,
+				2BB65C800DE85FD200C2F1D2 /* keychain.png in Resources */,
+				2B6A38601BCCE02B002A5E4A /* InfoPlist.strings in Resources */,
+				2B7F5BC51BCCDCEC00EA1BED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4A0F2207216ED20065D244 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./setup-infoplist.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				2BFE78C80BC915620054F1D3 /* AppController.m in Sources */,
+				2BFE312D0BDA18A900E3FCF4 /* OMEMailFileDocument2.m in Sources */,
+				2B90FEAF14D946750000FABC /* AliasResolver.m in Sources */,
+				2B90FEB114D946750000FABC /* OMEAddress.m in Sources */,
+				2B90FEB214D946750000FABC /* OMEAlias.m in Sources */,
+				2B90FEB314D946750000FABC /* OMEAttachment.m in Sources */,
+				2B90FEB414D946750000FABC /* OMEBehavior.m in Sources */,
+				2B90FEB514D946750000FABC /* OMEDirectory.m in Sources */,
+				2B90FEB614D946750000FABC /* OMEField.m in Sources */,
+				2B90FEB714D946750000FABC /* OMELines.m in Sources */,
+				2B90FEB814D946750000FABC /* OMELog.m in Sources */,
+				2B90FEB914D946750000FABC /* OMEMail.m in Sources */,
+				2B90FEBB14D946750000FABC /* OMEPaths.m in Sources */,
+				2B90FEBC14D946750000FABC /* OMEPOPServer.m in Sources */,
+				2B90FEBD14D946750000FABC /* OMESMTPServer.m in Sources */,
+				2B90FEBE14D946750000FABC /* OMESMTPServers.m in Sources */,
+				2B90FEBF14D946750000FABC /* OMEWMail.m in Sources */,
+				2B90FEC014D946750000FABC /* WSHeader.m in Sources */,
+				2B90FEC114D946750000FABC /* WSMutableHeader.m in Sources */,
+				2B90FECF14D948CB0000FABC /* OMEData.m in Sources */,
+				2B90FED014D948CB0000FABC /* OMEMessage.m in Sources */,
+				2B90FED414D94B310000FABC /* HTMLString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B2F56B50DAC6BD5001EBCBF /* OMEMailFileDocument2.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE0B1B01BCCDBB7007419D6 /* Base */,
+				2B6A384C1BCCDD80002A5E4A /* ja */,
+				2B6A38511BCCDE0E002A5E4A /* en */,
+			);
+			name = OMEMailFileDocument2.xib;
+			sourceTree = "<group>";
+		};
+		2B6A38521BCCDEB4002A5E4A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6A38531BCCDEB4002A5E4A /* en */,
+				2B6A38581BCCDEBC002A5E4A /* ja */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2B6A38541BCCDEB4002A5E4A /* InfoPlist-Seed.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6A38551BCCDEB4002A5E4A /* en */,
+				2B6A38591BCCDEC3002A5E4A /* ja */,
+			);
+			name = "InfoPlist-Seed.strings";
+			sourceTree = "<group>";
+		};
+		2B6A385E1BCCE02B002A5E4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6A385F1BCCE02B002A5E4A /* en */,
+				2B6A38611BCCE031002A5E4A /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B7F5BC01BCCDCA300EA1BED /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B7F5BBF1BCCDCA300EA1BED /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		2B7F5BC31BCCDCEC00EA1BED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B6A384E1BCCDDEC002A5E4A /* ja */,
+				2B6A384F1BCCDDEE002A5E4A /* Base */,
+				2B6A38501BCCDE03002A5E4A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB9E8A120942E8AA0010D9B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = W3WVRUYJRT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OMEMailViewer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mac-ome.msyk.OMEMailViewer";
+				PRODUCT_NAME = OMEMailViewer;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		CB9E8A130942E8AA0010D9B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = W3WVRUYJRT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OMEMailViewer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mac-ome.msyk.OMEMailViewer";
+				PRODUCT_NAME = OMEMailViewer;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		CB9E8A140942E8AA0010D9B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W3WVRUYJRT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = OMEMailViewer_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.mac-ome.msyk.OMEMailViewer";
+				PRODUCT_NAME = OMEMailViewer;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Default;
+		};
+		CB9E8A160942E8AA0010D9B4 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		CB9E8A170942E8AA0010D9B4 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		CB9E8A180942E8AA0010D9B4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB9E8A110942E8AA0010D9B4 /* Build configuration list for PBXNativeTarget "OMEMailViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9E8A120942E8AA0010D9B4 /* Development */,
+				CB9E8A130942E8AA0010D9B4 /* Deployment */,
+				CB9E8A140942E8AA0010D9B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		CB9E8A150942E8AA0010D9B4 /* Build configuration list for PBXProject "OMEMailViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB9E8A160942E8AA0010D9B4 /* Development */,
+				CB9E8A170942E8AA0010D9B4 /* Deployment */,
+				CB9E8A180942E8AA0010D9B4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

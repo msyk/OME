@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	089C1660FE840EACC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {900, 520}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 399}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+			sepNavWindowFrame = "{{15, 125}, {959, 648}}";
+		};
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Deployment;
+		activeExecutable = 2B2261520A31290100AAA2F0 /* OMEMailViewer */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* OMEMailViewer */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* OMEMailViewer */,
+		);
+		breakpoints = (
+			2B3C33580D3B561300EA1A73 /* OMEMailFileDocument2.m:99 */,
+			2B2F24070D9E5C5A0030913D /* OMEMailFileDocument2.m:193 */,
+			2BB65C5C0DE837C400C2F1D2 /* OMEMailFileDocument2.m:142 */,
+			2BB65C6A0DE8386A00C2F1D2 /* OMEMailFileDocument2.m:44 */,
+		);
+		codeSenseManager = 2B22615C0A31292100AAA2F0 /* Code sense */;
+		executables = (
+			2B2261520A31290100AAA2F0 /* OMEMailViewer */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					210,
+					20,
+					110,
+					109,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					386,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					444,
+					321,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					463,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					575,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFindDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFindDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					589,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFindDataSource_MessageID,
+					PBXFindDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					515,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					551,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					535,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 279798990;
+			PBXWorkspaceStateSaveDate = 279798990;
+		};
+		perUserProjectItems = {
+			2B10536B0DEA478500BB63F1 = 2B10536B0DEA478500BB63F1 /* PBXTextBookmark */;
+			2B10536C0DEA478500BB63F1 = 2B10536C0DEA478500BB63F1 /* PBXTextBookmark */;
+			2B10536D0DEA478500BB63F1 = 2B10536D0DEA478500BB63F1 /* PBXTextBookmark */;
+			2B1B1C4B0FF8A58600955E32 = 2B1B1C4B0FF8A58600955E32 /* PBXTextBookmark */;
+			2B296E1E0E78E81200F4471E = 2B296E1E0E78E81200F4471E /* PBXTextBookmark */;
+			2B34C9AD0DD6D5B4001E75CF = 2B34C9AD0DD6D5B4001E75CF /* PBXTextBookmark */;
+			2B364FBA10AD664F00C20F92 /* PBXTextBookmark */ = 2B364FBA10AD664F00C20F92 /* PBXTextBookmark */;
+			2B364FBC10AD664F00C20F92 /* PBXTextBookmark */ = 2B364FBC10AD664F00C20F92 /* PBXTextBookmark */;
+			2B364FBF10AD666400C20F92 /* PBXTextBookmark */ = 2B364FBF10AD666400C20F92 /* PBXTextBookmark */;
+			2B364FC010AD666700C20F92 /* PBXTextBookmark */ = 2B364FC010AD666700C20F92 /* PBXTextBookmark */;
+			2B364FC110AD666700C20F92 /* PBXTextBookmark */ = 2B364FC110AD666700C20F92 /* PBXTextBookmark */;
+			2B364FC210AD666700C20F92 /* PBXTextBookmark */ = 2B364FC210AD666700C20F92 /* PBXTextBookmark */;
+			2B364FC310AD666700C20F92 /* PBXTextBookmark */ = 2B364FC310AD666700C20F92 /* PBXTextBookmark */;
+			2BAE8C940D312428000A876B = 2BAE8C940D312428000A876B /* PBXTextBookmark */;
+			2BB65C860DE8611A00C2F1D2 = 2BB65C860DE8611A00C2F1D2 /* PBXTextBookmark */;
+			2BB65C940DE8621400C2F1D2 = 2BB65C940DE8621400C2F1D2 /* PBXTextBookmark */;
+			2BB65C960DE8621400C2F1D2 = 2BB65C960DE8621400C2F1D2 /* PBXTextBookmark */;
+			2BB65CA00DE86FB300C2F1D2 = 2BB65CA00DE86FB300C2F1D2 /* PBXTextBookmark */;
+			2BB65CA10DE86FB300C2F1D2 = 2BB65CA10DE86FB300C2F1D2 /* PBXBookmark */;
+			2BC7F9040D279D22007641BD = 2BC7F9040D279D22007641BD /* PBXTextBookmark */;
+			2BEBB5CE1084A4EB00837CB1 = 2BEBB5CE1084A4EB00837CB1 /* PBXTextBookmark */;
+			2BEBB5CF1084A4EB00837CB1 = 2BEBB5CF1084A4EB00837CB1 /* PBXBookmark */;
+			2BEBB5DB1084A4EB00837CB1 = 2BEBB5DB1084A4EB00837CB1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2B22615B0A31292100AAA2F0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4B0FDCFA73011CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 642}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {872, 642}}";
+		};
+	};
+	2A37F4BAFDCFA73011CA2CEA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 540}}";
+			sepNavSelRange = "{1861, 0}";
+			sepNavVisRect = "{{0, 85}, {773, 432}}";
+		};
+	};
+	2B10536B0DEA478500BB63F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B74FE160DE88E880091734E /* Cocoa.h */;
+		name = "Cocoa.h: 13";
+		rLen = 16;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 485;
+		vrLoc = 0;
+	};
+	2B10536C0DEA478500BB63F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B74FE180DE88E880091734E /* AppKit.h */;
+		name = "AppKit.h: 146";
+		rLen = 22;
+		rLoc = 4678;
+		rType = 0;
+		vrLen = 1544;
+		vrLoc = 3389;
+	};
+	2B10536D0DEA478500BB63F1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B74FE1A0DE88E880091734E /* NSToolbarItem.h */;
+		name = "NSToolbarItem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 3134;
+		vrLoc = 6493;
+	};
+	2B12C1000B7F1E06004C5CBD /* OMEMailFileDocument2.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {859, 745}}";
+			sepNavSelRange = "{266, 0}";
+			sepNavVisRange = "{144, 1389}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+		};
+	};
+	2B1B1C4B0FF8A58600955E32 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */;
+		name = "OMEMailFileDocument2.m: 133";
+		rLen = 95;
+		rLoc = 3842;
+		rType = 0;
+		vrLen = 1718;
+		vrLoc = 1370;
+	};
+	2B2261520A31290100AAA2F0 /* OMEMailViewer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			NO,
+			NO,
+			NO,
+			NO,
+			NO,
+			NO,
+			NO,
+			YES,
+		);
+		argumentStrings = (
+			"\"/Users/msyk/Documents/Development/ome/TestData/\\\"Microsoft\\\" <Microso|[MSDN Flash 2007／8／21] Visual |AG6T.htm\"",
+			"\"/Users/msyk/Open_Mail_Environment/ML/macos-x-server/Simone Carillion <si|Re: netboot and intel imacs fr|ALE3.mail\"",
+			"\"/Volumes/msyk/Open_Mail_Environment/InBox/新居雅行 <nii@msyk.net>|[mrf :56] 1 章です（新居→新妻）|AT51.mpart/新居雅行 <nii@msyk.net>|[mrf :56] 1 章です（新居→新妻）|AT51.mail\"",
+			"\"/Users/msyk/Open_Mail_Environment/クライアント/Appleトレーニング/Mamoru Kobayashi <ko|WWDC2007 Sales からの集客状況 5／23|A0L5.mpart/Mamoru Kobayashi <ko|WWDC2007 Sales からの集客状況 5／23|A0L5.mail\"",
+			"\"/Users/msyk/Open_Mail_Environment/InBox/Weekly Mag2 総合版増刊号 <|[ウィまぐ] ≪限定≫えっ！肌もっちもち！私に赤ちゃん肌の感|BOKV***.mpart/Weekly Mag2 総合版増刊号 <|[ウィまぐ] ≪限定≫えっ！肌もっちもち！私に赤ちゃん肌の感|BOKV***.ygm\"",
+			"\"/Users/msyk/Open_Mail_Environment/InBox/Weekly Mag2 ビジネス版増刊号|[ウィまぐ] 圧倒的な人気のシャンプー！抜け毛が…|BOL4.ygm\"",
+			"\"/Users/msyk/Open_Mail_Environment/クライアント/ファイルメーカー/新居雅行 <nii@msyk.net>|ソフトを貸してください|BOWO.mpart/新居雅行 <nii@msyk.net>|ソフトを貸してください|BOWO.mail\"",
+			"\"/Users/msyk/Open_Mail_Environment/msyk@msyk.net宛/週刊2ndstageマガジン <2nds|脳を刺激するのはこんな音楽だ[週刊2ndStageマガジン臨|BPL4.mpart/週刊2ndstageマガジン <2nds|脳を刺激するのはこんな音楽だ[週刊2ndStageマガジン臨|BPL4.mail\"",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				displayName = "ランナーを有効にする";
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXGDB_LaunchConfig;
+				displayName = GDB;
+				identifier = com.apple.Xcode.launch.GDBMI_Config;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = OMEMailViewer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$mm0 = 1;
+			$mm1 = 1;
+			$mm2 = 1;
+			$mm3 = 1;
+			$mm4 = 1;
+			$mm5 = 1;
+			$mm6 = 1;
+			$mm7 = 1;
+			$mxcsr = 1;
+			$ss = 1;
+			$xmm0 = 1;
+			$xmm1 = 1;
+			$xmm2 = 1;
+			$xmm3 = 1;
+			$xmm4 = 1;
+			$xmm5 = 1;
+			$xmm6 = 1;
+			$xmm7 = 1;
+		};
+	};
+	2B22615B0A31292100AAA2F0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 1;
+		scmConfiguration = {
+			CVSToolPath = /usr/bin/ocvs;
+			CVSUseSSH = YES;
+			repositoryName = "msyk.net - HTTP-OME";
+			repositoryNamesForRoots = {
+				"" = "msyk.net - HTTP-OME";
+			};
+		};
+		scmType = scm.cvs;
+	};
+	2B22615C0A31292100AAA2F0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2B296E1E0E78E81200F4471E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B12C1000B7F1E06004C5CBD /* OMEMailFileDocument2.h */;
+		name = "OMEMailFileDocument2.h: 56";
+		rLen = 4;
+		rLoc = 1575;
+		rType = 0;
+		vrLen = 1384;
+		vrLoc = 218;
+	};
+	2B2F24070D9E5C5A0030913D /* OMEMailFileDocument2.m:193 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */;
+		functionName = "-printDocumentWithSettings:showPrintPanel:delegate:didPrintSelector:contextInfo:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 193;
+		modificationTime = 268160465.075677;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	2B34C9AD0DD6D5B4001E75CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BFE78C50BC915620054F1D3 /* AppController.h */;
+		name = "AppController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 91;
+		vrLoc = 0;
+	};
+	2B364FBA10AD664F00C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B364FBB10AD664F00C20F92 /* OMEMessage.h */;
+		rLen = 3;
+		rLoc = 1264;
+		rType = 0;
+	};
+	2B364FBB10AD664F00C20F92 /* OMEMessage.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = OMEMessage.h;
+		path = "/Users/msyk/Documents/Develop-OME/ome/OME_Framework/build/Debug/OME.framework/Headers/OMEMessage.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \"(brief description)\";\n            r = \"{1754, 23}\";\n            s = 1;\n        },\n                {\n            l = \"(comprehensive description)\";\n            r = \"{1794, 31}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{1842, 17}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 3327}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1462}}";
+			sepNavSelRange = "{1264, 3}";
+			sepNavVisRange = "{1007, 705}";
+		};
+	};
+	2B364FBC10AD664F00C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BEBB5DC1084A4EB00837CB1 /* OMEMessage.h */;
+		name = "OMEMessage.h: 49";
+		rLen = 3;
+		rLoc = 1264;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 1007;
+	};
+	2B364FBF10AD666400C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B364FBB10AD664F00C20F92 /* OMEMessage.h */;
+		name = "OMEMessage.h: 49";
+		rLen = 3;
+		rLoc = 1264;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 1007;
+	};
+	2B364FC010AD666700C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B364FBB10AD664F00C20F92 /* OMEMessage.h */;
+		name = "OMEMessage.h: 49";
+		rLen = 3;
+		rLoc = 1264;
+		rType = 0;
+		vrLen = 1570;
+		vrLoc = 1007;
+	};
+	2B364FC110AD666700C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */;
+		name = "OMEMailFileDocument2.m: 8";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 1048;
+		vrLoc = 3;
+	};
+	2B364FC210AD666700C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B12C1000B7F1E06004C5CBD /* OMEMailFileDocument2.h */;
+		name = "OMEMailFileDocument2.h: 15";
+		rLen = 7;
+		rLoc = 286;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 144;
+	};
+	2B364FC310AD666700C20F92 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B12C1000B7F1E06004C5CBD /* OMEMailFileDocument2.h */;
+		name = "OMEMailFileDocument2.h: 14";
+		rLen = 0;
+		rLoc = 266;
+		rType = 0;
+		vrLen = 1389;
+		vrLoc = 144;
+	};
+	2B3C33580D3B561300EA1A73 /* OMEMailFileDocument2.m:99 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */;
+		functionName = "-webView:decidePolicyForNavigationAction:request:frame:decisionListener:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 99;
+		modificationTime = 268160465.075642;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	2B4A0F1807216E670065D244 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 642}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 350}";
+			sepNavVisRect = "{{0, 0}, {773, 642}}";
+		};
+	};
+	2B4A0F33072172430065D244 /* setup-infoplist.sh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 642}}";
+			sepNavSelRange = "{320, 0}";
+			sepNavVisRect = "{{0, 0}, {773, 642}}";
+		};
+	};
+	2B4A0F46072173CF0065D244 /* Japanese */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 642}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {773, 642}}";
+		};
+	};
+	2B4A0F5D072175DF0065D244 /* Japanese */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {758, 440}}";
+			sepNavSelRange = "{379, 0}";
+			sepNavVisRange = "{0, 379}";
+		};
+	};
+	2B4A1006072182A10065D244 /* Japanese */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {773, 556}}";
+			sepNavSelRange = "{1767, 0}";
+			sepNavVisRect = "{{0, 101}, {773, 455}}";
+		};
+	};
+	2B74FE160DE88E880091734E /* Cocoa.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = Cocoa.h;
+		path = /System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h;
+		sourceTree = "<absolute>";
+	};
+	2B74FE180DE88E880091734E /* AppKit.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = AppKit.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/AppKit.h;
+		sourceTree = "<absolute>";
+	};
+	2B74FE1A0DE88E880091734E /* NSToolbarItem.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSToolbarItem.h;
+		path = /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSToolbarItem.h;
+		sourceTree = "<absolute>";
+	};
+	2BA8796E0BFFEF4F003AC098 /* Info copy.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 1232}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 844}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+		};
+	};
+	2BAE8C940D312428000A876B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D15AC360486D014006FF6A4 /* Info.plist */;
+		name = "Info.plist: 48";
+		rLen = 0;
+		rLoc = 5038;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 0;
+	};
+	2BB65C5C0DE837C400C2F1D2 /* OMEMailFileDocument2.m:142 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */;
+		functionName = "-readFromURL:ofType:error:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 142;
+		modificationTime = 268160465.075692;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	2BB65C6A0DE8386A00C2F1D2 /* OMEMailFileDocument2.m:44 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */;
+		functionName = "-windowControllerDidLoadNib:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 44;
+		modificationTime = 268160465.075705;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	2BB65C860DE8611A00C2F1D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BA8796E0BFFEF4F003AC098 /* Info copy.plist */;
+		name = "Info copy.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 844;
+		vrLoc = 0;
+	};
+	2BB65C940DE8621400C2F1D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B4A0F5D072175DF0065D244 /* Japanese */;
+		name = "InfoPlist.strings: 8";
+		rLen = 0;
+		rLoc = 379;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 0;
+	};
+	2BB65C960DE8621400C2F1D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B4A1006072182A10065D244 /* Japanese */;
+		name = "Japanese: 29";
+		rLen = 0;
+		rLoc = 1767;
+		rType = 0;
+		vrLen = 1667;
+		vrLoc = 179;
+	};
+	2BB65CA00DE86FB300C2F1D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2A37F4BAFDCFA73011CA2CEA /* English */;
+		name = "English: 29";
+		rLen = 0;
+		rLoc = 1861;
+		rType = 0;
+		vrLen = 1773;
+		vrLoc = 167;
+	};
+	2BB65CA10DE86FB300C2F1D2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2BB65C790DE85FD200C2F1D2 /* desktop.png */;
+	};
+	2BC7F9040D279D22007641BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2B4A0F1807216E670065D244 /* English */;
+		name = "InfoPlist-Seed.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	2BEBB5831084A31A00837CB1 /* OMEMessage.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		path = OMEMessage.h;
+		sourceTree = "<group>";
+	};
+	2BEBB5CE1084A4EB00837CB1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BFE78C60BC915620054F1D3 /* AppController.m */;
+		name = "AppController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 934;
+		vrLoc = 0;
+	};
+	2BEBB5CF1084A4EB00837CB1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2BEBB5831084A31A00837CB1 /* OMEMessage.h */;
+	};
+	2BEBB5DB1084A4EB00837CB1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2BEBB5DC1084A4EB00837CB1 /* OMEMessage.h */;
+		name = "OMEMessage.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 0;
+	};
+	2BEBB5DC1084A4EB00837CB1 /* OMEMessage.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = OMEMessage.h;
+		path = "/Users/msyk/Documents/Develop-OME/ome/OME_Framework/build/Debug/OME.framework/Headers/OMEMessage.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \"(brief description)\";\n            r = \"{1754, 23}\";\n            s = 1;\n        },\n                {\n            l = \"(comprehensive description)\";\n            r = \"{1794, 31}\";\n            s = 1;\n        },\n                {\n            l = \"(description)\";\n            r = \"{1842, 17}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 3327}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1462}}";
+			sepNavSelRange = "{1264, 3}";
+			sepNavVisRange = "{1007, 705}";
+		};
+	};
+	2BFE312C0BDA18A900E3FCF4 /* OMEMailFileDocument2.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {759, 4966}}";
+			sepNavSelRange = "{809, 0}";
+			sepNavVisRange = "{641, 322}";
+			sepNavVisRect = "{{9, 2000}, {774, 455}}";
+			sepNavWindowFrame = "{{15, 38}, {937, 735}}";
+		};
+	};
+	2BFE78C50BC915620054F1D3 /* AppController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 440}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 91}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+		};
+	};
+	2BFE78C60BC915620054F1D3 /* AppController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {753, 642}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 934}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+		};
+	};
+	32DBCF750370BD2300C91783 /* OMEMailViewer_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {774, 455}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* OMEMailViewer */ = {
+		activeExec = 0;
+		executables = (
+			2B2261520A31290100AAA2F0 /* OMEMailViewer */,
+		);
+	};
+	8D15AC360486D014006FF6A4 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 2856}}";
+			sepNavSelRange = "{744, 0}";
+			sepNavVisRange = "{0, 838}";
+			sepNavVisRect = "{{0, 0}, {774, 455}}";
+			sepNavWindowFrame = "{{38, 194}, {750, 558}}";
+		};
+	};
+}

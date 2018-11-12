@@ -1,0 +1,101 @@
+<HTML>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=x-sjis">
+<TITLE> OME_BroweserXCoS ヘルプ </TITLE>
+<META NAME="AppleFont" CONTENT="Osaka">
+</HEAD>
+<BODY>
+<FONT FACE="Osaka">
+<H1> OME_BroweserXCoS (v. 2.3) ヘルプ </H1>
+<H2> １　メニュー </H2>
+<H3> 1.1　ファイル </H3>
+<LI> <B> 用紙設定...　</B>
+<LI> <B> 印刷... </B>
+<LI> <B> 選択部分を印刷... </B> --- メール内容の選択部分を印刷します．
+<H3> 1.2 メール </H3>
+<LI> <B> 次のメールを読む </B> --- リストの次のメールの内容を表示します．
+<LI> <B> 受信 </B> --- メールサーバーからメールをOME_DownloadMails で受信します．受信処理中はリストのウィンドウのタイトルが受信中となります．処理が終わるとリストを更新します．
+<LI> <B> 返信 </B> --- 今読んでいるメールの返信を書くためOME_MailWriter を呼び出します．
+<LI> <B> 新規 </B> --- 新しくメールを書くためOME_MailWriter を呼び出します．
+<LI> <B> Mail_Reader で開く </B> --- OME_Preferences フォルダの中に Mail_Reader という名前でエイリアスを作ったアプリケーションで開きます．
+<LI> <B> ウェブブラウザで開く </B> --- 今読んでいる HTML メールをデフォルトのアプリケーション（通常ウェブブラウザ）で開きます．
+<LI> <B> Finder で表示 </B> --- 今読んでいるメールを Finder で表示します．
+<LI> <B> 既読にする </B> --- 選択しているメールを全て読んだことにします．
+<LI> <B> 関連メールを表示 </B> --- 現在表示しているメールのスレッドのメール（リプライチェーン）を表示します．
+<LI> <B> 未読メール一覧</B> --- 未読メールを表示します．
+<LI> <B> 削除... </B> --- 今読んでいるメールを削除します．取り消しはできないので注意して下さい．
+<H3> 1.3　移動 </H3>
+このメニューには登録したフォルダの名前が並びます．今読んでいるメールをメニューから選んだフォルダに移動します．
+<LI> <B> フォルダを追加して移動... </B> --- 保存ダイアログでフォルダを選び，そのフォルダをメニューに追加，現在選択中のメールをそのフォルダに移動します．
+<LI> <B> 現在のフォルダを追加 </B> --- 今リストを表示しているフォルダをメニューに追加します．
+<LI> <B> 移動先を削除... </B> --- メニューからフォルダを削除します．表示されるダイアログから削除するフォルダを選びます．
+<LI> <B> OME_Move を起動 </B> --- メールを移動，振り分ける OME_Move を起動します．OME_Move が /Applications/OME_Applications の直下にないと動作しません．
+<H3> 1.4　その他 </H3>
+<LI> <B> リスト更新 </B> --- メールのリストを最新の状態にします．
+<LI> <B> InBox閲覧 </B> --- InBox フォルダの中のメールを読みます．
+<LI> <B> フォルダ整列 </B> --- フォルダの整列順序を「名前」の順と「変更日」の新しい順のいずれかから選びます．
+<LI> <B> 住所録 </B> --- Address Book を起動します．
+<LI> <B> 検索 </B> --- OME_search を起動します．
+<H2> ２　設定 </H2>
+OME_BrowserXCoS メニューの設定...を選ぶと設定ダイアログが表示されます．なお，設定はそれぞれのユーザーの Library フォルダの Preferences フォルダの jp.mac-ome.browserxcos.plist の名前のファイルに保存されます．
+<H3> 2.1　受信 </H3>
+<LI> <B> 起動時に受信 </B> --- OME_BrowserXCoS を起動したときにメールを受信するため OME_DownloadMails を起動します．
+<LI> <B> 繰り返し□分毎に受信 </B> --- 指定した時間毎に OME_DownloadMails を起動してメールを受信します．
+<H3> 2.2　キー設定 </H3>
+メール内容のウィンドウが最前面に表示されている状態でここで設定したキーの割り当てを使うことができます．キー割り当てできる命令は次頁，前頁，次行，前行，次メール，前メールです．最初の状態ではそれぞれスペース，b, n, p, Option+n, Option+p が設定されています．またそれ以外にも，上下の矢印で行移動，Control+上下の矢印で頁移動，Command+上下の矢印で最初と最後に移動するなど，MacOS X のアプリケーションの標準的なキー割り当ても使うことができます．
+<LI> <B> 追加... </B> --- キー割り当てを追加します．コマンドキーは使うことはできません．
+<LI> <B> 選択項目削除 </B> --- 選ばれているキー割り当てを削除します．
+<LI> <B> 全て削除 </B> --- 全てのキー割り当てを削除します．ただし，上下の矢印キーでの行移動など，標準的なキー割り当ては削除されません．
+<H3> 2.3　フォント </H3>
+メール内容のフォントを言語ごとに指定します．言語の行をクリックすると，フォントパネルが開き，その言語のフォント，文字サイズを指定できます．フォントを指定した後はフォントパネルを閉じます．<P>
+言語とファイルの文字コードは Content-Type ヘッダの charset および X-OME-ChaSet ヘッダから判定します．両方指定してある場合には X-OME-ChaSet ヘッダでの指定を優先します．charset の名前と文字コードの対応は OME_BrowserXCoS の中の FileEncodeList.txt に書かれています．FileEncodeList.txt は，OME_BrowserXCoS をコントロールキーを押しながらクリックし，ポップアップメニューから「パッケージの内容を表示」を選び，Contents フォルダの中の Resource フォルダの中から開くことができます．FileEncodeList.txt は以下のように設定を書きます．語の間はタブで区切ります．
+<BLOCKQUOTE>
+default	ヘッダ等の情報がないときの文字コード
+multipart	添付ファイル付きメールの文字コード
+send	送信メールの文字コード
+encode	文字集合の文字コード	Content-Typeヘッダのcharsetに現れる文字集合をタブで区切って並べる
+omeCharCode	文字集合の文字コード	X-OME-CharSetヘッダに現れる文字集合をタブで区切って並べる
+</BLOCKQUOTE>
+文字集合の文字コードは以下が指定できます．
+ASCII, ISO2022JP, ISOLatin1, ISOLatin2, JapaneseEUC, EUC_JP, 
+MacOSRoman, ShiftJIS,
+UTF8, Unicode, MacKorean, MacChineseTrad, MacChineseSimp,
+EUC_KR, Big5, GB_2312, ISOLatin3, ISOLatin4, ISOLatinCyrillic,
+ISOLatinArabic, ISOLatinGreek, ISOLatinHebrew, ISOLatin5,
+ISOLatin6, ISOLatinThai, ISOLatin7, ISOLatin8, ISOLatin9,
+UnicodeEnglish, UnicodeJapanese, UnicodeKorean, UnicodeChineseTrad, 
+UnicodeChineseSimp, UnicodeWestern, UnicodeCentralEuropean, 
+UnicodeSouthEuropean, UnicodeBaltic, UnicodeCyrillic, 
+UnicodeArabic, UnicodeGreek, UnicodeHebrew, UnicodeTurkish, 
+UnicodeNordic, UnicodeThai, UnicodeCeltic, UTF8English, UTF8Japanese, 
+UTF8Korean, UTF8ChineseTrad, 
+UTF8ChineseSimp, UTF8Western, UTF8CentralEuropean, 
+UTF8SouthEuropean, UTF8Baltic, UTF8Cyrillic, 
+UTF8Arabic, UTF8Greek, UTF8Hebrew, UTF8Turkish, 
+UTF8Nordic, UTF8Thai, UTF8Celtic
+
+<H2> ３　フォルダウィンドウでの移動 </H2>
+フォルダウィンドウで下の階層に移動するにはそのフォルダをダブルクリック，上の階層に移動するには現在選択されているフォルダをコマンドクリックします．もちろん下のスクロールバーでも移動できます．
+<H2> ４　メールのリスト </H2>
+メールのリストで一番上の状態，送信者，日時，題をクリックすると，それぞれの順に整列します．既に整列されているところをクリックすると順序が反転します．<P>
+状態は U: 未読，　A: 添付書類あり，　R: 返信済み，　H: HTMLメール，S: 送信メール, X: 本文なしの添付ファイルだけのメール，E: エラーメールを意味します．送信メールでは送信者の欄に宛先を表示します．
+<H2> ５　入手方法と連絡先 </H2>
+OME_BrowserXCoS は OME といっしょに配付されています． OME は
+<BLOCKQUOTE>
+http://mac-ome.jp/
+</BLOCKQUOTE>
+から入手できます．ただし，最新版が出た直後は，
+<BLOCKQUOTE>
+http://www.vector.co.jp/authors/VA019709/OME_BrowserXCoS.html
+</BLOCKQUOTE>
+でまず公開されます．
+<P>
+OME_BrowserXCoS についての感想，バグ報告などは
+<BLOCKQUOTE>
+takahasi@lisboa.ics.nara-wu.ac.jp
+</BLOCKQUOTE>
+宛に送って下さい．
+</FONT>
+</BODY>
+</HTML>

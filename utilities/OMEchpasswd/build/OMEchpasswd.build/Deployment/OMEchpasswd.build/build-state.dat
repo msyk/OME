@@ -1,0 +1,284 @@
+TOMEchpasswd
+v7
+r0
+t318677111.238874
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Info.plist Info-OMEchpasswd_____________.plist
+cOSACompile build/Deployment/OMEchpasswd.app/Contents/Resources/Scripts/OMEchpasswd.scpt OMEchpasswd.applescript
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/MainMenu.nib
+cStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/MainMenu.nib
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/Localized.strings English.lproj/Localized.strings
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/Localized.strings Japanese.lproj/Localized.strings
+cCompileC build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd normal ppc
+cCompileC build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/MacOS/OMEchpasswd normal "ppc i386"
+cTouch /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app
+
+N/System/Library/Frameworks/AppleScriptKit.framework/AppleScriptKit
+c000000004A1F2E5D00000000001BBC30
+t1243557469
+s1817648
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/InfoPlist.strings
+c0000000047F97D0B0000000000000228
+t1207532811
+s552
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/Localized.strings
+c0000000047F97D0B0000000000000117
+t1207532811
+s279
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/MainMenu.nib
+c000000004B13D44100000000000000EE
+t1259590721
+s238
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/InfoPlist.strings
+c0000000047F97D0A0000000000000228
+t1207532810
+s552
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/Localized.strings
+c0000000047F97D0A000000000000018A
+t1207532810
+s394
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/MainMenu.nib
+c000000004B13D44100000000000000EE
+t1259590721
+s238
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/OMEchpasswd.applescript
+c0000000047F97D0B0000000000000A0A
+t1207532811
+s2570
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app
+t1296984311
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Info.plist
+t1296984311
+s704
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/MacOS/OMEchpasswd
+t1272604012
+s33616
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/PkgInfo
+t1296984311
+s8
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1272604012
+s552
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/Localized.strings
+t1272604012
+s560
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/MainMenu.nib
+t1283796584
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+t1272604012
+s552
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/Localized.strings
+t1272604012
+s394
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/MainMenu.nib
+t1283796584
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Scripts/OMEchpasswd.scpt
+t1272604011
+s2876
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd
+t1272604012
+s13136
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd.LinkFileList
+c000000004BDA656B000000000000008C
+t1272604011
+s140
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/main.o
+t1272604012
+s3488
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd
+t1272604012
+s12952
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd.LinkFileList
+c000000004BDA656B000000000000008B
+t1272604011
+s139
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/main.o
+t1272604012
+s3640
+
+N/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m
+c0000000047F97D0B00000000000000C5
+t1207532811
+s197
+
+NInfo-OMEchpasswd_____________.plist
+c0000000047F97D0B00000000000002F9
+t1207532811
+s761
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677111#318677111#0(0"0(0#1#0"6144960782880687104#0"0#
+
+CCompileC build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s294296812.243191
+e294296812.377042
+r1
+xCompileC
+xbuild/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m294296812#294296812#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m2447773728#1085"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/OMEchpasswd.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s294296812.238692
+e294296812.344973
+r1
+xCompileC
+xbuild/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/main.o
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m294296812#294296812#0(0"0(0#0#66"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m2447773728#1092"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -mtune=G4 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/OMEchpasswd.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/main.m -o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s294296812.042002
+e294296812.119382
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings294296812#294296812#0(0"0(0#0#91"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/InfoPlist.strings2447773728#417"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/Localized.strings English.lproj/Localized.strings
+s294296812.119564
+e294296812.238577
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/Localized.strings
+xEnglish.lproj/Localized.strings
+lSLF07#2@36"Copy English.lproj/Localized.strings294296812#294296812#0(0"0(0#0#91"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/Localized.strings2447773728#416"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/Localized.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/InfoPlist.strings Japanese.lproj/InfoPlist.strings
+s294296812.050380
+e294296812.133854
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/InfoPlist.strings
+xJapanese.lproj/InfoPlist.strings
+oJapanese.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-16
+lSLF07#2@37"Copy Japanese.lproj/InfoPlist.strings294296812#294296812#0(134"Japanese.lproj/InfoPlist.strings: warning: the specified encoding is utf-8, but file contents appear to be UTF-16; treating as UTF-160(0#0#92"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/InfoPlist.strings2447773728#418"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 Japanese.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/Localized.strings Japanese.lproj/Localized.strings
+s294296812.134035
+e294296812.238095
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/Localized.strings
+xJapanese.lproj/Localized.strings
+lSLF07#2@37"Copy Japanese.lproj/Localized.strings294296812#294296812#0(0"0(0#0#92"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/Localized.strings2447773728#419"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 Japanese.lproj/Localized.strings --outdir /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/MacOS/OMEchpasswd normal "ppc i386"
+s294296812.470433
+e294296812.476557
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/MacOS/OMEchpasswd
+xnormal
+xppc i386
+lSLF07#2@99"CreateUniversalBinary build/Deployment/OMEchpasswd.app/Contents/MacOS/OMEchpasswd normal "ppc i386"294296812#294296812#0(0"0(0#0#68"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/ppc i3862447773728#510"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd -output /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/MacOS/OMEchpasswd0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd normal i386
+s294296812.377224
+e294296812.470259
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd
+xnormal
+xi386
+lSLF07#2@149"Link /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd294296812#294296812#0(0"0(0#0#0"2447773728#635"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /Developer/usr/bin/gcc-4.2 -arch i386 -L/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd.LinkFileList -framework Cocoa -framework AppleScriptKit -prebind -o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/i386/OMEchpasswd0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd normal ppc
+s294296812.345234
+e294296812.416804
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd
+xnormal
+xppc
+lSLF07#2@148"Link /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd294296812#294296812#0(0"0(0#0#0"2447773728#632"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /Developer/usr/bin/gcc-4.2 -arch ppc -L/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd.LinkFileList -framework Cocoa -framework AppleScriptKit -prebind -o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/OMEchpasswd.build/Deployment/OMEchpasswd.build/Objects-normal/ppc/OMEchpasswd0#
+
+COSACompile build/Deployment/OMEchpasswd.app/Contents/Resources/Scripts/OMEchpasswd.scpt OMEchpasswd.applescript
+s294296811.170600
+e294296811.361585
+r1
+xOSACompile
+xbuild/Deployment/OMEchpasswd.app/Contents/Resources/Scripts/OMEchpasswd.scpt
+xOMEchpasswd.applescript
+lSLF07#2@31"Compile OMEchpasswd.applescript294296811#294296811#0(0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/OMEchpasswd.applescript4657240#418"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /usr/bin/osacompile -d -i /System/Library/Frameworks/AppleScriptKit.framework -l AppleScript -U OMEchpasswd.applescript -x -o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Scripts/OMEchpasswd.scpt /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/OMEchpasswd.applescript0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Info.plist Info-OMEchpasswd_____________.plist
+s318677111.232272
+e318677111.236317
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Info.plist
+xInfo-OMEchpasswd_____________.plist
+lSLF07#2@43"Process Info-OMEchpasswd_____________.plist318677111#318677111#0(0"0(0#0#95"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Info-OMEchpasswd_____________.plist31244010180771952#408"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    builtin-infoPlistUtility Info-OMEchpasswd_____________.plist -genpkginfo /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Info.plist0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/MainMenu.nib
+s294296811.361806
+e294296812.041782
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib294296811#294296812#0(0"0(0#0#86"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/MainMenu.nib4657240#367"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/English.lproj/MainMenu.nib0#
+
+CStripNIB /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/MainMenu.nib
+s294296811.363207
+e294296812.050201
+r1
+xStripNIB
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/MainMenu.nib
+lSLF07#2@36"StripNIB Japanese.lproj/MainMenu.nib294296811#294296812#0(0"0(0#0#87"/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/MainMenu.nib2447773728#369"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /Developer/usr/bin/ibtool --strip /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app/Contents/Resources/Japanese.lproj/MainMenu.nib --output-format human-readable-text /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/Japanese.lproj/MainMenu.nib0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app
+s318677111.236636
+e318677111.238799
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app
+lSLF07#2@98"Touch /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app318677111#318677111#0(0"0(0#0#0"32932993185022052#182"    cd /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/utilities/OMEchpasswd/build/Deployment/OMEchpasswd.app0#
+

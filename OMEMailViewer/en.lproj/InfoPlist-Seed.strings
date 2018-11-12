@@ -1,0 +1,7 @@
+﻿/* Localized versions of Info.plist keys */
+
+CFBundleName = "OMEMailViewer";
+CFBundleShortVersionString = "OMEMailViewer version @@VERSION@@";
+CFBundleGetInfoString = "OMEMailViewer version @@VERSION@@, Copyright 2000-@@THISYEAR@@ @@COMPANY@@.";
+NSHumanReadableCopyright = "Copyright @@THISYEAR@@ @@COMPANY@@.";
+CFBundleDisplayName = "OMEMailViewer";

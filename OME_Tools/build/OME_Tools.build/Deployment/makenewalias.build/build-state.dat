@@ -1,0 +1,122 @@
+Tmakenewalias
+v7
+r0
+t318677124.982440
+cCheck dependencies
+cCompileC build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/MakeNewAlias.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/MakeNewAlias.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias normal ppc
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/makenewalias normal "i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004C0FDD7E000000000000A5F0
+t1276108158
+s42480
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c
+c000000004A4B95EB0000000000001B64
+t1246467563
+s7012
+i<Carbon/Carbon.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/makenewalias
+t1296984324
+s26256
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/MakeNewAlias.o
+t1296984324
+s16536
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias
+t1296984324
+s10452
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias.LinkFileList
+c000000004BDA658E0000000000000087
+t1272604046
+s135
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/MakeNewAlias.o
+t1296984324
+s16220
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias
+t1296984324
+s9872
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias.LinkFileList
+c000000004BDA658E0000000000000086
+t1272604046
+s134
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677124#318677124#0(0"0(0#1#0"5932726464168218624#0"0#
+
+CCompileC build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/MakeNewAlias.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c normal i386 c com.apple.compilers.gcc.4_2
+s318677124.350166
+e318677124.947360
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/MakeNewAlias.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c318677124#318677124#0(0"0(0#0#62"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c5705890773592916992#1079"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/makenewalias.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/MakeNewAlias.o0#
+
+CCompileC build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/MakeNewAlias.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c normal ppc c com.apple.compilers.gcc.4_2
+s318677124.354359
+e318677124.940984
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/MakeNewAlias.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c318677124#318677124#0(0"0(0#0#62"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c8029405159545332736#1086"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/makenewalias.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MakeNewAlias.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/MakeNewAlias.o0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/makenewalias normal "i386 ppc"
+s318677124.979501
+e318677124.982323
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/makenewalias
+xnormal
+xi386 ppc
+lSLF07#2@69"CreateUniversalBinary build/Deployment/makenewalias normal "i386 ppc"318677124#318677124#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/i386 ppc4337344512#432"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias -output /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/makenewalias0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias normal i386
+s318677124.947565
+e318677124.979393
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias
+xnormal
+xi386
+lSLF07#2@137"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias318677124#318677124#0(0"0(0#0#0"4668536720#658"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/i386/makenewalias0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias normal ppc
+s318677124.941462
+e318677124.968987
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias
+xnormal
+xppc
+lSLF07#2@136"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias318677124#318677124#0(0"0(0#0#0"4337167296#655"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/makenewalias.build/Objects-normal/ppc/makenewalias0#
+

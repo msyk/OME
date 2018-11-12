@@ -1,0 +1,136 @@
+Tmergeres
+v7
+r0
+t294296850.756913
+cCheck dependencies
+cCompileC build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres normal i386
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres normal ppc
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/mergeres normal "i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BB3282C00000000000000EE
+t1270032428
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B448EEF00000000000005FF
+t1262784239
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004AC3C6120000000000000401
+t1254344210
+s1025
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC326060000000000004174
+t1254303238
+s16756
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004A7680C1000000000000A5F0
+t1249280193
+s42480
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/mergeres
+t1272604050
+s34196
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres
+t1272604050
+s14104
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.LinkFileList
+c000000004BDA6591000000000000007F
+t1272604049
+s127
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.o
+t1272604050
+s19716
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres
+t1272604050
+s13716
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.LinkFileList
+c000000004BDA6591000000000000007E
+t1272604049
+s126
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.o
+t1272604050
+s20964
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c
+c0000000047F97D040000000000002567
+t1207532804
+s9575
+i<Carbon/Carbon.h>
+i<CoreServices/CoreServices.h>
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294296848#294296849#0(0"0(0#1#0"4657240#0"0#
+
+CCompileC build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c normal i386 c com.apple.compilers.gcc.4_2
+s294296849.282901
+e294296850.531042
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c294296849#294296850#0(0"0(0#0#58"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c4657240#1051"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/mergeres.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.o0#
+
+CCompileC build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c normal ppc c com.apple.compilers.gcc.4_2
+s294296849.290405
+e294296850.595286
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c294296849#294296850#0(0"0(0#0#58"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c5143248#1058"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/mergeres.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/mergeres.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.o0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/mergeres normal "i386 ppc"
+s294296850.729834
+e294296850.756750
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/mergeres
+xnormal
+xi386 ppc
+lSLF07#2@65"CreateUniversalBinary build/Deployment/mergeres normal "i386 ppc"294296850#294296850#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/i386 ppc2447773728#412"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres -output /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/mergeres0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres normal i386
+s294296850.531939
+e294296850.729719
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres
+xnormal
+xi386
+old: warning: directory '/usr/lib/gcc/darwin/3.1' following -L not found
+lSLF07#2@129"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres294296850#294296850#0(72"ld: warning: directory '/usr/lib/gcc/darwin/3.1' following -L not found1(22@58"Directory '/usr/lib/gcc/darwin/3.1' following -L not found294296850#0#72#0(6@0"294296850#0#0#0#0#0"0(0#0#0"4657240#668"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -L/usr/lib/gcc/darwin/3.1 -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/i386/mergeres0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres normal ppc
+s294296850.595489
+e294296850.729055
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres
+xnormal
+xppc
+old: warning: directory '/usr/lib/gcc/darwin/3.1' following -L not found
+lSLF07#2@128"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres294296850#294296850#0(72"ld: warning: directory '/usr/lib/gcc/darwin/3.1' following -L not found1(22@58"Directory '/usr/lib/gcc/darwin/3.1' following -L not found294296850#0#72#0(6@0"294296850#0#0#0#0#0"0(0#0#0"4657240#665"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -L/usr/lib/gcc/darwin/3.1 -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/mergeres.build/Objects-normal/ppc/mergeres0#
+

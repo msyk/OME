@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0600"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2BD1396E0B475C40004D87C4"
+               BuildableName = "OME_Core.app"
+               BlueprintName = "OME_Core"
+               ReferencedContainer = "container:OME_Core.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Development">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BD1396E0B475C40004D87C4"
+            BuildableName = "OME_Core.app"
+            BlueprintName = "OME_Core"
+            ReferencedContainer = "container:OME_Core.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Development"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BD1396E0B475C40004D87C4"
+            BuildableName = "OME_Core.app"
+            BlueprintName = "OME_Core"
+            ReferencedContainer = "container:OME_Core.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "&quot;/Users/msyk/Open_Mail_Environment/NewsLetters/&#x30cf;&#x30f3;&#x30af;&#x3099;&#x30ea;&#x30fc;&#x30d5;&#x30a9;&#x30fc;&#x30ef;&#x30fc;&#x30b9;&#x3099; &lt;info@ma|&#x25c6;&#xff12;&#x30f5;&#x6708;&#x7121;&#x6599;&#xff01;&#x5148;&#x7740;300&#x540d;&#x69d8;&#x9650;&#x308a;&#x25c6;&#x82f1;&#x4f1a;&#x8a71;&#x306f;&#x30e9;&#x30f3;&#x30b1;&#x3099;&#x30fc;&#x30b7;&#x3099;&#x30c1;&#x30e3;&#x30f3;&#x30cd;|BFW8.html&quot;"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Deployment"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2BD1396E0B475C40004D87C4"
+            BuildableName = "OME_Core.app"
+            BlueprintName = "OME_Core"
+            ReferencedContainer = "container:OME_Core.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Development">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Deployment"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

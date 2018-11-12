@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {selectFolder = id; showFinishPanel = id; showWindow3 = id; }; 
+            CLASS = Window4Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mailBoxPath = NSTextField; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

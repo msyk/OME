@@ -1,0 +1,316 @@
+TOME
+v7
+r0
+t318677160.203880
+cCheck dependencies
+cProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Release/OME.mdimporter/Contents/Resources/schema.xml schema.xml
+cCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/schema.strings English.lproj/schema.strings
+cCompileC build/OME.build/Release/OME.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/OME.build/Release/OME.build/Objects-normal/ppc/GetMetadataForFile.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/OME.build/Release/OME.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME.build/Release/OME.build/Objects-normal/i386/GetMetadataForFile.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME normal ppc
+cLd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME normal i386
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/MacOS/OME normal "ppc i386"
+cTouch /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OME.framework/Headers/OME.h
+c000000004BDA67DF0000000000000305
+t1272604639
+s773
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/OgreKit.framework/Headers/OgreKit.h
+c0000000047F97D120000000000000667
+t1207532818
+s1639
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFPlugInCOM.h
+c000000004C239DAA0000000000000E87
+t1277402538
+s3719
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004C239DAB0000000000000AF4
+t1277402539
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004A11F0980000000000000400
+t1242689688
+s1024
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C23AA0400000000000013E6
+t1277405700
+s5094
+
+N/Library/Frameworks/OME.framework/OME
+c000000004BDA67E0000000000004A370
+t1272604640
+s303984
+
+N/Library/Frameworks/OgreKit.framework/OgreKit
+c0000000047F97D120000000000184FA8
+t1207532818
+s1593256
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004C0FDD7E000000000000A5F0
+t1276108158
+s42480
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004C971DAF0000000000781330
+t1284971951
+s7869232
+
+N/System/Library/Frameworks/CoreServices.framework/CoreServices
+c000000004C23F49F0000000000021710
+t1277424799
+s136976
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CA8DA260000000000B3E910
+t1286134310
+s11790608
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/English.lproj/InfoPlist.strings
+c0000000047F97D0500000000000001EC
+t1207532805
+s492
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/English.lproj/schema.strings
+c0000000047F97D0500000000000004FC
+t1207532805
+s1276
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m
+c0000000047F97D050000000000000AB6
+t1207532805
+s2742
+i<CoreFoundation/CoreFoundation.h>
+i<CoreServices/CoreServices.h>
+i<Foundation/Foundation.h>
+i"OMEMessage.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/OMEMessage.h
+c0000000047FC38E10000000000000EF7
+t1207711969
+s3831
+i<Foundation/Foundation.h>
+i<OME/OME.h>
+i<OgreKit/OgreKit.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/GetMetadataForFile.o
+t1296984360
+s2568
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME
+t1296984360
+s13984
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME.LinkFileList
+c000000004D4E692700000000000000F6
+t1296984359
+s246
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/main.o
+t1296984359
+s2540
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/GetMetadataForFile.o
+t1296984360
+s2680
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME
+t1296984360
+s13532
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME.LinkFileList
+c000000004D4E692700000000000000F4
+t1296984359
+s244
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/main.o
+t1296984359
+s2724
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter
+t1296984360
+s102
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Info.plist
+t1296984359
+s4503
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/MacOS/OME
+t1296984360
+s34464
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings
+t1296984359
+s492
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/schema.strings
+t1296984359
+s1276
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/schema.xml
+t1296984359
+s1031
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c
+c0000000047F97D05000000000000207A
+t1207532805
+s8314
+i<CoreFoundation/CoreFoundation.h>
+i<CoreFoundation/CFPlugInCOM.h>
+i<CoreServices/CoreServices.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/schema.xml
+c0000000047F97D050000000000000407
+t1207532805
+s1031
+
+NInfo.plist
+c0000000047F97D0500000000000011EB
+t1207532805
+s4587
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677159#318677159#0(0"0(0#1#0"0#0"0#
+
+CCompileC build/OME.build/Release/OME.build/Objects-normal/i386/GetMetadataForFile.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318677159.404413
+e318677160.155586
+r1
+xCompileC
+xbuild/OME.build/Release/OME.build/Objects-normal/i386/GetMetadataForFile.o
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m318677159#318677160#0(0"0(0#0#75"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m4391140352#1002"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/OME.hmap -F/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/GetMetadataForFile.o0#
+
+CCompileC build/OME.build/Release/OME.build/Objects-normal/i386/main.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c normal i386 c com.apple.compilers.gcc.4_2
+s318677159.403507
+e318677159.755575
+r1
+xCompileC
+xbuild/OME.build/Release/OME.build/Objects-normal/i386/main.o
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c318677159#318677159#0(0"0(0#0#61"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c4391186752#964"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/OME.hmap -F/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/main.o0#
+
+CCompileC build/OME.build/Release/OME.build/Objects-normal/ppc/GetMetadataForFile.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s318677159.402698
+e318677160.134580
+r1
+xCompileC
+xbuild/OME.build/Release/OME.build/Objects-normal/ppc/GetMetadataForFile.o
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m318677159#318677160#0(0"0(0#0#75"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m4665374736#1009"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/OME.hmap -F/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/GetMetadataForFile.m -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/GetMetadataForFile.o0#
+
+CCompileC build/OME.build/Release/OME.build/Objects-normal/ppc/main.o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c normal ppc c com.apple.compilers.gcc.4_2
+s318677159.401711
+e318677159.725171
+r1
+xCompileC
+xbuild/OME.build/Release/OME.build/Objects-normal/ppc/main.o
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c318677159#318677159#0(0"0(0#0#61"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c4665454240#971"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -mmacosx-version-min=10.6 -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/OME.hmap -F/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/include -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/main.c -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/main.o0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s318677159.373084
+e318677159.401337
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings318677159#318677159#0(0"0(0#0#86"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/English.lproj/InfoPlist.strings29555336416329840#403"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/schema.strings English.lproj/schema.strings
+s318677159.374956
+e318677159.401649
+r1
+xCopyStringsFile
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj/schema.strings
+xEnglish.lproj/schema.strings
+lSLF07#2@33"Copy English.lproj/schema.strings318677159#318677159#0(0"0(0#0#83"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/English.lproj/schema.strings4389834144#400"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/schema.strings --outdir /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/OME.mdimporter/Contents/Resources/schema.xml schema.xml
+s318677159.374274
+e318677159.380794
+r1
+xCpResource
+xbuild/Release/OME.mdimporter/Contents/Resources/schema.xml
+xschema.xml
+lSLF07#2@15"Copy schema.xml318677159#318677159#0(0"0(0#0#65"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/schema.xml4389511632#414"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/schema.xml /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Resources0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/MacOS/OME normal "ppc i386"
+s318677160.199078
+e318677160.201557
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/MacOS/OME
+xnormal
+xppc i386
+lSLF07#2@87"CreateUniversalBinary build/Release/OME.mdimporter/Contents/MacOS/OME normal "ppc i386"318677160#318677160#0(0"0(0#0#63"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/ppc i3864661634080#424"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME -output /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/MacOS/OME0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME normal i386
+s318677160.155784
+e318677160.198964
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME
+xnormal
+xi386
+lSLF07#2@117"Link /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME318677160#318677160#0(0"0(0#0#0"4389677888#738"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -F/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME.LinkFileList -mmacosx-version-min=10.6 -framework CoreFoundation -framework CoreServices -framework Foundation -framework Carbon -framework OME -framework OgreKit -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/i386/OME0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME normal ppc
+s318677160.134709
+e318677160.175803
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME
+xnormal
+xppc
+lSLF07#2@116"Link /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME318677160#318677160#0(0"0(0#0#0"4661768848#735"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -F/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release -filelist /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME.LinkFileList -mmacosx-version-min=10.6 -framework CoreFoundation -framework CoreServices -framework Foundation -framework Carbon -framework OME -framework OgreKit -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/OME.build/Release/OME.build/Objects-normal/ppc/OME0#
+
+CProcessInfoPlistFile /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Info.plist Info.plist
+s318677159.366012
+e318677159.372413
+r1
+xProcessInfoPlistFile
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist318677159#318677159#0(0"0(0#0#65"/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/Info.plist30962560973865076#247"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter/Contents/Info.plist0#
+
+CTouch /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter
+s318677160.201690
+e318677160.203807
+r1
+xTouch
+x/Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter
+lSLF07#2@89"Touch /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter318677160#318677160#0(0"0(0#0#0"4389839216#168"    cd /Users/msyk/Documents/Develop-OME/ome/MetadataImporter    /usr/bin/touch -c /Users/msyk/Documents/Develop-OME/ome/MetadataImporter/build/Release/OME.mdimporter0#
+

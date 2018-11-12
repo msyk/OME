@@ -1,0 +1,7 @@
+﻿/* Localized versions of Info.plist keys */
+
+CFBundleName = "未読を全て開く";
+CFBundleShortVersionString = "未読を全て開く version 1.1";
+CFBundleGetInfoString = "未読を全て開く version 1.1, Copyright 2003-2005 新居雅行.";
+NSHumanReadableCopyright = "Copyright 2003-2005 新居雅行.";
+CFBundleDisplayName = "未読を全て開く";

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8AA67634-4279-4376-98CF-2CAA2BD1D206</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OME_Core</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11</key>
+		<string>http://msyk.net/svn/ome/OME_CoreApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OME_Core.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11</key>
+		<string>http://msyk.net/svn/ome</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://msyk.net/svn/ome/OME_CoreApp/OME_Core.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>dbc98a8f-b7f0-49b3-a781-ff4c50f5ed11</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OME_CoreApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

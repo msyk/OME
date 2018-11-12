@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Disabled</key>
+	<false/>
+	<key>Description</key>
+	<string>OME Auto Mail Download</string>
+	<key>Label</key>
+	<string>jp.mac-ome.donloadmails</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/System/Library/Frameworks/JavaVM.framework/Home/bin/java</string>
+		<string>-cp</string>
+		<string>/Library/Frameworks/OME.framework/Resources/Java/OME_lib.jar</string>
+		<string>OME.downloadmails.OME_DownloadMails</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+	<integer>300</integer>
+</dict>
+</plist>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>jp.mac-ome.countunread</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Applications/OME_Applications.localized/CocoaOMEnu.app/Contents/Resources/come</string>
+		<string>mdfind</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Users/msyk/Open_Mail_Environment/temp/unreadAliases/</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,110 @@
+<HTML>
+<html lang="de">
+<HEAD>
+<TITLE> OME_BroweserXCoS Hilfe </TITLE>
+</HEAD>
+<BODY>
+
+
+<H1> OME_BroweserXCoS (v. 2.3) Hilfe </H1>
+
+
+<H2> 1 Menus </H2>
+
+<H3> 1.1 Ablage </H3>
+<LI> <B> Papierformat... </B>
+<LI> <B> Drucken... </B>
+<LI> <B> Auswahl drucken... </B> --- Auswahl des E-mail Inhalt drucken.
+
+<H3> 1.2 E-mail </H3>
+<LI> <B> N&auml;chste E-Mail lesen </B> ---  Den Inhalt des n&auml;chste E-mail in der Liste anzeigen.
+<LI> <B> Empfangen </B> --- Empfangen neuen E-Mail aus dem Mail-Server mit OME_Downloadmails, genauer, OME_lib.jar.  Der Listenfenstertitel wird "Empfangen...",    wenn es neue E-Mails empfing.  Die Liste wird nach dem Empfangen erfrisched.
+<LI> <B> Antworten </B> --- Mit OME_MailWriter zu gegenw&auml;rtigem E-Mail antworten.
+<LI> <B> Neu </B> --- OME_MailWriter aussto§en, um eine neue E-Mail zu schreiben.
+<LI> <B> Mit "Mail_Reader" &ouml;ffnen </B> --- Ausgew&auml;hlte E-Mails mit "Mail_Reader" (Alias in ~/Library/Preferences/OME_Preference) &ouml;ffnen.
+<LI> <B> Mit dem Web-Browser &ouml;ffnen </B> --- HTML Mail mit Anwendung daf&uuml;r &ouml;ffnen (normalerweise Web-Browser).
+<LI> <B> Im Finder anzeigen </B> --- gegenw&auml;rtige E-Mail im Finder anzeigen.
+<LI> <B> Gelesen lassen </B> --- gew&auml;hlte E-Mail gelesen lassen.
+<LI> <B> Antwortketten zeigen </B> --- Antwortketten zeigen.
+<LI> <B> Alle ungelesene E-mails </B> --- Alle ungelesene E-mails zeigen.
+<LI> <B> L&ouml;schen... </B> --- gegenw&auml;rtigen E-Mail L&ouml;schen.  
+
+<H3> 1.3 Gehe zu </H3>
+Dieses Men&uuml; verzeichnet den Ordner, die vom Benutzer registriert werden.  Gegenw&auml;rtige E-Mail bewegt auf das vorgew&auml;hlten Ordner.
+<LI> <B> Ordner zusetzen &amp; E-Mail umsetzen... </B> --- Ordner durch Sicherungsdialog w&auml;hlen,  es dem Men&uuml; hinzuf&uuml;gen, und vorgew&auml;hlte E-Mail in den Ordner umsetzen.
+<LI> <B> Gegenw&auml;rtigen Ordner zusetzen </B> --- den gegenw&auml;rtigen Ordner (E-Mail dain auf der Liste) dem "Gehe zu" Men&uuml; hinzuf&uuml;gen.
+<LI> <B> L&ouml;schen... </B> --- Einen Ordner vom Men&uuml; l&ouml;schen .  Den Ordner vom Dialog vorw&auml;hlen.
+<LI> <B> OME_Move durchf&uuml;hren</B> ---  OME_Move aussto§en, das E-Mail durch vorbestimmte Richtlinien verschieben.  Dieses Men&uuml; fuktioniert, nur wenn OME_Move gerades unter /Applications/OME_Applications ist.
+
+<H3> 1.4 Sonst </H3>
+<LI> <B> Liste erneuern </B> --- E-Mailliste erneuern.
+<LI> <B> InBox einsehen </B> --- E-Mails im InBox verzeichnet.
+<LI> <B> Ordner sortieren </B> --- Sortierenordnung des Ordner "vom Namen" oder "von ge&auml;ndertem Datum" w&auml;hlen.
+<LI> <B> Addressbuch </B> --- Address Book aussto§en.
+<LI> <B> Suchen </B> --- OME_search aussto§en.
+
+
+<H2> 2 Einstellungen </H2>
+Einstellungen Men&uuml; zeigt Einstellungdialog.  Einstellung wird in der Akte "jp.mac-ome.browserxcos.plist" des Ordner" Preference" in "Library" in der Privat gespeichert .
+
+<H3> 2.1 Empfang </H3>
+<LI> <B> Beim Start empfangen </B> --- OME_DownloadMails ausst&ouml;§en, um E-mails zu downloaden, wenn OME_BrowserXCoS ausst&ouml;§t.
+<LI> <B> jede ... minuten empfangen </B> --- OME_DownloadMails wiederholt ausst&ouml;§en in vorgeschriebenem Zeitabstand, um E-mails zu downloaden.
+
+<H3> 2.2 Tasteneinstellung </H3>
+Wenn die Inhaltfenster vorder sitzen, die Tastebindungen, die hier eingestellt werden, genutzt werden.  Tastenkombination wird zu den Funktionen, "n&auml;chste Seite", "Ehemalige Seite", "N&auml;chste Zeile", "Ehemalige Zeile", "n&auml;chste E-Mail", "Ehemalige E-Mail", verbindet.  Initiale Bindung ist SPACE, b, n, p, Option+n, Option+p.  Standardtastenbindungen der Kakaoanwendung, Downarrow -- "N&auml;chste Zeile", Control+Downarrow -- "n&auml;chste Seite", Command+Downarrow -- "Ende des Dokumentes" auch noch funktioniert.  
+<LI> <B> Zusetzen... </B> --- Eine Tastenverbindung zusetzen.  Man kann nicht mit "Command" tasten verbinden.
+<LI> <B> Auswahl l&ouml;schen </B> --- Die ausgw&auml;hlte Tastenverbindung l&ouml;schen.
+<LI> <B> Alles l&ouml;schen </B> --- Alle Tastenverbindungen l&ouml;schen.  Kakaostandardtastenverbindungen werden nicht gel&ouml;scht.
+
+<H3> 2.3 Schrift </H3>
+Assign font of mail contents window for each language.  Clicking a row of language opens the font panel to choose font of that language.  Close the font panel after selecting font.<P>
+Language and file character code is decided by "charset" of "Content-Type" header, or "X-OME-CharSet" header.  If both aredesignated, that by "X-OME-ChaSet" preceeds. Association between character codes and charsets is prescribed in "FileEncodeList.txt" in OME_BrowserXCoS.  You can find "FileEncodeList.txt" by Control-clicking OME_BrowserXCoS and choose "Show Package Contents" from pop-up menu, then follow folder path of Contents>Resources.  The format of "FileEncodeList.txt" is as follows:.  Each word is seaprated by a tab character
+<BLOCKQUOTE>
+default	"Character code that is used without information like Content-Type header"
+multipart	"Character code for mails with attached files"
+send "Character code for out-going mails"
+encode "Charactercode for the following charsets in Content-Type header"	"charset"	"charset" ...
+</BLOCKQUOTE>
+Following character codes are available:
+ASCII, ISO2022JP, ISOLatin1, ISOLatin2, JapaneseEUC, EUC_JP, 
+MacOSRoman, ShiftJIS,
+UTF8, Unicode, MacKorean, MacChineseTrad, MacChineseSimp,
+EUC_KR, Big5, GB_2312, ISOLatin3, ISOLatin4, ISOLatinCyrillic,
+ISOLatinArabic, ISOLatinGreek, ISOLatinHebrew, ISOLatin5,
+ISOLatin6, ISOLatinThai, ISOLatin7, ISOLatin8, ISOLatin9,
+UnicodeEnglish, UnicodeJapanese, UnicodeKorean, UnicodeChineseTrad, 
+UnicodeChineseSimp, UnicodeWestern, UnicodeCentralEuropean, 
+UnicodeSouthEuropean, UnicodeBaltic, UnicodeCyrillic, 
+UnicodeArabic, UnicodeGreek, UnicodeHebrew, UnicodeTurkish, 
+UnicodeNordic, UnicodeThai, UnicodeCeltic, UTF8English, UTF8Japanese, 
+UTF8Korean, UTF8ChineseTrad, 
+UTF8ChineseSimp, UTF8Western, UTF8CentralEuropean, 
+UTF8SouthEuropean, UTF8Baltic, UTF8Cyrillic, 
+UTF8Arabic, UTF8Greek, UTF8Hebrew, UTF8Turkish, 
+UTF8Nordic, UTF8Thai, UTF8Celtic
+
+<H2> 3 in Folder Fenster sich bewegen </H2>
+Double-click to move down, command+click the selected folder to move up.  Or, scroll bar below can be used.
+<H2> 4 E-Mail Liste </H2>
+Clicking each title ("Zustand", "Absender", "Datum", "Titel") of the mail list sorts the mail by it.  Clicking the title of current sort order reverses the order.<P>
+States implies U: unread, A: attached, R: replied, H: HTML mail, S: Outbound mail. Outbound mails displays To field in From column.
+<H2> 5 Empfangen und Mitteilen </H2>
+OME_BrowserXCoS is distributed with OME. OME is available at: 
+<BLOCKQUOTE>
+http://mac-ome.jp/
+</BLOCKQUOTE>
+However, the newest version is released at
+<BLOCKQUOTE>
+http://www.vector.co.jp/authors/VA019709/OME_BrowserXCoS-e.html
+</BLOCKQUOTE>
+at first.
+<P>
+Please mail to
+<BLOCKQUOTE>
+takahasi@lisboa.ics.nara-wu.ac.jp
+</BLOCKQUOTE>
+for your impression or bug reports of OME_BrowserXCoS.
+</FONT>
+</BODY>
+</HTML>

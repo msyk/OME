@@ -1,0 +1,424 @@
+//
+//  $Id: OMEBehavior.m,v 1.19 2007/12/02 11:09:58 msyk Exp $
+//
+//  Created by Shinya Wakimoto.
+//  Revision 1.1, Fri Nov 26 18:23:38 2004 UTC
+//  Copyright (c) 2004 - 2005, Shinya Wakimoto. All rights reserved.
+//
+
+#import "OMEBehavior.h"
+
+#import "OMELines.h"
+#import "OMEPaths.h"
+#import "AliasResolver.h"
+
+/* BOOL options */
+NSString *DontCleanMLAdditionalSubject = @"DontCleanMLAdditionalSubject";
+NSString *DontCleanReInSubject = @"DontCleanReInSubject";
+NSString *IncludeBCC = @"IncludeBCC";
+NSString *IncludeCC = @"IncludeCC";
+NSString *IncludeToCC = @"IncludeToCC";
+NSString *InsertFromToNewMail = @"InsertFromToNewMail";
+NSString *RemoveToMe = @"RemoveToMe";
+NSString *RemoveToMeAll = @"RemoveToMeAll";
+NSString *ReplyCommentSupply = @"ReplyCommentSupply";
+NSString *SendMailMessageStandardOutput = @"SendMailMessageStandardOutput";
+NSString *SendMailMessageShow = @"SendMailMessageShow";
+NSString *UseDraft = @"UseDraft";
+NSString *AdditionalHeaders = @"AdditionalHeaders";
+NSString *DownloadMailsMessageShow = @"DownloadMailsMessageShow";
+NSString *DownloadMailsMessageStandardOutput = @"DownloadMailsMessageStandardOutput";
+
+NSString *TempFolderPath = @"TempFolderPath";
+
+/* AddressNamePrefix */
+NSString *AddressNamePrefix = @"AddressNamePrefix";
+
+/* AddressNameSuffix */
+NSString *AddressNameSuffix = @"AddressNameSuffix";
+
+/* MessageCommentHead */
+NSString *MessageCommentHead = @"MessageCommentHead";
+#define MESSAGE_COMMENT_HEAD_DEFAULT @">"
+
+/* OneLineBytes */
+NSString *OneLineBytes = @"OneLineBytes";
+#define ONE_LINE_BYTES_DEFAULT 76 
+#define ONE_LINE_BYTES_MAX 256
+
+/* SubjectPrefix */
+NSString *SubjectPrefix = @"SubjectPrefix";
+#define SUBJECT_PREFIX_DEFAULT @"Re-"
+
+/* FRORMAT */
+#define FORMAT1 @"%@\n"
+#define FORMAT2 @"%@=%@\n"
+#define FORMAT3 @"%@=\"%@\"\n"
+
+@implementation OMEBehavior
+
+- (id)initOnCurrentEnv
+{
+	OMEPaths *omePaths = [ [ OMEPaths alloc ] init ];
+	return [ self initWithContentsOfFile:[omePaths behaviorInfoTxt] ];
+}
+
+/* accessor method */
+- (void)setDictionary:(NSDictionary *)aDictionary
+{
+    [ aDictionary retain ];
+    [ dictionary release ];
+    dictionary = aDictionary;
+}
+
+/* accessor method */
+- (NSDictionary *)dictionary
+{
+     return dictionary;
+}
+
+/* designated initializer */
+- (id)initWithDictionary:(NSDictionary *)aDictionary
+{
+    self = [ super init ];
+    if ( self ) {
+        /* set dictionary */
+        [ self setDictionary:aDictionary ];
+    }
+    return self;
+}
+
+/* initializer */
+- (id)initWithLines:(NSArray *)aArray
+{
+    BOOL flag;
+    int i;
+    id object;
+    NSArray *objects, *keys;
+    NSDictionary *aDictionary;
+    NSEnumerator *anEnumerator;
+    NSNumber *aNumber;
+    NSScanner *aScanner;
+    NSString *aLine, *keyString, *aString;
+
+    objects = [ NSArray array ];
+    keys = [ NSArray array ];
+    anEnumerator = [ aArray objectEnumerator ];
+    aDictionary = [ NSDictionary dictionary ];
+    while ( ( aLine = [ anEnumerator nextObject ] ) != nil ) {
+        object = nil;
+        aScanner = [ NSScanner scannerWithString:aLine ];
+        if ( [ aScanner scanUpToString:@"=" intoString:&keyString ] ) {
+            if ( [ aScanner scanString:@"=" intoString:&aString ] ) {
+                i = [ aScanner scanLocation ];
+                flag = [ aScanner scanString:@"=" intoString:&aString ];
+                if ( flag == NO ) {
+                    flag = [ aScanner scanString:@"{" intoString:&aString ];
+                    if ( flag ) {
+                        aString = [ aLine substringFromIndex:i ];
+                        object = aString;
+                    } else {
+                        [ aScanner scanUpToString:@"\"" intoString:&aString ];
+                        [ aScanner scanString:@"\"" intoString:&aString ];
+                        [ aScanner scanUpToString:@"\"" intoString:&aString ];
+                        object = aString;
+                    }
+                }
+            } else {
+                aNumber = [ NSNumber numberWithBool:YES ];
+                object = aNumber;
+            }
+        }
+        if ( object != nil ) {
+            objects = [ objects arrayByAddingObject:object ];
+            keys = [ keys arrayByAddingObject:keyString ];
+        }
+    }
+    aDictionary = [ NSDictionary dictionaryWithObjects:objects forKeys:keys ];
+    return [ self initWithDictionary:aDictionary ];
+}
+
+/* initializer */
+- (id)initWithContentsOfFile:(NSString *)aPath
+{
+    NSArray *anArray;
+    NSString *aString;
+    OMELines *lines;
+    NSError *error;
+
+    aString = [ NSString stringWithContentsOfFile:aPath encoding: NSUTF8StringEncoding error:&error ];
+    lines = [ OMELines linesWithString:aString ];
+    anArray = [ lines array ];
+    return [ self initWithLines:anArray ];
+}
+
+/* dealloc */
+- (void)dealloc
+{
+    NSNotificationCenter *notificationCenter;
+
+    /* remove self from default notification center */
+    notificationCenter = [ NSNotificationCenter defaultCenter ];
+    [ notificationCenter removeObserver:self ];
+    /* release */
+    [ dictionary release ];
+    [ super dealloc ];
+}
+
+/* description */
+- (NSString *)description
+{
+    id object;
+    NSEnumerator *keyEnumerator;
+    NSString *aLine, *aString, *key, *tString;
+
+    aString = [ NSString string ];
+    keyEnumerator = [ [ self dictionary ] keyEnumerator ];
+    while  ( ( key = [ keyEnumerator nextObject ] ) != nil ) {
+        object = [ [ self dictionary ] objectForKey:key ];
+        if ( [ object isKindOfClass:[ NSNumber class ] ] ) {
+            aLine = [ NSString stringWithFormat:FORMAT1, key ];
+        } else {
+            aLine = object;
+            tString = [ aLine substringToIndex:1 ];
+            if ( [ tString isEqualToString:@"{" ] ) {
+                aLine = [ NSString stringWithFormat:FORMAT2, key, aLine ]; 
+            } else {
+                aLine = [ NSString stringWithFormat:FORMAT3, key, aLine ]; 
+            }
+        }
+        aString = [ aString stringByAppendingString:aLine ];
+    }
+    return aString;
+}
+
+/* write to file */
+- (BOOL)writeToFile:(NSString *)aPath
+{
+    NSString *aString;
+
+    aString = [ self description ];
+    return [ aString writeToFile:aPath atomically:YES encoding:NSShiftJISStringEncoding error:NULL];
+}
+
+/* count */
+- (unsigned)count
+{
+    return [ [ self dictionary ] count ];
+}
+
+/* object for key */
+- (id)objectForKey:(id)aKey
+{
+    return [ [ self dictionary ] objectForKey:(id)aKey ];
+}
+
+/* key enumerator */
+- (NSEnumerator *)keyEnumerator
+{
+    return [ [ self dictionary ] keyEnumerator ];
+}
+
+/* bool option for key word */
+- (BOOL)boolValueWithKeyWord:(NSString *)keyWord
+{
+    NSNumber *aNumber;
+
+    aNumber = [ [ self dictionary ] objectForKey:keyWord ];
+    if ( aNumber ) {
+        return [ aNumber boolValue ];
+    } else {
+        return NO;
+    }
+}
+
+/* AddressNamePrefix */ 
+- (NSString *)addressNamePrefix
+{
+    return [ [ self dictionary ] objectForKey:AddressNamePrefix ];
+}
+
+/* AddressNameSuffix */ 
+- (NSString *)addressNameSuffix
+{
+    return [ [ self dictionary ] objectForKey:AddressNameSuffix ];
+}
+
+/* DontCleanMLAdditionalSubject */
+- (BOOL)dontCleanMLAdditionalSubject
+{
+    return [ self boolValueWithKeyWord:DontCleanMLAdditionalSubject ]; 
+}
+
+/* DontCleanReInSubject */
+- (BOOL)dontCleanReInSubject
+{
+    return [ self boolValueWithKeyWord:DontCleanReInSubject ];
+}
+
+/* IncludeBCC */
+- (BOOL)includeBCC
+{
+    return [ self boolValueWithKeyWord:IncludeBCC ];
+}
+
+/* IncludeCC */
+- (BOOL)includeCC
+{
+    return [ self boolValueWithKeyWord:IncludeCC ];
+}
+
+/* IncludeToCC */
+- (BOOL)includeToCC
+{
+    return [ self boolValueWithKeyWord:IncludeToCC ];
+}
+
+/* InsertFromToNewMail */
+- (BOOL)insertFromToNewMail
+{
+    return [ self boolValueWithKeyWord:InsertFromToNewMail ];
+}
+
+#define FILE_PATH_BUFFER_SIZE 2048
+
+/* TempFolderPath */
+- (NSString *)tempFolderPath
+{
+    NSString *aString;
+
+    aString = [ [ self dictionary ] objectForKey:TempFolderPath ];
+    if ( aString ) {
+        return aString;
+    } else {
+		NSString *omePref = [OMEPaths omePreferences];
+		NSString *omeRoot = [omePref stringByAppendingPathComponent:@"OME_Root"];
+		
+		char omeRootCStr[FILE_PATH_BUFFER_SIZE];
+		char resolvedPath[FILE_PATH_BUFFER_SIZE];
+
+		[omeRoot getCString:(char*)&omeRootCStr maxLength:FILE_PATH_BUFFER_SIZE encoding:NSUTF8StringEncoding];
+		/*OSStatus st = */AliasResolver(omeRootCStr, resolvedPath);
+		omeRoot = [NSString stringWithCString:(char*)&resolvedPath encoding:NSUTF8StringEncoding];
+		
+		NSString *omeTemp = [omeRoot stringByAppendingPathComponent:@"temp"];
+		
+        return [omeTemp retain];
+    }
+}
+
+/* MessageCommentHead */ 
+- (NSString *)messageCommentHead
+{
+    NSString *aString;
+
+    aString = [ [ self dictionary ] objectForKey:MessageCommentHead ];
+    if ( aString ) {
+        return aString;
+    } else {
+        return MESSAGE_COMMENT_HEAD_DEFAULT;
+    }
+}
+
+/* OneLineBytes */
+- (int)oneLineBytes
+{
+    int n;
+    NSString *aString;
+
+    aString = [ [ self dictionary ] objectForKey:OneLineBytes ];
+    if ( aString ) {
+        n = [ aString intValue ];
+        if ( n > ONE_LINE_BYTES_MAX ) {
+            n = ONE_LINE_BYTES_MAX;
+        }
+        return n;
+    } else {
+        return ONE_LINE_BYTES_DEFAULT;
+    }
+}
+
+/* RemoveToMe */
+- (BOOL)removeToMe
+{
+    return [ self boolValueWithKeyWord:RemoveToMe ];
+}
+
+/* RemoveToMeAll */
+- (BOOL)removeToMeAll
+{
+    return [ self boolValueWithKeyWord:RemoveToMeAll ];
+}
+
+/* ReplyCommentSupply */
+- (BOOL)replyCommentSupply
+{
+    return [ self boolValueWithKeyWord:ReplyCommentSupply ];
+}
+
+/* SendMailMessageStandardOutput */
+- (BOOL)sendMailMessageStandardOutput
+{
+    return [ self boolValueWithKeyWord:SendMailMessageStandardOutput ];
+}
+
+/* SendMailMessageShow */
+- (BOOL)sendMailMessageShow
+{
+    return [ self boolValueWithKeyWord:SendMailMessageShow ];
+}
+
+/* DownloadMailsMessageShow */
+- (BOOL)downloadMailsMessageShow
+{
+    return [ self boolValueWithKeyWord:DownloadMailsMessageShow ];
+}
+
+/* DownloadMailsMessageStandardOutput */
+- (BOOL)downloadMailsMessageStandardOutput
+{
+    return [ self boolValueWithKeyWord:DownloadMailsMessageStandardOutput ];
+}
+
+/* SubjectPrefix */ 
+- (NSString *)subjectPrefix
+{
+    NSString *aString;
+
+    aString = [ [ self dictionary ] objectForKey:SubjectPrefix ];
+    if ( aString ) {
+        return aString;
+    } else {
+        return SUBJECT_PREFIX_DEFAULT;
+    }
+}
+
+/* UseDraft */
+- (BOOL)useDraft
+{
+    return [ self boolValueWithKeyWord:UseDraft ];
+}
+
+/* AdditionalHeaders */
+- (NSArray *)additionalHeaders
+{
+    NSString *paramString = [ [ self dictionary ] objectForKey:AdditionalHeaders ];
+	int openPos = [paramString rangeOfString: @"{"].location;
+	int closePos = [paramString rangeOfString: @"}" options:NSBackwardsSearch].location;
+	
+	NSArray *devidedParams = [[paramString substringWithRange:NSMakeRange( openPos + 1, closePos - openPos - 1 )]
+		componentsSeparatedByString:@","];
+	NSMutableArray *returnValue = [NSMutableArray array];
+	NSEnumerator *enu = [devidedParams objectEnumerator];
+	NSString *item;
+	while (item = [enu nextObject] )	{
+		int startPos = [item rangeOfString: @"\""].location;
+		int endPos = [item rangeOfString: @"\"" options:NSBackwardsSearch].location;
+		[returnValue addObject:[item substringWithRange:NSMakeRange( startPos + 1, endPos - startPos - 1 )]];
+	}
+	[returnValue retain];
+	return returnValue;
+}
+
+
+@end

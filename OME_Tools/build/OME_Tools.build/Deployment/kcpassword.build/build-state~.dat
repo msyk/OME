@@ -1,0 +1,141 @@
+Tkcpassword
+v7
+r0
+t294296840.765142
+cCheck dependencies
+cCompileC build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword normal i386
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword normal ppc
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/kcpassword normal "i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BB3282C00000000000000EE
+t1270032428
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004B448EEF00000000000005FF
+t1262784239
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h
+c000000004B569BAD00000000000009CB
+t1263967149
+s2507
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004A7680C1000000000000A5F0
+t1249280193
+s42480
+
+N/System/Library/Frameworks/Security.framework/Security
+c000000004BA049980000000000A0FDF0
+t1268795800
+s10550768
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/kcpassword
+t1272604040
+s25416
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword
+t1272604040
+s9296
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.LinkFileList
+c000000004BDA65800000000000000083
+t1272604032
+s131
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.o
+t1272604040
+s7632
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword
+t1272604040
+s9032
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.LinkFileList
+c000000004BDA65800000000000000082
+t1272604032
+s130
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.o
+t1272604040
+s7856
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c
+c0000000047F97D0400000000000012B3
+t1207532804
+s4787
+i<Carbon/Carbon.h>
+i<Security/Security.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies294296832#294296832#0(0"0(0#1#0"4657240#0"0#
+
+CCompileC build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c normal i386 c com.apple.compilers.gcc.4_2
+s294296832.628290
+e294296840.424373
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c: In function 'main':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c:84: warning: format not a string literal and no format arguments
+lSLF07#2@68"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c294296832#294296840#0(208"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c: In function 'main':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c:84: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments294296834#82#126#0(6@60"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c229225604#84#0#84#0#51"format not a string literal and no format arguments0(0#0#60"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c4657240#1065"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/kcpassword.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.o0#
+
+CCompileC build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c normal ppc c com.apple.compilers.gcc.4_2
+s294296832.633775
+e294296840.504063
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c: In function 'main':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c:84: warning: format not a string literal and no format arguments
+lSLF07#2@68"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c294296832#294296840#0(208"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c: In function 'main':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c:84: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments294296835#82#126#0(6@60"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c229225604#84#0#84#0#51"format not a string literal and no format arguments0(0#0#60"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c4657240#1072"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/kcpassword.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/kcpassword.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.o0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/kcpassword normal "i386 ppc"
+s294296840.760162
+e294296840.764920
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/kcpassword
+xnormal
+xi386 ppc
+lSLF07#2@67"CreateUniversalBinary build/Deployment/kcpassword normal "i386 ppc"294296840#294296840#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/i386 ppc2447773728#422"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword -output /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/kcpassword0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword normal i386
+s294296840.496584
+e294296840.691864
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword
+xnormal
+xi386
+old: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -L not found
+old: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -F not found
+lSLF07#2@133"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword294296840#294296840#0(226"ld: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -L not foundld: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -F not found2(22@99"Directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -L not found294296840#0#113#0(6@0"294296840#0#0#0#0#0"0(22@99"Directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -F not found294296840#113#113#0(6@0"294296840#0#0#0#0#0"0(0#0#0"4657240#670"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -framework Security -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/i386/kcpassword0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword normal ppc
+s294296840.504246
+e294296840.759973
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword
+xnormal
+xppc
+old: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -L not found
+old: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -F not found
+lSLF07#2@132"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword294296840#294296840#0(226"ld: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -L not foundld: warning: directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -F not found2(22@99"Directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -L not found294296840#0#113#0(6@0"294296840#0#0#0#0#0"0(22@99"Directory '/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment' following -F not found294296840#113#113#0(6@0"294296840#0#0#0#0#0"0(0#0#0"2447773728#667"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -framework Security -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/kcpassword.build/Objects-normal/ppc/kcpassword0#
+

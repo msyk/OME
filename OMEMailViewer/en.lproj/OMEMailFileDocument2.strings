@@ -1,0 +1,36 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "5"; */
+"5.title" = "Window";
+
+/* Class = "NSWindow"; title = "Panel"; ObjectID = "42"; */
+"42.title" = "Panel";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "61"; */
+"61.title" = "Close";
+
+/* Class = "NSTextFieldCell"; title = "Headers"; ObjectID = "62"; */
+"62.title" = "Headers";
+
+/* Class = "NSToolbarItem"; label = "Reply"; ObjectID = "73"; */
+"73.label" = "Reply";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Reply"; ObjectID = "73"; */
+"73.paletteLabel" = "Reply";
+
+/* Class = "NSToolbarItem"; label = "Headers"; ObjectID = "74"; */
+"74.label" = "Headers";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Headers"; ObjectID = "74"; */
+"74.paletteLabel" = "Headers";
+
+/* Class = "NSToolbarItem"; label = "Attachments"; ObjectID = "75"; */
+"75.label" = "Attachments";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Attachments"; ObjectID = "75"; */
+"75.paletteLabel" = "Attachments";
+
+/* Class = "NSToolbarItem"; label = "Certificate"; ObjectID = "76"; */
+"76.label" = "Certificate";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Certificate"; ObjectID = "76"; */
+"76.paletteLabel" = "Certificate";

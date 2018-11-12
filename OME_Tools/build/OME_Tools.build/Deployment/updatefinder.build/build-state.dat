@@ -1,0 +1,489 @@
+Tupdatefinder
+v7
+r0
+t318677130.444901
+cCheck dependencies
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreFinderEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAEObjects.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAppleEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreProcesses.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp" normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreMemory.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c" normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreFinderEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAEObjects.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c normal ppc c com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAppleEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp normal ppc c++ com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder normal i386
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreProcesses.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp" normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreMemory.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c" normal ppc c com.apple.compilers.gcc.4_2
+cLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder normal ppc
+cCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/updatefinder normal "i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Headers/CoreServices.h
+c000000004A11F0980000000000000400
+t1242689688
+s1024
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/memory.h
+c000000004BBD2CE90000000000000765
+t1270689001
+s1893
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004C0FDD7E000000000000A5F0
+t1276108158
+s42480
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c
+c0000000047F97D040000000000006486
+t1207532804
+s25734
+i"CoreServices/CoreServices.h"
+i"MoreSetup.h"
+i<AERegistry.h>
+i<AEObjects.h>
+i<AEPackObject.h>
+i<Aliases.h>
+i<FinderRegistry.h>
+i<Processes.h>
+i"MoreAppleEvents.h"
+i"MoreAEObjects.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.h
+c0000000047F97D040000000000004134
+t1207532804
+s16692
+i"MoreSetup.h"
+i<AERegistry.h>
+i<AEObjects.h>
+i<AEPackObject.h>
+i<Aliases.h>
+i<Icons.h>
+i<Processes.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp
+c0000000047F97D04000000000000CF9F
+t1207532804
+s53151
+i"MoreSetup.h"
+i<AERegistry.h>
+i<AEHelpers.h>
+i<AEObjects.h>
+i<AEPackObject.h>
+i<ASRegistry.h>
+i<Gestalt.h>
+i"MoreAppleEvents.h"
+i"MoreAEObjects.h"
+i"MoreProcesses.h"
+i"MoreMemory.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.h
+c0000000047F97D0400000000000069E8
+t1207532804
+s27112
+i"MoreSetup.h"
+i<AERegistry.h>
+i<AEObjects.h>
+i<AEPackObject.h>
+i<EPPC.h>
+i<Gestalt.h>
+i<Processes.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c
+c0000000047F97D04000000000000F4C7
+t1207532804
+s62663
+i"MoreSetup.h"
+i<Aliases.h>
+i<AEDataModel.h>
+i<AEHelpers.h>
+i<ASRegistry.h>
+i<FinderRegistry.h>
+i<Folders.h>
+i<Icons.h>
+i<OSA.h>
+i<TextUtils.h>
+i"MoreAppleEvents.h"
+i"MoreAEObjects.h"
+i"MoreProcesses.h"
+i"MoreFinderEvents.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.h
+c0000000047F97D040000000000006857
+t1207532804
+s26711
+i"MoreSetup.h"
+i<Aliases.h>
+i<Folders.h>
+i<Icons.h>
+i<OSA.h>
+i<Processes.h>
+i<MacTypes.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c
+c0000000047F97D040000000000001368
+t1207532804
+s4968
+i"MoreSetup.h"
+i<Traps.h>
+i<Patches.h>
+i<Memory.h>
+i<MacErrors.h>
+i"MoreMemory.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.h
+c0000000047F97D04000000000000165A
+t1207532804
+s5722
+i"MoreSetup.h"
+i<MacTypes.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp
+c0000000047F97D040000000000004D51
+t1207532804
+s19793
+i"MoreSetup.h"
+i"MoreProcesses.h"
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.h
+c0000000047F97D040000000000002378
+t1207532804
+s9080
+i"MoreSetup.h"
+i<Processes.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreSetup.h
+c0000000047F97D040000000000001E68
+t1207532804
+s7784
+i<Carbon/Carbon.h>
+i<ConditionalMacros.h>
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/updatefinder
+t1296984330
+s118432
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAEObjects.o
+t1296984327
+s23980
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAppleEvents.o
+t1296984328
+s51780
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreFinderEvents.o
+t1296984327
+s56532
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreMemory.o
+t1296984328
+s4872
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreProcesses.o
+t1296984328
+s12752
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder
+t1296984328
+s51116
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.LinkFileList
+c000000004BDA65940000000000000331
+t1272604052
+s817
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.o
+t1296984327
+s4560
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAEObjects.o
+t1296984329
+s25056
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAppleEvents.o
+t1296984330
+s57376
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreFinderEvents.o
+t1296984329
+s62648
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreMemory.o
+t1296984329
+s4904
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreProcesses.o
+t1296984330
+s13436
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder
+t1296984330
+s61088
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.LinkFileList
+c000000004BDA6594000000000000032B
+t1272604052
+s811
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.o
+t1296984328
+s4684
+
+N/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c
+c00000000484BBFAD0000000000000628
+t1212923821
+s1576
+i<Carbon/Carbon.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies318677126#318677126#0(0"0(0#1#0"5932726464168218624#0"0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAEObjects.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c normal i386 c com.apple.compilers.gcc.4_2
+s318677126.750410
+e318677127.646380
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAEObjects.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOAddAliasParameterFromFSSpec':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:113: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateAliasDescFromFSSpec':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:201: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateObjSpecifierFromFSSpec':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:626: warning: 'FSpMakeFSRef' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Files.h:7501)
+lSLF07#2@87"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c318677126#318677127#0(1196"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOAddAliasParameterFromFSSpec':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:113: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateAliasDescFromFSSpec':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:201: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateObjSpecifierFromFSSpec':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:626: warning: 'FSpMakeFSRef' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Files.h:7501)3(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677127#131#267#0(6@79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c229225604#113#0#113#0#33"'*' is deprecated (declared at *)0(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677127#527#267#0(6@79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c229225604#201#0#201#0#33"'*' is deprecated (declared at *)0(22@175"'FSpMakeFSRef' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Files.h:7501)318677127#926#270#0(6@79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c229225604#626#0#626#0#33"'*' is deprecated (declared at *)0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c4664860368#1097"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAEObjects.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAppleEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp normal i386 c++ com.apple.compilers.gcc.4_2
+s318677126.751414
+e318677128.605918
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAppleEvents.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp: In function 'OSErr MoreAEGetCFStringFromDescriptor(const AEDesc*, const __CFString**)':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp:1352: warning: unused variable 'resultDesc'
+lSLF07#2@90"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp318677126#318677128#0(299"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp: In function 'OSErr MoreAEGetCFStringFromDescriptor(const AEDesc*, const __CFString**)':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp:1352: warning: unused variable 'resultDesc'1(22@28"Unused variable 'resultDesc'318677128#172#127#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp229225604#1352#0#1352#0#19"unused variable '*'0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp4382468080#1132"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreAppleEvents.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreFinderEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c normal i386 c com.apple.compilers.gcc.4_2
+s318677126.749492
+e318677127.911835
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreFinderEvents.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetSelection':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:322: warning: unused variable 'tAliasDescType'
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEUpdateItemFSS':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:746: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconSuite':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1163: warning: 'NewIconSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:406)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1179: warning: 'AddIconToSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:424)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconFamilyRecord':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1248: warning: 'ForEachIconDo' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:461)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFESetComment':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1416: warning: 'CopyPascalStringToC' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/TextUtils.h:632)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetFSSpecAsObject':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1663: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+lSLF07#2@90"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c318677126#318677127#0(2523"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetSelection':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:322: warning: unused variable 'tAliasDescType'/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEUpdateItemFSS':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:746: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconSuite':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1163: warning: 'NewIconSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:406)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1179: warning: 'AddIconToSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:424)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconFamilyRecord':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1248: warning: 'ForEachIconDo' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:461)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFESetComment':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1416: warning: 'CopyPascalStringToC' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/TextUtils.h:632)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetFSSpecAsObject':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1663: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)7(22@32"Unused variable 'tAliasDescType'318677127#118#130#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#322#0#322#0#19"unused variable '*'0(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677127#367#270#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#746#0#746#0#33"'*' is deprecated (declared at *)0(22@181"'NewIconSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:406)318677127#758#280#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1163#0#1163#0#33"'*' is deprecated (declared at *)0(22@183"'AddIconToSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:424)318677127#1038#282#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1179#0#1179#0#33"'*' is deprecated (declared at *)0(22@182"'ForEachIconDo' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:461)318677127#1448#281#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1248#0#1248#0#33"'*' is deprecated (declared at *)0(22@185"'CopyPascalStringToC' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/TextUtils.h:632)318677127#1845#284#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1416#0#1416#0#33"'*' is deprecated (declared at *)0(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677127#2252#271#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1663#0#1663#0#33"'*' is deprecated (declared at *)0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c8245894308934479872#1103"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreFinderEvents.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreMemory.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c" normal i386 c com.apple.compilers.gcc.4_2
+s318677127.646703
+e318677128.408211
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreMemory.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c318677127#318677128#0(0"0(0#0#95"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c4668667792#1112"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c" -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreMemory.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreProcesses.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp" normal i386 c++ com.apple.compilers.gcc.4_2
+s318677127.498160
+e318677128.861276
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreProcesses.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:48:1: warning: "/*" within comment
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:95:1: warning: "/*" within comment
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:142:1: warning: "/*" within comment
+lSLF07#2@107"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp318677127#318677128#0(406"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:48:1: warning: "/*" within comment/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:95:1: warning: "/*" within comment/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:142:1: warning: "/*" within comment3(22@19""/*" within comment318677127#0#135#0(6@99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp229225604#48#0#48#0#0"0(22@19""/*" within comment318677127#135#135#0(6@99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp229225604#95#0#95#0#0"0(22@19""/*" within comment318677127#270#136#0(6@99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp229225604#142#0#142#0#0"0(0#0#99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp5288759159778407424#1149"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp" -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/MoreProcesses.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c normal i386 c com.apple.compilers.gcc.4_2
+s318677126.745834
+e318677127.497470
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c: In function 'main':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c:40: warning: implicit declaration of function 'MoreFEUpdateItemFSRef'
+lSLF07#2@70"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c318677126#318677127#0(217"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c: In function 'main':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c:40: warning: implicit declaration of function 'MoreFEUpdateItemFSRef'1(22@56"Implicit declaration of function 'MoreFEUpdateItemFSRef'318677127#84#133#0(6@62"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c234616621#40#0#40#0#36"implicit declaration of function '*'0(0#0#62"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c5705890773592916992#1079"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/i386 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAEObjects.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c normal ppc c com.apple.compilers.gcc.4_2
+s318677128.606202
+e318677129.380311
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAEObjects.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOAddAliasParameterFromFSSpec':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:113: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateAliasDescFromFSSpec':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:201: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateObjSpecifierFromFSSpec':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:626: warning: 'FSpMakeFSRef' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Files.h:7501)
+lSLF07#2@87"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c318677128#318677129#0(1196"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOAddAliasParameterFromFSSpec':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:113: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateAliasDescFromFSSpec':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:201: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c: In function 'MoreAEOCreateObjSpecifierFromFSSpec':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c:626: warning: 'FSpMakeFSRef' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Files.h:7501)3(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677129#131#267#0(6@79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c229225604#113#0#113#0#33"'*' is deprecated (declared at *)0(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677129#527#267#0(6@79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c229225604#201#0#201#0#33"'*' is deprecated (declared at *)0(22@175"'FSpMakeFSRef' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Files.h:7501)318677129#926#270#0(6@79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c229225604#626#0#626#0#33"'*' is deprecated (declared at *)0(0#0#79"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c4665389328#1104"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAEObjects.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAEObjects.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAppleEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp normal ppc c++ com.apple.compilers.gcc.4_2
+s318677128.635851
+e318677130.356088
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAppleEvents.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp: In function 'OSErr MoreAEGetCFStringFromDescriptor(const AEDesc*, const __CFString**)':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp:1352: warning: unused variable 'resultDesc'
+lSLF07#2@90"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp318677128#318677130#0(299"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp: In function 'OSErr MoreAEGetCFStringFromDescriptor(const AEDesc*, const __CFString**)':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp:1352: warning: unused variable 'resultDesc'1(22@28"Unused variable 'resultDesc'318677130#172#127#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp229225604#1352#0#1352#0#19"unused variable '*'0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp4665500624#1139"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreAppleEvents.cp -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreAppleEvents.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreFinderEvents.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c normal ppc c com.apple.compilers.gcc.4_2
+s318677128.408547
+e318677129.457083
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreFinderEvents.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetSelection':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:322: warning: unused variable 'tAliasDescType'
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEUpdateItemFSS':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:746: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconSuite':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1163: warning: 'NewIconSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:406)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1179: warning: 'AddIconToSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:424)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconFamilyRecord':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1248: warning: 'ForEachIconDo' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:461)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFESetComment':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1416: warning: 'CopyPascalStringToC' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/TextUtils.h:632)
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetFSSpecAsObject':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1663: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)
+lSLF07#2@90"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c318677128#318677129#0(2523"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetSelection':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:322: warning: unused variable 'tAliasDescType'/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEUpdateItemFSS':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:746: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconSuite':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1163: warning: 'NewIconSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:406)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1179: warning: 'AddIconToSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:424)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFECreateIconFamilyRecord':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1248: warning: 'ForEachIconDo' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:461)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFESetComment':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1416: warning: 'CopyPascalStringToC' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/TextUtils.h:632)/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c: In function 'MoreFEGetFSSpecAsObject':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c:1663: warning: 'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)7(22@32"Unused variable 'tAliasDescType'318677129#118#130#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#322#0#322#0#19"unused variable '*'0(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677129#367#270#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#746#0#746#0#33"'*' is deprecated (declared at *)0(22@181"'NewIconSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:406)318677129#758#280#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1163#0#1163#0#33"'*' is deprecated (declared at *)0(22@183"'AddIconToSuite' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:424)318677129#1038#282#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1179#0#1179#0#33"'*' is deprecated (declared at *)0(22@182"'ForEachIconDo' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Frameworks/HIServices.framework/Headers/Icons.h:461)318677129#1448#281#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1248#0#1248#0#33"'*' is deprecated (declared at *)0(22@185"'CopyPascalStringToC' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/TextUtils.h:632)318677129#1845#284#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1416#0#1416#0#33"'*' is deprecated (declared at *)0(22@172"'NewAlias' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers/Aliases.h:832)318677129#2252#271#0(6@82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c229225604#1663#0#1663#0#33"'*' is deprecated (declared at *)0(0#0#82"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c4665653744#1110"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreFinderEvents.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreFinderEvents.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreMemory.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c" normal ppc c com.apple.compilers.gcc.4_2
+s318677129.380604
+e318677129.982490
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreMemory.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c318677129#318677129#0(0"0(0#0#95"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c4382435584#1119"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreMemory.c" -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreMemory.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreProcesses.o "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp" normal ppc c++ com.apple.compilers.gcc.4_2
+s318677128.935202
+e318677130.215462
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreProcesses.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:48:1: warning: "/*" within comment
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:95:1: warning: "/*" within comment
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:142:1: warning: "/*" within comment
+lSLF07#2@107"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp318677128#318677130#0(406"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:48:1: warning: "/*" within comment/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:95:1: warning: "/*" within comment/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp:142:1: warning: "/*" within comment3(22@19""/*" within comment318677128#0#135#0(6@99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp229225604#48#0#48#0#0"0(22@19""/*" within comment318677128#135#135#0(6@99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp229225604#95#0#95#0#0"0(22@19""/*" within comment318677128#270#136#0(6@99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp229225604#142#0#142#0#0"0(0#0#99"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp4665401232#1156"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c "/Users/msyk/Documents/Develop-OME/ome/OME_Tools/MoreAppleEvents/MoreIsBetter parts/MoreProcesses.cp" -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/MoreProcesses.o0#
+
+CCompileC build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c normal ppc c com.apple.compilers.gcc.4_2
+s318677127.912071
+e318677128.635615
+r1
+xCompileC
+xbuild/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.o
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c: In function 'main':
+o/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c:40: warning: implicit declaration of function 'MoreFEUpdateItemFSRef'
+lSLF07#2@70"Compile /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c318677127#318677128#0(217"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c: In function 'main':/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c:40: warning: implicit declaration of function 'MoreFEUpdateItemFSRef'1(22@56"Implicit declaration of function 'MoreFEUpdateItemFSRef'318677128#84#133#0(6@62"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c234616621#40#0#40#0#36"implicit declaration of function '*'0(0#0#62"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c4654105920#1086"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G4 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/updatefinder.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/include -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources/ppc -I/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/DerivedSources -c /Users/msyk/Documents/Develop-OME/ome/OME_Tools/updatefinder.c -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.o0#
+
+CCreateUniversalBinary /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/updatefinder normal "i386 ppc"
+s318677130.442060
+e318677130.444791
+r1
+xCreateUniversalBinary
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/updatefinder
+xnormal
+xi386 ppc
+lSLF07#2@69"CreateUniversalBinary build/Deployment/updatefinder normal "i386 ppc"318677130#318677130#0(0"0(0#0#56"/Users/msyk/Documents/Develop-OME/ome/OME_Tools/i386 ppc4664952064#432"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    /usr/bin/lipo -create /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder -output /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment/updatefinder0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder normal i386
+s318677128.861489
+e318677128.934982
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder
+xnormal
+xi386
+lSLF07#2@137"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder318677128#318677128#0(0"0(0#0#0"4664722512#658"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/i386/updatefinder0#
+
+CLd /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder normal ppc
+s318677130.356195
+e318677130.441878
+r1
+xLd
+x/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder
+xnormal
+xppc
+lSLF07#2@136"Link /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder318677130#318677130#0(0"0(0#0#0"4654241680#655"    cd /Users/msyk/Documents/Develop-OME/ome/OME_Tools    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -F/Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/Deployment -filelist /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder.LinkFileList -mmacosx-version-min=10.6 -framework Carbon -prebind -o /Users/msyk/Documents/Develop-OME/ome/OME_Tools/build/OME_Tools.build/Deployment/updatefinder.build/Objects-normal/ppc/updatefinder0#
+

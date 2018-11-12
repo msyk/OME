@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9046" systemVersion="15B30a" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="101100" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9046"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="9046"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="OMEMailFileDocument2">
+            <connections>
+                <outlet property="headerSheet" destination="42" id="44"/>
+                <outlet property="headerText" destination="48" id="49"/>
+                <outlet property="webView" destination="8" id="18"/>
+                <outlet property="window" destination="5" id="19"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" frameAutosaveName="OMEMailFileDocument2" animationBehavior="default" id="5" userLabel="Window">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="3" y="256" width="683" height="500"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <value key="minSize" type="size" width="213" height="107"/>
+            <view key="contentView" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="683" height="500"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <webView maintainsBackForwardList="NO" id="8">
+                        <rect key="frame" x="0.0" y="0.0" width="683" height="500"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <webPreferences key="preferences" defaultFontSize="12" defaultFixedFontSize="12"/>
+                        <connections>
+                            <outlet property="UIDelegate" destination="-2" id="52"/>
+                            <outlet property="frameLoadDelegate" destination="-2" id="55"/>
+                            <outlet property="policyDelegate" destination="-2" id="51"/>
+                        </connections>
+                    </webView>
+                </subviews>
+                <animations/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="4A8DAB2A-BB09-47AC-9EE3-E3A8A45DBF4A" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="65">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="69"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="70"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="71"/>
+                    <toolbarItem implicitItemIdentifier="3F2E1627-A4DF-4531-B4D8-656BC37F7553" label="Reply" paletteLabel="Reply" tag="1001" image="mail" id="73">
+                        <connections>
+                            <action selector="setupReplyMail:" target="-2" id="78"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="E056699B-4830-4D06-8F8E-495D097400D6" label="Headers" paletteLabel="Headers" tag="1002" image="idisk" id="74">
+                        <connections>
+                            <action selector="showThisHeaders:" target="-2" id="79"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="1C18100B-05ED-4190-8663-6504A1350BEF" label="Attachments" paletteLabel="Attachments" tag="1003" image="desktop" id="75">
+                        <connections>
+                            <action selector="showThisFile:" target="-2" id="108"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="0C3095D9-23CE-4582-A5DF-091AA66CDB22" label="Certificate" paletteLabel="Certificate" tag="1004" image="keychain" id="76">
+                        <connections>
+                            <action selector="showThisCert:" target="-2" id="81"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSeparatorItem" id="68"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarCustomizeToolbarItem" id="72"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="73"/>
+                    <toolbarItem reference="74"/>
+                    <toolbarItem reference="75"/>
+                    <toolbarItem reference="76"/>
+                    <toolbarItem reference="69"/>
+                    <toolbarItem reference="70"/>
+                    <toolbarItem reference="71"/>
+                </defaultToolbarItems>
+                <connections>
+                    <outlet property="delegate" destination="-2" id="120"/>
+                </connections>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="27"/>
+            </connections>
+        </window>
+        <window title="Panel" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="42" userLabel="headerSheet" customClass="NSPanel">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="64" y="436" width="495" height="252"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
+            <value key="minSize" type="size" width="213" height="107"/>
+            <view key="contentView" id="43">
+                <rect key="frame" x="0.0" y="0.0" width="495" height="252"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="47">
+                        <rect key="frame" x="0.0" y="37" width="495" height="215"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <clipView key="contentView" id="EiL-4b-cML">
+                            <rect key="frame" x="1" y="1" width="493" height="213"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textView editable="NO" importsGraphics="NO" richText="NO" findStyle="panel" continuousSpellChecking="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="48">
+                                    <rect key="frame" x="0.0" y="0.0" width="493" height="213"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <animations/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <size key="minSize" width="493" height="213"/>
+                                    <size key="maxSize" width="973" height="10000000"/>
+                                    <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <size key="minSize" width="493" height="213"/>
+                                    <size key="maxSize" width="973" height="10000000"/>
+                                </textView>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </clipView>
+                        <animations/>
+                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="64">
+                            <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <animations/>
+                        </scroller>
+                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="63">
+                            <rect key="frame" x="478" y="1" width="16" height="213"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <animations/>
+                        </scroller>
+                    </scrollView>
+                    <button verticalHuggingPriority="750" id="45">
+                        <rect key="frame" x="403" y="3" width="84" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <buttonCell key="cell" type="push" title="Close" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="61">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="smallSystem"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="headerSheetClose:" target="-2" id="46"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" id="50">
+                        <rect key="frame" x="11" y="12" width="114" height="17"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Headers" id="62">
+                            <font key="font" metaFont="smallSystem"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+                <animations/>
+            </view>
+        </window>
+    </objects>
+    <resources>
+        <image name="desktop" width="128" height="128"/>
+        <image name="idisk" width="128" height="128"/>
+        <image name="keychain" width="128" height="128"/>
+        <image name="mail" width="128" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>jp.mac-ome.downloadmails</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>java</string>
+		<string>-Djava.awt.headless=true</string>
+		<string>-cp</string>
+		<string>/Library/Frameworks/OME.framework/Resources/Java/OME_lib.jar</string>
+		<string>OME.downloadmails.OME_DownloadMails</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartInterval</key>
+	<integer>180</integer>
+</dict>
+</plist>
