@@ -15,13 +15,31 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    NSError *error;
+    
     NSFileManager *fm = [NSFileManager defaultManager];
     //    NSString *omeCore = @"/Applications/OME_Applications.localized/OME_Core.app";
-    NSString *omeViewer = @"/Applications/OME_Applications.localized/OMEMailViewer.app";
-    NSString *omeTemp = [NSHomeDirectory() stringByAppendingPathComponent: @"/Open_Mail_Environment/temp"];
+    
+    NSString *home = fm.homeDirectoryForCurrentUser.path;
+    NSString *omePrefs = [[[home stringByAppendingPathComponent: @"Library"]
+                           stringByAppendingPathComponent: @"Preferences"]
+                          stringByAppendingPathComponent: @"OME_Preferences"];
+    NSString *viewerAlias = [omePrefs stringByAppendingPathComponent: @"Mail_Reader"];
+    NSString *omeRootAlias = [omePrefs stringByAppendingPathComponent: @"OME_Root"];
+    
+    NSURL *omeViewerURL = [NSURL URLByResolvingAliasFileAtURL: [NSURL fileURLWithPath: viewerAlias]
+                                                      options: NSURLBookmarkResolutionWithoutUI | NSURLBookmarkResolutionWithoutMounting
+                                                        error: &error];
+    NSString *omeViewer = omeViewerURL.path;
+    
+    NSURL *omeRootURL = [NSURL URLByResolvingAliasFileAtURL: [NSURL fileURLWithPath: omeRootAlias]
+                                                      options: NSURLBookmarkResolutionWithoutUI | NSURLBookmarkResolutionWithoutMounting
+                                                        error: &error];
+    NSString *omeRoot = omeRootURL.path;
+    
+    NSString *omeTemp = [omeRoot stringByAppendingPathComponent: @"temp"];
     NSString *omeUnreadAliases = [omeTemp stringByAppendingPathComponent:@"unreadAliases"];
     NSURL *omeUnreadAliasesURL = [NSURL fileURLWithPath: omeUnreadAliases];
-    NSError *error;
     BOOL shouldBeRetry = YES;
     int retryCounter = 1000;
     BOOL isStale;
@@ -30,8 +48,16 @@
     while (shouldBeRetry && retryCounter > 0)   {
         shouldBeRetry = NO;
         retryCounter--;
+        
+        int maxCount = 100; // 2021-9-4 msyk limit to 100 files openning.
+        
         NSArray *aliasesArray = [fm contentsOfDirectoryAtPath: omeUnreadAliases error: &error];
-        for (oneItem in aliasesArray)	{
+        for (oneItem in aliasesArray)    {
+            
+            if(maxCount <= 0) {
+                [[NSApplication sharedApplication] terminate:self];
+            }
+            
             NSString *aPath = [omeUnreadAliases stringByAppendingPathComponent:oneItem];
             NSURL *aliasURL = [NSURL fileURLWithPath: aPath];
 #ifdef DEBUG
@@ -79,6 +105,7 @@
                         if (! dateChange)  NSLog(@"%@", error);
                     }
                 }
+                maxCount--;
             } else {
                 shouldBeRetry = YES;
                 NSLog(@"Can't open: %@", rPath);
