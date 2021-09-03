@@ -172,7 +172,7 @@
 	<key>CFBundleIconFile</key>
 	<string>icon-ome.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>core.mac-ome.jp</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>

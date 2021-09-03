@@ -26,11 +26,11 @@ OSStatus MakeOMERootAltFSRef(FSRef *omeRootRef);
 OSStatus MakeOMETempAltFSRef(FSRef *omeTempRef);
 OSStatus MakeOMEUnreadAliasAltFSRef(FSRef *omeUnreadAliasRef);
 
-void AliasListInitialize();
-void AliasListFinalize();
-void RefreshAliasList();
+void AliasListInitialize(void);
+void AliasListFinalize(void);
+void RefreshAliasList(void);
 void DeleteAlias( FSRef * targetMailFile );
-void Listing();
+void Listing(void);
 OSStatus MakeLaunchInfoFromAlias(
 			LSLaunchFSRefSpec * launchInfo,
 			CFStringRef aliasName,
@@ -41,3 +41,13 @@ OSStatus MakeLaunchInfoFromAlias3Alts(
 			char * altanateAppPath1,
 			char * altanateAppPath2,
 			char * altanateAppPath3);
+
+
+extern void QuitApplicationEventLoop(void);
+extern void RunApplicationEventLoop(void);
+extern OSStatus InstallEventLoopIdleTimer(EventLoopRef inEventLoop,
+                                      EventTimerInterval inFireDelay,
+                                      EventTimerInterval inInterval,
+                                      EventLoopIdleTimerUPP inTimerProc,
+                                      void * inTimerData,
+                                      EventLoopTimerRef * outTimer);

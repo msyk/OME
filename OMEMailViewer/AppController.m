@@ -11,10 +11,10 @@
 	
 	NSRect maxBounds = [currentPrintInfo imageablePageBounds];
 	NSSize paperSize = [currentPrintInfo paperSize];
-	float bottomM = [currentPrintInfo bottomMargin];
-	float topM = [currentPrintInfo topMargin];
-	float leftM = [currentPrintInfo leftMargin];
-	float rightM = [currentPrintInfo rightMargin];
+//	float bottomM = [currentPrintInfo bottomMargin];
+//	float topM = [currentPrintInfo topMargin];
+//	float leftM = [currentPrintInfo leftMargin];
+//	float rightM = [currentPrintInfo rightMargin];
 	[currentPrintInfo  setBottomMargin: maxBounds.origin.y];
 	[currentPrintInfo  setTopMargin: paperSize.height-maxBounds.size.height-maxBounds.origin.y];
 	[currentPrintInfo  setLeftMargin: maxBounds.origin.x + leftExtraMargin];

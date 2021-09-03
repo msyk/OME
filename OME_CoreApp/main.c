@@ -5,8 +5,8 @@
 	
         Mac_OS_Xnizing started at Mar 14, 2001 by Masayuki Nii
 */
-
 #include "main.h"
+
 
 //Globals
 LSLaunchFSRefSpec launchInfoTextReader; //LaunchServeの構造体（テキストメール参照用）
