@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'OME_Framework' target in the 'OME_Framework' project.
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif

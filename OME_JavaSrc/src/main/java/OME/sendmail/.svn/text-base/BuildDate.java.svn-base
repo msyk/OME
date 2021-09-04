@@ -1,6 +1,0 @@
-package OME.sendmail;
-public class BuildDate {
-    public static String ofString()	{
-        return "2009/11/15";
-    }
-}
