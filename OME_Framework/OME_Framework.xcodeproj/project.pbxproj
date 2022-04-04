@@ -89,6 +89,8 @@
 		2B6C207D0A873FD300D93732 /* filelist.xslt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6C20780A873FD300D93732 /* filelist.xslt */; };
 		2B6C207E0A873FD300D93732 /* threadlist.xslt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6C20790A873FD300D93732 /* threadlist.xslt */; };
 		2B6CAAD60CC10E5100FCB7C2 /* OME_QL_Preview.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6CAAD50CC10E5100FCB7C2 /* OME_QL_Preview.css */; };
+		2BA5689227FAF2AD00DC1A47 /* OME-8.0.jar in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA5689127FAF2AD00DC1A47 /* OME-8.0.jar */; };
+		2BA5689327FAF2D300DC1A47 /* OME-8.0.jar in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BA5689127FAF2AD00DC1A47 /* OME-8.0.jar */; };
 		2BA879050BFFE131003AC098 /* OME.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA879040BFFE131003AC098 /* OME.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BDDA7470CA0FFA6007BA088 /* HTMLString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDA7450CA0FFA6007BA088 /* HTMLString.m */; };
 		2BDDA7480CA0FFA6007BA088 /* OMECategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BDDA7460CA0FFA6007BA088 /* OMECategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -133,6 +135,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 15;
 			files = (
+				2BA5689327FAF2D300DC1A47 /* OME-8.0.jar in CopyFiles */,
 				2B2D0B920B47C69300AA6657 /* activation.jar in CopyFiles */,
 				2B2D0B930B47C69300AA6657 /* mail.jar in CopyFiles */,
 			);
@@ -210,6 +213,7 @@
 		2B6C20780A873FD300D93732 /* filelist.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = filelist.xslt; path = ../OME_JavaCore/filelist.xslt; sourceTree = SOURCE_ROOT; };
 		2B6C20790A873FD300D93732 /* threadlist.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = threadlist.xslt; path = ../OME_JavaCore/threadlist.xslt; sourceTree = SOURCE_ROOT; };
 		2B6CAAD50CC10E5100FCB7C2 /* OME_QL_Preview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = OME_QL_Preview.css; path = "../OME_QuickLook_Plug-In/OME_QL_Preview.css"; sourceTree = SOURCE_ROOT; };
+		2BA5689127FAF2AD00DC1A47 /* OME-8.0.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "OME-8.0.jar"; sourceTree = "<group>"; };
 		2BA879040BFFE131003AC098 /* OME.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OME.h; sourceTree = "<group>"; };
 		2BDDA7450CA0FFA6007BA088 /* HTMLString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLString.m; sourceTree = "<group>"; };
 		2BDDA7460CA0FFA6007BA088 /* OMECategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMECategory.h; sourceTree = "<group>"; };
@@ -243,6 +247,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA5689227FAF2AD00DC1A47 /* OME-8.0.jar in Frameworks */,
 				2B16EAEF198663F5009A374C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +433,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2BA5689127FAF2AD00DC1A47 /* OME-8.0.jar */,
 				2B2D0BB20B47C80300AA6657 /* kcpassword */,
 				2B2D0BB30B47C80300AA6657 /* makenewalias */,
 				2B2D0BB40B47C80300AA6657 /* resolvalias */,
@@ -548,7 +554,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					2B16EAF5198664DB009A374C = {
 						CreatedOnToolsVersion = 6.0;
@@ -564,6 +570,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* OME_Framework */;
@@ -736,6 +743,7 @@
 		1DEB91B208733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -748,6 +756,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -773,6 +782,7 @@
 		1DEB91B308733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -785,6 +795,7 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
