@@ -1,8 +1,8 @@
 #!/bin/sh
 
-OME_Root=~/Documents/OME_Lion
+OME_Root=~/Code/OME
 OME_Java_Root="${OME_Root}/OME_JavaSrc"
-Maven_Path=~/Documents/OME_Lion/apache-maven-3.3.3/bin/mvn
+Maven_Path=~/Code/OME/apache-maven-3.8.5/bin/mvn
 Generated_Lib="${OME_Java_Root}/target/OME-8.0.jar"
 
 cd "${OME_Java_Root}"

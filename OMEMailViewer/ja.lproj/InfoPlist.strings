@@ -1,7 +1,7 @@
 ﻿/* Localized versions of Info.plist keys */
 
 CFBundleName = "OMEメール参照";
-CFBundleShortVersionString = "OMEメール参照 version -n 2021/09/04";
-CFBundleGetInfoString = "OMEメール参照 version -n 2021/09/04, Copyright 2000--n 2021 OME(Open Mail Environment:http://msyk.net/ome).";
+CFBundleShortVersionString = "OMEメール参照 version -n 2021/09/11";
+CFBundleGetInfoString = "OMEメール参照 version -n 2021/09/11, Copyright 2000--n 2021 OME(Open Mail Environment:http://msyk.net/ome).";
 NSHumanReadableCopyright = "Copyright -n 2021 OME(Open Mail Environment:http://msyk.net/ome).";
 CFBundleDisplayName = "OMEメール参照";

@@ -1,7 +1,7 @@
 ﻿/* Localized versions of Info.plist keys */
 
 CFBundleName = "OMEMailViewer";
-CFBundleShortVersionString = "OMEMailViewer version -n 2021/09/04";
-CFBundleGetInfoString = "OMEMailViewer version -n 2021/09/04, Copyright 2000--n 2021 OME(Open Mail Environment:http://msyk.net/ome).";
+CFBundleShortVersionString = "OMEMailViewer version -n 2021/09/11";
+CFBundleGetInfoString = "OMEMailViewer version -n 2021/09/11, Copyright 2000--n 2021 OME(Open Mail Environment:http://msyk.net/ome).";
 NSHumanReadableCopyright = "Copyright -n 2021 OME(Open Mail Environment:http://msyk.net/ome).";
 CFBundleDisplayName = "OMEMailViewer";
